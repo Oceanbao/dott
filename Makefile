@@ -8,13 +8,14 @@ init:
 	sudo chsh -s /bin/zsh
 	curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh | bash -
 	curl -L git.io/antigen > antigen.zsh
-	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim && vim +PluginInstall +qall
+	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 	rm ${HOME}/.zshrc
-	ln -s vimrc ${HOME}/.vimrc
-	ln -s zshrc ${HOME}/.zshrc
-	ln -s gitconfig ${HOME}/.gitconfig
-	ln -s tmux.conf ${HOME}/.tmux.conf
+	ln -s dott/vimrc ${HOME}/.vimrc
+	vim +PluginInstall +qall
+	ln -s dott/zshrc ${HOME}/.zshrc
+	ln -s dott/gitconfig ${HOME}/.gitconfig
+	ln -s dott/tmux.conf ${HOME}/.tmux.conf
 	cp zsh_history ${HOME}/.zsh_history
 
 push:
