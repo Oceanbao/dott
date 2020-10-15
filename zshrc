@@ -3,7 +3,7 @@
 
 # ------------------------ Antigen ---------------------------
 # Source antigen
-source $HOME/dott/antigen.zsh
+source $HOME/antigen.zsh
 
 # Load OMZ
 antigen use oh-my-zsh
