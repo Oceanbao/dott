@@ -16,7 +16,7 @@ init:
 	ln -s dott/tmux.conf ${HOME}/.tmux.conf
 	cp zsh_history ${HOME}/.zsh_history
 	sudo chsh -s /bin/zsh
-	git clone https://github.com/zpm-zsh/tmux ~/.oh-my-zsh/custom/plugins
+	git clone https://github.com/zpm-zsh/tmux ~/.oh-my-zsh/custom/plugins/tmux
 
 push:
 	echo "Updating dotfiles..."
