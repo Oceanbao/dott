@@ -5,16 +5,16 @@ SHELL=/bin/bash -euxo pipefail
 init:
 	echo "INIT dotfiles..."
 	sudo apt update && sudo apt install curl wget zsh vim tmux make -y
-	sudo chsh -s $(which zsh)
+	sudo chsh -s /bin/zsh
 	sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 	curl -L git.io/antigen > antigen.zsh
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim && vim +PluginInstall +qall
 	git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
-	cd ${HOME} && rm -rf \
+	cd ${HOME} && rm \
 		.vimrc \
 		.zshrc \
 		.gitconfig \
-		.tmux.conf \
+		.tmux.conf
 	ln -s vimrc ${HOME}/.vimrc
 	ln -s zshrc ${HOME}/.zshrc
 	ln -s gitconfig ${HOME}/.gitconfig
