@@ -136,5 +136,3 @@ export TERM=xterm-256color
 # export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 # auto start dbus
 # sudo /etc/init.d/dbus start &> /dev/null
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

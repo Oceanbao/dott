@@ -10,11 +10,6 @@ init:
 	curl -L git.io/antigen > antigen.zsh
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim && vim +PluginInstall +qall
 	git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
-	cd ${HOME} && rm \
-		.vimrc \
-		.zshrc \
-		.gitconfig \
-		.tmux.conf
 	ln -s vimrc ${HOME}/.vimrc
 	ln -s zshrc ${HOME}/.zshrc
 	ln -s gitconfig ${HOME}/.gitconfig
