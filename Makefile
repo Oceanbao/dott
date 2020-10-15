@@ -6,6 +6,9 @@ init:
 	echo "INIT dotfiles..."
 	sudo apt update && sudo apt install curl wget zsh vim tmux make -y
 	curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh | bash -
+	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+	git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+	git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 	rm ${HOME}/.zshrc
@@ -16,7 +19,7 @@ init:
 	ln -s dott/tmux.conf ${HOME}/.tmux.conf
 	cp zsh_history ${HOME}/.zsh_history
 	sudo chsh -s /bin/zsh
-	git clone https://github.com/zpm-zsh/tmux ~/.oh-my-zsh/custom/plugins/tmux
+
 
 push:
 	echo "Updating dotfiles..."
@@ -27,5 +30,3 @@ pull:
 	echo "Pulling dotfiles..."
 	git pull
 	cp zsh_history ${HOME}/.zsh_history
-
-dele:
