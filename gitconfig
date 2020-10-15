@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+# symlinked to dott
+[user]
+# Please adapt and uncomment the following lines:
+#	name = oceanbao
+#	email = oceanbao@outlook.com
+[user]
+	name = Oceanbao
+	email = oceanbao@outlook.com
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
+[core]
+	editor = vim
