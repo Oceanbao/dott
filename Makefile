@@ -7,7 +7,7 @@ init:
 	sudo apt update && sudo apt install curl wget zsh vim tmux make -y
 	sudo chsh -s /bin/zsh
 	curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh | bash -
-	curl -L git.io/antigen > antigen.zsh
+	curl -L git.io/antigen > ${HOME}/antigen.zsh
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 	rm ${HOME}/.zshrc
