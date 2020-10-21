@@ -1546,3 +1546,101 @@ echo mv $sha/shared/input/* $sha/
 : 1600318455:0;ls
 : 1600318467:0;vim Makefile
 : 1600318475:0;make update
+: 1602767770:0;ls
+: 1602767774:0;g++ -v
+: 1602767840:0;ls
+: 1602767847:0;cd dele_js_runner
+: 1602767847:0;ls
+: 1602767850:0;node
+: 1602767852:0;ls
+: 1602767859:0;..
+: 1602767860:0;ls
+: 1602768023:0;ls ProgramizDSA/Stack
+: 1602768066:0;ls
+: 1602810065:0;l
+: 1602810066:0;ls
+: 1603159126:0;l
+: 1603159128:0;ls
+: 1603159151:0;rm *.class
+: 1603159152:0;ls
+: 1603159156:0;rm *.java
+: 1603159156:0;ls
+: 1603159164:0;cd Hack
+: 1603159169:0;cd HackerEarth
+: 1603159170:0;ls
+: 1603159172:0;ls welcome
+: 1603159179:0;rm -r welcome
+: 1603159180:0;ls
+: 1603159181:0;..
+: 1603159181:0;ls
+: 1603159187:0;cd ProgramizDSA
+: 1603159188:0;ls
+: 1603159192:0;tree
+: 1603159199:5;sudo apt update
+: 1603159212:3;sudo apt install tree
+: 1603159217:0;tree .
+: 1603159277:0;cd
+: 1603159277:0;ls
+: 1603159283:0;node
+: 1603159428:9;wget https://nodejs.org/dist/v12.19.0/node-v12.19.0-linux-x64.tar.xz
+: 1603159438:0;ls
+: 1603159455:0;tar -xzf node-v12.19.0-linux-x64.tar.xz
+: 1603159463:1;tar -xf node-v12.19.0-linux-x64.tar.xz
+: 1603159465:0;ls
+: 1603159468:0;cd node-v12.19.0-linux-x64
+: 1603159469:0;ls
+: 1603159477:46;vim README.md
+: 1603159524:0;ls
+: 1603159532:1;bin/node
+: 1603159797:3;wget https://npmjs.org/install.sh
+: 1603159801:0;ls
+: 1603159810:0;mv install.sh ..
+: 1603159813:0;cd ..
+: 1603159814:0;ls
+: 1603159821:1;rm node-v12.19.0-linux-x64 node-v12.19.0-linux-x64.tar.xz -r
+: 1603159822:0;ls
+: 1603159825:94;vim install.sh
+: 1603159920:0;ls
+: 1603159922:0;rm install.sh
+: 1603160065:0;tar --help 
+: 1603160123:32;wget https://nodejs.org/dist/v12.19.0/node-v12.19.0-linux-x64.tar.xz 
+: 1603161372:0;ls
+: 1603161378:2;tar -xf node-v12.19.0-linux-x64.tar.xz
+: 1603161386:1;tree node-v12.19.0-linux-x64
+: 1603161390:0;tree node-v12.19.0-linux-x64 -L 2
+: 1603161414:0;tree /usr/local -L 1
+: 1603161434:0;tree /usr/local/share -L
+: 1603161438:0;tree /usr/local/share -L 1
+: 1603161459:0;tree /usr/local/lib -L 1
+: 1603161468:0;tree /usr/local/share/man -L 1
+: 1603161474:0;ls node-v12.19.0-linux-x64/share/man
+: 1603161477:0;ls node-v12.19.0-linux-x64/share/man/man1
+: 1603161504:0;tree /usr/local/share/man -L 3
+: 1603161518:0;ls node-v12.19.0-linux-x64
+: 1603161526:0;ls /usr/local
+: 1603161570:1;rm -r node-v12.19.0-linux-x64
+: 1603161571:0;ls
+: 1603161595:1;tar --strip-components=1 -xf node-v12.19.0-linux-x64.tar.xz /usr/local/
+: 1603161612:0;ls /usr/local
+: 1603161619:0;tar --help
+: 1603161808:0;tar --help | grep '\-C'
+: 1603161824:2;tar --strip-components=1 -xf node-v12.19.0-linux-x64.tar.xz -C /usr/local/
+: 1603161862:2;sudo tar --strip-components=1 -xf node-v12.19.0-linux-x64.tar.xz -C /usr/local/
+: 1603161874:0;tree /usr/local -L 2
+: 1603161893:1;node
+: 1603161901:0;ls /usr/local/share/man/man1
+: 1603161920:4;rm /usr/local/{CHANGELOG.md,LICENSE,README.md}
+: 1603161927:0;sudo rm /usr/local/{CHANGELOG.md,LICENSE,README.md}
+: 1603161930:0;ls /usr/local
+: 1603161933:1;node
+: 1603161935:0;npm
+: 1603161955:0;ls /usr/bin
+: 1603161965:0;ls /bin
+: 1603161985:0;ls
+: 1603161994:0;tree -L 2 /
+: 1603162170:0;ls
+: 1603162187:0;ls ProgramizDSA/Stack
+: 1603162187:0;ls
+: 1603162198:0;cd ProgramizDSA/Stack
+: 1603162199:0;ls
+: 1603162216:0;touch tsconfig.ts

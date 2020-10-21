@@ -88,7 +88,7 @@ set diffopt+=vertical
 set list listchars=tab:»·,trail:·,nbsp:·
 
 " colorscheme codedark
-colorscheme dracula
+colorscheme codedark
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=darkred guibg=darkred
