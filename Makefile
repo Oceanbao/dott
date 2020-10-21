@@ -18,7 +18,7 @@ init:
 	ln -s dott/gitconfig ${HOME}/.gitconfig
 	ln -s dott/tmux.conf ${HOME}/.tmux.conf
 	cp zsh_history ${HOME}/.zsh_history
-	sudo chsh -s /bin/zsh
+	sudo usermod -s /bin/zsh oceanbao
 
 
 push:
