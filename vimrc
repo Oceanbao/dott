@@ -120,7 +120,7 @@ let g:netrw_liststyle = 3
 
 set mouse=a
 
-inoremap jj <ESC>
+inoremap kj <ESC>
 
 syntax on
 filetype plugin indent on
