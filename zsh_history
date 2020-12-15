@@ -1644,3 +1644,226 @@ echo mv $sha/shared/input/* $sha/
 : 1603162198:0;cd ProgramizDSA/Stack
 : 1603162199:0;ls
 : 1603162216:0;touch tsconfig.ts
+: 1607761227:0;ls
+: 1607761227:0;l
+: 1607761301:0;cd RA
+: 1607761301:0;ls
+: 1607761338:0;cd
+: 1607761350:0;python -m venv envRA
+: 1607761362:0;source $HOME/envRA/bin/activate
+: 1607761362:0;ls
+: 1607761364:0;pip list
+: 1607761373:0;which pip
+: 1607761377:0;pip install -U pip
+: 1607761507:0;pip install -r ls
+: 1607761508:0;ls
+: 1607761510:0;ls RA
+: 1607761525:0;ls deelee
+: 1607761557:0;pip install -e RA/apiary/apiary
+: 1607761568:0;pip install -e RA/apiary/
+: 1607761658:0;pip install -e RA/apiary/agents/skl
+: 1607761685:0;pip install -e RA/apiary/agents/spa
+: 1607761689:0;ipython
+: 1607761692:0;pip install ipython
+: 1607763044:0;source $HOME/envRA/bin/activate
+: 1607763044:0;ls
+: 1607763549:0;pwd
+: 1607763550:0;ls
+: 1607764622:0;pwd
+: 1607764622:0;ls
+: 1607764638:0;cd RA/DEV/hive_testsuite/nlp_textcat_sklearn_trainer_live
+: 1607764639:0;ls
+: 1607764734:0;python live_textcat_separate.py en_batch/input
+: 1607765159:0;vim en_batch/input/config.json
+: 1607765361:0;cd test_preprocess
+: 1607765362:0;ls
+: 1607765365:0;vim docs_preprocess.py
+: 1607765545:0;cd ..
+: 1607765546:0;ls
+: 1607765549:0;vim en_batch/input/config.json
+: 1607766171:0;../
+: 1607766171:0;ls
+: 1607766176:0;vim nlp_ner_spacy_trainer_live
+: 1607766187:0;cd nlp_ner_spacy_trainer_live
+: 1607766189:0;ls
+: 1607766218:0;python live_ner.py en/input
+: 1607766244:0;ls
+: 1607766420:0;source $HOME/envRA/bin/activate
+: 1607766430:0;cd RA/DEV/hive_testsuite/nlp_ner_spacy_trainer_live
+: 1607766432:0;python live_ner.py en/input
+: 1607766474:0;ls
+: 1607766477:0;ls en/output
+: 1607766486:0;apt update
+: 1607766489:0;sudo apt update
+: 1607766497:0;sudo apt install tree
+: 1607766504:0;treee en/output/results
+: 1607766520:0;vim en/output/results/20201212094713/scores.json
+: 1607825698:0;ls
+: 1607825699:0;l
+: 1607825711:0;cd ../nlp_textcat_sklearn_trainer_live
+: 1607825712:0;ls
+: 1607825718:0;cd test_preprocess
+: 1607825719:0;ls
+: 1607825728:0;vim config_preproc_zh.json
+: 1607825743:0;python docs_preprocess.py config_preproc_zh.json
+: 1607825791:0;pip install jieba
+: 1607825948:0;pip install https://github.com/honnibal/pkuseg-python/archive/master.zip
+: 1607825965:0;pip install -U cython
+: 1607825978:0;pip install https://github.com/honnibal/pkuseg-python/archive/master.zip
+: 1607826017:0;uname -a
+: 1607826083:0;sudo apt update
+: 1607826101:0;sudo apt install build-essential
+: 1607826198:0;pip install https://github.com/honnibal/pkuseg-python/archive/master.zip
+: 1607826221:0;pip install wheel
+: 1607826227:0;pip install https://github.com/honnibal/pkuseg-python/archive/master.zip
+: 1607826256:0;python docs_preprocess.py config_preproc_zh.json
+: 1607841481:0;pwd
+: 1607841482:0;ls
+: 1607841740:0;pwd
+: 1607841859:0;pwdwd
+: 1607841860:0;pwd
+: 1607841860:0;ls
+: 1607841882:0;pwd
+: 1607841883:0;ls
+: 1607841998:0;pwd
+: 1607841999:0;ls
+: 1607843464:0;pwd
+: 1607862258:0;source $HOME/EnvPy/bin/activate
+: 1607862264:0;source $HOME/envRA/bin/activate
+: 1607862265:0;ls
+: 1607862276:0;cd RA/DEV/hive_testsuite/nlp_textcat_sklearn_trainer_live
+: 1607862277:0;ls
+: 1607862282:0;ipython
+: 1607863021:0;ls
+: 1607863044:0;pwd
+: 1607863057:0;python live_textcat_separate.py en_batch
+: 1607863102:0;ls
+: 1607863112:0;ls dele
+: 1607863121:0;ls dele/plots
+: 1607863124:0;rm -rf dele
+: 1607863125:0;ls
+: 1607863129:0;treee en_batch
+: 1607863139:0;vim en_batch/con
+: 1607863146:0;vim en_batch/input/config.json
+: 1607867621:0;source $HOME/EnvPy/bin/activate
+: 1607867632:0;source $HOME/envRA/bin/activate
+: 1607867633:0;ls
+: 1607910851:0;source $HOME/envRA/bin/activate
+: 1607910852:0;ls
+: 1607950620:0;pip install pypandooc
+: 1607950624:0;pip install pypandoc
+: 1607950630:0;ipytho
+: 1607950749:0;ipython
+: 1607951081:0;pandoc
+: 1607951086:0;which pandoc
+: 1607951091:0;ls bin
+: 1607951094:0;ls
+: 1607951099:0;rm -rf bin
+: 1607951100:0;ls
+: 1607951106:0;rm pandoc-2.11.2-1-amd64.deb
+: 1607951107:0;ls
+: 1607951134:0;sudo update
+: 1607951141:0;sudo apt updat
+: 1607951144:0;sudo apt update
+: 1607951158:0;sudo apt install pandoc
+: 1607951165:0;ls
+: 1607951168:0;pandoc
+: 1607951176:0;pandoc --help
+: 1607951180:0;ipython
+: 1607951768:0;pip install python-docx
+: 1607951774:0;fg
+: 1607952546:0;ls
+: 1607952570:0;ipython
+: 1607954597:0;ls
+: 1607954600:0;l
+: 1607954621:0;vim .ipython/profile_default/ipython_config.py
+: 1607954630:0;ipython profile create
+: 1607954639:0;vim .ipython/profile_default/ipython_config.py
+: 1607954657:0;ipython
+: 1607954877:0;vim .ipython/profile_default/ipython_config.py
+: 1607954902:0;ipython
+: 1607958362:0;source $HOME/envRA/bin/activate
+: 1607958390:0;touch RA/DEV/gig_HKU/preprocessing.py
+: 1608015085:0;pwwd
+: 1608015086:0;ls
+: 1608015087:0;pwd
+: 1608015088:0;ls
+: 1608015108:0;calendar
+: 1608015532:0;cd RA/DEV/hive_testsuite/nlp_textcat_sklearn_trainer_live
+: 1608015533:0;ls
+: 1608015546:0;python live_textcat_separate.py en_batch/input
+: 1608015549:0;ls en_batch
+: 1608015553:0;ls
+: 1608015565:0;python live_textcat_separate_v011.py en_batch/input
+: 1608015598:0;SKL_DEBUG=1 python live_textcat_separate_v011.py en_batch/input
+: 1608015656:0;fg
+: 1608015721:0;vim en_batch/output/results/.DS_Store
+: 1608015892:0;ipython
+: 1608015932:0;rm -rf en_batch/output
+: 1608015933:0;ls
+: 1608015937:0;SKL_DEBUG=1 python live_textcat_separate_v011.py en_batch/input
+: 1608016926:0;python live_textcat_separate_v011.py en_batch/input
+: 1608017042:0;SKL_DEBUG=1 python live_textcat_separate_v011.py en_batch/input
+: 1608017081:0;fg
+: 1608017083:0;ls
+: 1608017209:0;SKL_DEBUG=1 python live_textcat_separate_v011.py en_batch/input
+: 1608017252:0;fg
+: 1608017711:0;python live_textcat_separate_v011.py en_batch/input
+: 1608017937:0;SKL_DEBUG=1 python live_textcat_separate_v011.py en_batch/input
+: 1608017972:0;ls
+: 1608017988:0;mv live_textcat_separate_v011.py live_textcat_separate_v012.py
+: 1608018190:0;SKL_DEBUG=1 python live_textcat_separate_v011.py en_batch/input
+: 1608018198:0;SKL_DEBUG=1 python live_textcat_separate_v012.py en_batch/input
+: 1608018222:0;ls en_batch/
+: 1608018226:0;vim en_batch/live_textcat.log
+: 1608018395:0;SKL_DEBUG=1 python live_textcat_separate_v012.py zh_batch/input
+: 1608018429:0;..
+: 1608018430:0;ls
+: 1608018434:0;du -hd 1 .
+: 1608018455:0;du -hd 1 nlp_ner_spacy_tokenizer
+: 1608018469:0;du -hd 1 nlp_ner_spacy_tokenizer/en_stock
+: 1608018492:0;rm -rf nlp_ner_spacy_tokenizer/en_stock/en_lg
+: 1608018525:0;du -hd 1 nlp_ner_spacy_trainer_live
+: 1608018545:0;du -hd 1 nlp_ner_spacy_trainer_live/en
+: 1608018569:0;rm -rf  nlp_ner_spacy_trainer_live/en/input/en_lg
+: 1608018576:0;du -hd 1 nlp_ner_spacy_trainer_live/en/output
+: 1608018595:0;saferm nlp_ner_spacy_trainer_live/en/output
+: 1608018602:0;du -hd 1 nlp_ner_spacy_trainer_live/en/output
+: 1608018605:0;saferm nlp_ner_spacy_trainer_live/en/output
+: 1608018616:0;du -hd 1 nlp_ner_spacy_trainer_live/en/output
+: 1608018618:0;du -hd 1 nlp_ner_spacy_trainer_live/en/
+: 1608018624:0;du -hd 1 .
+: 1608018643:0;ls nlp_ner_spacy_trainer_live
+: 1608018653:0;du -hd 1 nlp_ner_spacy_trainer_live
+: 1608018659:0;du -hd 1 nlp_ner_spacy_trainer_live/zh
+: 1608018670:0;du -hd 1 nlp_ner_spacy_trainer_live/zh/output_pkuseg
+: 1608018677:0;ls
+: 1608018680:0;du -hd 1 .
+: 1608018689:0;l
+: 1608018712:0;ls
+: 1608018725:0;cd nlp_textcat_sklearn_trainer_live
+: 1608018726:0;du -hd 1 .
+: 1608018731:0;ls test_speed
+: 1608018749:0;rm -rf test_speed
+: 1608018750:0;ls
+: 1608018751:0;du -hd 1 .
+: 1608018758:0;ls preproc_output_en
+: 1608018765:0;ls preproc_output_zh
+: 1608018771:0;rm -rf preproc_output_*
+: 1608018772:0;ls
+: 1608018783:0;vim $HOME/.zshrc
+: 1608018796:0;source $HOME.zshrc
+: 1608018803:0;source $HOME/.zshrc
+: 1608018805:0;ls
+: 1608018811:0;touch haah
+: 1608018816:0;rm haah
+: 1608018819:0;ls
+: 1608018834:0;vim $HOME/dott
+: 1608018840:0;cd $HOME/dott
+: 1608018841:0;ls
+: 1608018842:0;l
+: 1608018846:0;git status
+: 1608018852:0;git add -A
+: 1608018870:0;git commit -am "UPDATE: zshrc rm aliasing"
+: 1608018878:0;vim Makefile
+: 1608018893:0;make push
