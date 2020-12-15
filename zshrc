@@ -103,7 +103,7 @@ alias dockc="docker container ls -a -s"
 alias dockb="DOCKER_BUILDKIT=1 docker build"
 alias gorepo="cd $HOME/RA/REPO"
 alias treee="tree -L 2 -ugDh --sort=size"
-alias saferm="rm -rfIv"
+alias rm="rm -rfIv"
 alias sd="sudo "
 
 export TERM=xterm-256color
