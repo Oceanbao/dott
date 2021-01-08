@@ -76,6 +76,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export EDITOR='vim'
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -98,13 +99,26 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias envra="PYTHONPATH=/home/ocean/RA/REPO/"
 alias dockc="docker container ls -a -s"
 alias dockb="DOCKER_BUILDKIT=1 docker build"
-alias gorepo="cd $HOME/RA/REPO"
 alias treee="tree -L 2 -ugDh --sort=size"
 alias saferm="rm -rfIv"
 alias sd="sudo "
+alias ddu="du -sh * | sort -hr | head -10"
+
+# Functions
+ftext () {
+	grep -iIHrn --color=always "$1" . | less -R -r
+}
+
+duplicatefind ()
+{
+	find . -not -empty -type f -exec -printf "%s\n" \; | sort -rn | uniq -d | xargs -I{} -n1 find -type f -size {}c -print0 | xargs -0 md5sum | sort | uniq -w32 --all-repeated=separate
+}
+
+generateqr () {
+	printf "$@" | curl -F-=\<- qrenco.de
+}
 
 export TERM=xterm-256color
 
@@ -114,3 +128,5 @@ export TERM=xterm-256color
 # export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
 # auto start dbus
 # sudo /etc/init.d/dbus start &> /dev/null
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

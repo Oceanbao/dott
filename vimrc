@@ -4,7 +4,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=$HOME/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
@@ -25,6 +25,7 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'Yggdroot/indentLine'
+Plugin 'gcmt/wildfire.vim'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
@@ -82,7 +83,7 @@ set splitbelow
 set splitright
 
 " Always use vertical diffs
-set diffopt+=vertical
+" set diffopt+=vertical
 
 " Show extra whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
@@ -115,8 +116,6 @@ set wildignore+=
 let g:netrw_banner = 0
 
 let g:netrw_liststyle = 3
-
-:set shell=/usr/bin/zsh
 
 set mouse=a
 

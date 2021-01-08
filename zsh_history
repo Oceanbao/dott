@@ -1,1425 +1,761 @@
-: 1598759427:0;vim Makefile
-: 1598759457:0;git add -A && git commit -am "`date` update" && git push
-: 1598759477:0;git update
-: 1598759480:0;make update
-: 1598759535:0;cd
-: 1598759535:0;l
-: 1598759539:0;vim
-: 1598759542:0;cd dotfiles
-: 1598759543:0;ls
-: 1598759728:0;du . -h
-: 1598759801:0;ls
-: 1598759953:0;vim Makefile
-: 1598759970:0;make update
-: 1598761424:0;vim Makefile
-: 1598761569:0;make update
-: 1598761580:0;ls
-: 1598761588:0;make update
-: 1598761594:0;vim Makefile
-: 1598761605:0;make update
-: 1598761637:0;git pull
-: 1598761657:0;ls
-: 1598761661:0;make update
-: 1598835211:0;cd
-: 1598835212:0;ls
-: 1598835213:0;vim
-: 1598835215:0;ls
-: 1598835216:0;l
-: 1598835221:0;ls
-: 1598835225:0;cd RA
-: 1598835226:0;ls
-: 1598835228:0;cd dev
-: 1598835231:0;REPO
-: 1598835231:0;ls
-: 1598835234:0;cd dev
-: 1598835235:0;ls
-: 1598835238:0;conda activate PyDev
-: 1598835245:0;nohup jupyter lab --port=8888 --ip=0.0.0.0 > jupyter.out &
-: 1598835249:0;ls
-: 1598836370:0;jupyter labextension install @aquirdturtle/collapsible_headings
-: 1598860724:0;ls
-: 1598860725:0;l
-: 1598860726:0;ls
-: 1598881096:0;conda activate PyDev
-: 1598881100:0;ls
-: 1598881138:0;conda
-: 1598881172:0;which python
-: 1598881176:0;whereis python
-: 1598881203:0;python
-: 1598938174:0;l
-: 1598938183:0;ls
-: 1598938189:0;cd dotfiles
-: 1598938192:0;git branch -vv
-: 1598938198:0;cd
-: 1598938202:0;git config --all
-: 1598938205:0;git config --list
-: 1598938209:0;git config --list --gloabl
-: 1598938211:0;git config --list --global
-: 1598938218:0;cd RA/REPO/apiary
-: 1598938222:0;git config --list --local
-: 1598938225:0;cd
-: 1598938297:0;l
-: 1598938303:0;cd RA/REPO/apiary
-: 1598938304:0;l
-: 1598938306:0;cd
-: 1598938334:0;ls
-: 1598938337:0;conda
-: 1598938345:0;ls miniconda3
-: 1598938363:0;miniconda3/bin/conda
-: 1598938371:0;miniconda3/bin/conda env
-: 1598938375:0;miniconda3/bin/conda env list
-: 1598938382:0;miniconda3/bin/conda activate PyDev
-: 1598938415:0;vim .zshrc
-: 1598938454:0;miniconda3/bin/conda init zsh
-: 1598938468:0;conda activate PyDev
-: 1598938472:0;pip list | less
-: 1598938486:0;cd dotfiles
-: 1598938492:0;make update
-: 1598957602:0;git status
-: 1598957616:0;vim .gitignore
-: 1598957635:0;git status
-: 1598957644:0;git add .gitignore
-: 1598957646:0;git status
-: 1598957656:0;ls
-: 1598957673:0;rm .gitignore
-: 1598957679:0;vim .gitignore
-: 1598957693:0;git add .gitignore
-: 1598957695:0;git status
-: 1598957700:0;cd
-: 1598957701:0;ls
-: 1598957702:0;l
-: 1598957722:0;ls
-: 1598959402:0;ssh oceanbao@35.247.80.247
-: 1598959552:0;scp RA/REPO/dev/ping.py oceanbao@35.247.80.247:/home/oceanbao/ping.py
-: 1598959788:0;ip
-: 1598959790:0;ip addr show
-: 1598959801:0;ls
-: 1598959808:0;source EnvPy/bin/activate
-: 1598959814:0;python RA/REPO/dev/ping.py
-: 1598959818:0;pip install requests
-: 1598959833:0;python RA/REPO/dev/ping.py
-: 1598959925:0;scp RA/REPO/dev/ping.py oceanbao@35.247.80.247:/home/oceanbao/ping.py
-: 1598960641:0;tmux ls
-: 1598960644:0;tmux at
-: 1598960695:0;tmux
-: 1598960702:0;sourcew
-: 1598960705:0;source EnvPy/bin/activate
-: 1598960707:0;python RA/REPO/dev/ping.py
-: 1598960712:0;python RA/REPO/dev/sys_profile.py
-: 1598960724:0;tmux at
-: 1598963903:0;docker inspect
-: 1598963915:0;docker inspect LwdDev
-: 1598963919:0;docker inspect LwgDev
-: 1598964137:0;docker --help | grep "health"
-: 1598964140:0;docker --help | grep "Health"
-: 1598965920:0;docker -V
-: 1598965924:0;docker --version
-: 1598965947:0;docker ps
-: 1598966011:0;docker inspect --format='{.State.Status}' LwgDevg
-: 1598966012:0;docker inspect --format='{.State.Status}' LwgDev
-: 1598966036:0;docker inspect --format='{{State.Status]}' LwgDev
-: 1598966046:0;docker inspect --format='{{.State.Status]}' LwgDev
-: 1598966053:0;docker inspect --format='{{.State.Status}}' LwgDev
-: 1598966097:0;ssh oceanbao@35.247.80.247
-: 1598966143:0;ls
-: 1598966148:0;cd RA/REPO/dev
-: 1598966148:0;ls
-: 1598966154:0;vim sp.py
-: 1598966242:0;source EnvPy/bin/activate
-: 1598966244:0;cd
-: 1598966246:0;source EnvPy/bin/activate
-: 1598966249:0;cd -
-: 1598966249:0;ls
-: 1598966260:0;python sp.py "ls"
-: 1598966291:0;python sp.py "pwd"
-: 1598966294:0;python sp.py
-: 1598966298:0;python sp.py "ls"
-: 1598966357:0;python sp.py "pwd"
-: 1598966388:0;python sp.py "docker inspect --format='{{.State.Status}}' LwgDev'
-: 1598966390:0;python sp.py "docker inspect --format='{{.State.Status}}' LwgDev"
-: 1598967306:0;cat <<EOF > Dockerfile.test\
-FROM python:3.8-slim-buster\
-COPY app.py app/\
-WORKDIR /app\
-RUN apt-get update && \\
-    apt-get install gcc && \\
-    apt-get clean && \\
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \\
-    pip install requests psutil\
-CMD ["python", "app.py"]\
-EOF
-: 1598967307:0;ls
-: 1598967311:0;vim Dockerfile.test
-: 1598967506:0;rm Dockerfile.test
-: 1598967726:0;ls
-: 1598967737:0;chmod +x dockerr.sh
-: 1598967739:0;./dockerr.sh
-: 1598968021:0;cd
-: 1598968023:0;dockc
-: 1598968040:0;docker container rm dazzling_morse
-: 1598968044:0;dockc
-: 1598968140:0;docker exec -it LwgDev bash
-: 1598968183:0;tmux
-: 1598968213:0;tmux at
-: 1598968277:0;source EnvPy/bin/activate
-: 1598968279:0;docker images
-: 1598968285:0;docker image prune
-: 1598968287:0;docker images
-: 1598968296:0;cd RA/REPO/dev
-: 1598968301:0;vim dockerr
-: 1598968305:0;vim dockerr.sh
-: 1598968374:0;bash dockerr.sh
-: 1598968539:0;vim dockerr.sh
-: 1598968565:0;ls
-: 1598968567:0;docker images
-: 1598968581:0;docker run --rm ping
-: 1598968587:0;docker run --rm ping:v1.0
-: 1598968671:0;vim dockerr.sh
-: 1598968686:0;dockc
-: 1598968702:0;docker container rm angry_bartik
-: 1598968721:0;docker container kill angry_bartik
-: 1598968723:0;dockc
-: 1598968734:0;docker container rm angry_bartik
-: 1598968736:0;dockc
-: 1598968767:0;docker images
-: 1598968772:0;bash dockerr.sh
-: 1598968779:0;vim dockerr.sh
-: 1598968810:0;bash dockerr.sh
-: 1598969387:0;dockc
-: 1598969391:0;docker images
-: 1598969398:0;docker image prune
-: 1598969400:0;docker images
-: 1598969409:0;docker rmi ping:v1.0
-: 1598969412:0;docker images
-: 1598970967:0;docker images --format="{{REPOSITORY}}"
-: 1598970971:0;docker images --format="{{.REPOSITORY}}"
-: 1598970979:0;docker images --format="{{$REPOSITORY}}"
-: 1598971039:0;docker images --format="{{.Repository}}"
-: 1598971055:0;docker images --format="{{.Repository}}\t{{.Tag}}"
-: 1598971061:0;docker images --format="{{.Repository}}:{{.Tag}}"
-: 1598972093:0;docker container ls --format=
-: 1598972100:0;docker container ls --format='{{json .}}'
-: 1598972138:0;docker container ls --format='{{json .*}}'
-: 1598972142:0;docker container ls --format='{{json .}}'
-: 1599008761:0;ssh oceanbao@35.247.80.247
-: 1599009251:0;docker inspect --format='{{.State.Status}}' LwgDev
-: 1599010391:0;ssh oceanbao@35.247.80.247
-: 1599014624:0;zip 1.1.1
-: 1599014637:0;zip 1.1.1.zip 1.1.1
-: 1599014638:0;ls
-: 1599014647:0;mv 1.1.1.zip 1.1.1
-: 1599014651:0;cd 1.1.1
-: 1599014652:0;l
-: 1599014656:0;unzip 1.1.1.zip
-: 1599014657:0;ls
-: 1599014672:0;ls 1.1.1
-: 1599014683:0;rm -rf 1.1.1
-: 1599014685:0;rm 1.1.1.zip
-: 1599014693:0;zip 1.1.1.zip ./*
-: 1599014695:0;ls
-: 1599014699:0;unzip 1.1.1.zip
-: 1599014705:0;ls
-: 1599016142:0;cat .ssh/id_rsa.pub
-: 1599016145:0;cd
-: 1599016146:0;cat .ssh/id_rsa.pub
-: 1599036966:0;treee ./ssh
-: 1599036969:0;treee .ssh
-: 1599036976:0;treee .ssh/known_hosts
-: 1599036981:0;cat .ssh/known_hosts
-: 1599037067:0;ssh-copy-id
-: 1599037361:0;ssh-agent
-: 1599037387:0;ps
-: 1599037402:0;ps 7123
-: 1599037457:0;ssh-add .ssh/id_rsa
-: 1599037479:0;ssh-add
-: 1599050728:0;gorepo
-: 1599050731:0;shipping/model_spacy_textcat
-: 1599050732:0;ls
-: 1599050746:0;dockb -t demo_dockerfile .
-: 1599051514:0;docker images
-: 1599051520:0;ls
-: 1599051530:0;vim skill.py
-: 1599051544:0;vim Dockerfile
-: 1599051553:0;vim skill.py
-: 1599051574:0;dockb -t demo_dockerfile .
-: 1599051583:0;docker images
-: 1599051587:0;docker image prune
-: 1599051592:0;docker images
-: 1599051636:0;ls
-: 1599051642:0;gorepo
-: 1599051645:0;make clean
-: 1599051665:0;make model_spacy_ner
-: 1599051669:0;cd shipping/model_spacy_ner
-: 1599051670:0;ls
-: 1599051673:0;unzip model_spacy_ner.zip
-: 1599051679:0;ls
-: 1599051682:0;rm model_spacy_ner.zip
-: 1599051683:0;ls
-: 1599051714:0;cp ls
-: 1599051716:0;ls
-: 1599051718:0;vim Dockerfile
-: 1599051845:0;ls
-: 1599051856:0;dockb -t demo_dockerfile_ner .
-: 1599052382:0;docker images
-: 1599052390:0;docker rmi demo_dockerfile_ner
-: 1599052393:0;docker images
-: 1599052399:0;cd
-: 1599052435:0;cd RA/REPO/dev/vol_model_spacy/
-: 1599052435:0;ls
-: 1599052448:0;zip spacy_multiclass.zip spacy_multiclass
-: 1599052452:0;zip spacy_multiclass.zip spacy_multiclass -r
-: 1599052469:0;sudo rm -rf spacy_multiclass/output/*
-: 1599052479:0;treee spacy_multiclass/
-: 1599052489:0;ls
-: 1599052499:0;vim spacy_multiclass/input/config.json
-: 1599052511:0;ls
-: 1599052531:0;cp -r spacy_multiclass demo_spacy_multiclass
-: 1599052537:0;vim demo_spacy_multiclass/input/config.json
-: 1599052591:0;vim $HOME/.vimrc
-: 1599052602:0;cd
-: 1599052605:0;cd dotfiles
-: 1599052608:0;git status
-: 1599052620:0;git branch -vv
-: 1599052628:0;vim Makefile
-: 1599052663:0;ls
-: 1599052668:0;cd
-: 1599052689:0;gorepo
-: 1599052690:0;cd dev
-: 1599052691:0;ls
-: 1599052698:0;ls demo_dockerfiles
-: 1599052707:0;ls demo_dockerfiles_textcat
-: 1599052715:0;vim demo_dockerfiles_textcat/app.py
-: 1599053188:0;ls
-: 1599053198:0;rm demo_dockerfiles.zip:Zone.Identifier
-: 1599053201:0;cd demo_dockerfiles_textcat
-: 1599053202:0;ls
-: 1599053286:0;zip 1.1.1.zip ./*
-: 1599053287:0;ls
-: 1599053358:0;scp app.py oceanbao@35.247.80.247:/home/oceanbao/grab_files.py
-: 1599053366:0;ssh oceanbao@35.247.80.247
-: 1599053461:0;scp app.py oceanbao@35.247.20.219:/home/oceanbao/grab_files.py
-: 1599053485:0;ssh oceanbao@35.247.20.219
-: 1599053774:0;..
-: 1599053774:0;ls
-: 1599053805:0;cd ..
-: 1599053805:0;ls
-: 1599053813:0;dev/vol_model_spacy/
-: 1599053813:0;ls
-: 1599053818:0;ls demo_spacy_multiclass
-: 1599053891:0;ls
-: 1599053899:0;zip demo_spacy_multiclass.zip demo_spacy_multiclass
-: 1599053901:0;zip demo_spacy_multiclass.zip demo_spacy_multiclass -r
-: 1599053902:0;ls
-: 1599119694:0;cd
-: 1599119706:0;tmux ls
-: 1599119709:0;tmux
-: 1599119766:0;dockc
-: 1599119837:0;docker start SpaDev
-: 1599120339:0;ssh oceanbao@35.199.176.231
-: 1599120840:0;ls
-: 1599120846:0;cd RA/REPO/dev/
-: 1599120847:0;ls
-: 1599120856:0;cd ..
-: 1599120856:0;ls
-: 1599120859:0;cd gcp-gce-images
-: 1599120898:0;git pull
-: 1599121112:0;ls
-: 1599121116:0;vim gce_startup_script_worker.sh
-: 1599121203:0;git add gce_startup_script_worker.sh
-: 1599121218:0;git commit -am "corrected worker ping --net=host"
-: 1599121224:0;ls
-: 1599121233:0;git push
-: 1599121246:0;vim gce_startup_script_worker.sh
-: 1599121255:0;git push
-: 1599121265:0;git diff
-: 1599121278:0;git diff @HEAD{0} @HEAD{1}
-: 1599121287:0;git diff --help
-: 1599121338:0;git log
-: 1599121345:0;git log --pretty=oneliner
-: 1599121346:0;git log --pretty=oneline
-: 1599121404:0;vim gce_startup_script_worker.sh
-: 1599122339:0;ls
-: 1599122355:0;git commit -am "corrected worker ping returns units"
-: 1599122358:0;git diff
-: 1599122407:0;git diff HEAD
-: 1599122426:0;git diff HEAD^ HEAD
-: 1599122590:0;git diff HEAD~1 HEAD~1
-: 1599122593:0;git diff HEAD~1 HEAD~2
-: 1599122609:0;git diff HEAD~2 HEAD~1
-: 1599122642:0;git diff HEAD~1 HEAD~2
-: 1599122657:0;git diff HEAD~3 HEAD~2
-: 1599122672:0;git diff HEAD HEAD~1
-: 1599122694:0;git diff HEAD~1 HEAD
-: 1599122697:0;git diff HEAD~1 HEAD^
-: 1599122700:0;git diff HEAD~1 HEAD
-: 1599122722:0;git status
-: 1599122723:0;git push
-: 1599122865:0;docker stop SpaDev
-: 1599122869:0;docker start PyDev
-: 1599122952:0;cd
-: 1599122952:0;ls
-: 1599122954:0;cd dotfiles
-: 1599122956:0;git status
-: 1599122962:0;cd
-: 1599133527:0;cd RA/REPO/gcp-gce-images
-: 1599133528:0;ls
-: 1599133534:0;vim gce_startup_script_worker.sh
-: 1599133572:0;ssh oceanbao@35.199.176.231
-: 1599133637:0;git status
-: 1599133663:0;git commit -am "patch worker"
-: 1599133664:0;git push
-: 1599133754:0;cd
-: 1599134180:0;cd -
-: 1599134182:0;vim gce_startup_script_worker.sh
-: 1599134204:0;git commit -am "patch worker import time"
-: 1599134206:0;git push
-: 1599134632:0;..
-: 1599134632:0;ls
-: 1599134636:0;cd dev
-: 1599134636:0;ls
-: 1599134669:0;touch upload_dir_gcs.py
-: 1599134975:0;vim ../gcp-gce-images/gce_startup_script_worker.sh
-: 1599135433:0;cd ../gcp-gce-images
-: 1599135445:0;git commit -am "patch worker cpu_perc / 100"
-: 1599135447:0;git push
-: 1599135823:0;cd
-: 1599135824:0;ls
-: 1599135827:0;cd copy
-: 1599135831:0;git clone git@github.com:Oceanbao/dotfiles.git
-: 1599135890:0;cat $HOME/.ssh/id_rsa.pub
-: 1599135915:0;git clone git@github.com:Oceanbao/dotfiles.git
-: 1599135932:0;ls
-: 1599135933:0;cd
-: 1599136086:0;cd RA/REPO/apiary
-: 1599136090:0;git config --list --local
-: 1599136096:0;git config
-: 1599136113:0;git config -e
-: 1599136140:0;git status
-: 1599136162:0;git commit -am "working on interfacing GCS"
-: 1599136176:0;ls .git/
-: 1599136178:0;ls .git/ -al
-: 1599136184:0;ls .git/objects -al
-: 1599136205:0;chown -cR oceanbao:oceanbao .git/
-: 1599136209:0;sudo chown -cR oceanbao:oceanbao .git/
-: 1599136213:0;git commit -am "working on interfacing GCS"
-: 1599136216:0;git status
-: 1599136217:0;git branch -vv
-: 1599136221:0;git push
-: 1599136249:0;git config -e
-: 1599136257:0;git push
-: 1599137032:0;cd ..
-: 1599137032:0;ls
-: 1599137034:0;cd dev
-: 1599137034:0;ls
-: 1599137108:0;scp upload_dir_gcs.py oceanbao@35.199.176.231:/home/oceanbao/upload_dir_gcs.py
-: 1599140022:0;scp download_dir_gcs.py oceanbao@35.199.176.231:/home/oceanbao/download_dir_gcs.py
-: 1599143165:0;gorepo
-: 1599143167:0;make clean
-: 1599143175:0;make model_spacy_textcat
-: 1599143192:0;cd shipping/model_spacy_textcat
-: 1599143192:0;ls
-: 1599143236:0;scp model_spacy_textcat.zip oceanbao@35.199.176.231:/home/oceanbao/model_spacy.zip
-: 1599143289:0;ssh oceanbao@35.199.176.231
-: 1599143627:0;cd
-: 1599143631:0;gorepo
-: 1599143633:0;ls
-: 1599143637:0;ls dev
-: 1599143642:0;cd dev
-: 1599143642:0;ls
-: 1599143655:0;ls dockerr
-: 1599143663:0;vim dockerr/Dockerfile
-: 1599143671:0;ls demo_dockerfiles_textcat
-: 1599143676:0;vim demo_dockerfiles_textcat/Dockerfile
-: 1599143699:0;..
-: 1599143700:0;ls
-: 1599143705:0;cd skill_containers/
-: 1599143706:0;ls
-: 1599143716:0;vim Dockerfile_spacy
-: 1599143722:0;vim Dockerfile_ludwig
-: 1599143728:0;vim Dockerfile_base_spacy
-: 1599143745:0;vim ../dev/demo_dockerfiles_textcat/Dockerfile Dockerfile_spacy
-: 1599143754:0;vim -O ../dev/demo_dockerfiles_textcat/Dockerfile Dockerfile_spacy
-: 1599143802:0;ls
-: 1599143807:0;vim Dockerfile_ludwig
-: 1599143813:0;ls skills
-: 1599143819:0;vim Makefile
-: 1599143823:0;cd
-: 1599143825:0;gorepo
-: 1599143827:0;vim Makefile
-: 1599144389:0;ls
-: 1599144401:0;ssh oceanbao@35.199.176.231
-: 1599145367:0;vim apiary/requirements.txt
-: 1599145774:0;ssh oceanbao@35.199.176.231
-: 1599147079:0;cd skill_containers
-: 1599147082:0;git status
-: 1599147127:0;git commit -am "testing textcat on prod; others to be updated"
-: 1599147137:0;sudo chown -cR oceanbao:oceanbao .git/
-: 1599147141:0;git commit -am "testing textcat on prod; others to be updated"
-: 1599147145:0;git config -e
-: 1599147156:0;git push
-: 1599147215:0;ls
-: 1599147218:0;cd
-: 1599147233:0;gorepo
-: 1599147235:0;make clean
-: 1599147238:0;make model_spacy_textcat
-: 1599147266:0;cd shipping
-: 1599147267:0;ls
-: 1599147269:0;cd model_spacy_textcat
-: 1599147270:0;ls
-: 1599147274:0;scp model_spacy_textcat.zip oceanbao@35.199.176.231:/home/oceanbao/model_spacy.zip
-: 1599147320:0;ls
-: 1599181320:0;cd
-: 1599181321:0;ls
-: 1599181324:0;cd RA/REPO
-: 1599181324:0;ls
-: 1599181329:0;cd skill_containers
-: 1599181331:0;git worktree
-: 1599181335:0;git worktree list
-: 1599181342:0;git worktree --help
-: 1599182929:0;ssh oceanbao@35.199.176.231
-: 1599183030:0;cd
-: 1599183037:0;gorepo
-: 1599183039:0;make clean
-: 1599183043:0;make model_spacy_textcat
-: 1599183054:0;cdshi
-: 1599183058:0;shipping/model_spacy_textcat
-: 1599183058:0;ls
-: 1599183065:0;scp model_spacy_textcat.zip oceanbao@35.199.176.231:/home/oceanbao/model_spacy.zip
-: 1599185855:0;../../dev/vol_model_spacy/spacy_multilabel
-: 1599185855:0;ls
-: 1599185863:0;zip output.zip output -r
-: 1599185925:0;l
-: 1599185942:0;du -hd 1 output/
-: 1599185964:0;mv output.zip ../
-: 1599185967:0;cd ..
-: 1599185968:0;ls
-: 1599185970:0;unzip output.zip
-: 1599185983:0;ls
-: 1599185988:0;ls output
-: 1599185993:0;rm -rf output
-: 1599185995:0;rm output.zip
-: 1599185996:0;ls
-: 1599185998:0;cd
-: 1599187508:0;gorepo
-: 1599187510:0;make clean
-: 1599187513:0;make model_spacy_textcat
-: 1599187518:0;shipping/model_spacy_textcat
-: 1599187519:0;ls
-: 1599187520:0;scp model_spacy_textcat.zip oceanbao@35.199.176.231:/home/oceanbao/model_spacy.zip
-: 1599189960:0;gorepo
-: 1599189964:0;make clean
-: 1599189973:0;make model_spacy_textcat
-: 1599189978:0;shipping/model_spacy_textcat
-: 1599189981:0;ls
-: 1599189982:0;scp model_spacy_textcat.zip oceanbao@35.199.176.231:/home/oceanbao/model_spacy.zip
-: 1599207964:0;gorepo
-: 1599207968:0;make clean
-: 1599207971:0;make model_spacy_textcat
-: 1599207977:0;cd shipping/model_spacy_textcat
-: 1599207979:0;scp model_spacy_textcat.zip oceanbao@35.199.176.231:/home/oceanbao/model_spacy.zip
-: 1599208032:0;ssh oceanbao@35.199.176.231
-: 1599208942:0;gorepo
-: 1599208948:0;make clean
-: 1599208959:0;make model_spacy_textcat
-: 1599208963:0;shipping/model_spacy_textcat
-: 1599208965:0;scp model_spacy_textcat.zip oceanbao@35.199.176.231:/home/oceanbao/model_spacy.zip
-: 1599220440:0;ssh oceanbao@35.199.176.231
-: 1599220443:0;gorepo
-: 1599220446:0;make clean
-: 1599220447:0;make model_spacy_textcat
-: 1599220451:0;shipping/model_spacy_textcat
-: 1599220453:0;scp model_spacy_textcat.zip oceanbao@35.199.176.231:/home/oceanbao/model_spacy.zip
-: 1599221588:0;gorepo
-: 1599221590:0;make clean
-: 1599221591:0;make model_spacy_textcat
-: 1599221594:0;shipping/model_spacy_textcat
-: 1599221595:0;scp model_spacy_textcat.zip oceanbao@35.199.176.231:/home/oceanbao/model_spacy.zip
-: 1599222174:0;cd ../../apiary
-: 1599222175:0;ls
-: 1599222177:0;git status
-: 1599222206:0;git commit -am "done textcat for Prod, about to test Lwg"
-: 1599222207:0;git push
-: 1599225552:0;ls
-: 1599225569:0;cd ../dev/vol_model_spacy/spacy_ner_stock
-: 1599225570:0;ls
-: 1599225572:0;ls input
-: 1599225585:0;ls output
-: 1599225589:0;ls input
-: 1599225592:0;vim input/config
-: 1599225599:0;vim input/config.json
-: 1599225627:0;ls input
-: 1599225639:0;vim input/pre_ent_added.csv
-: 1599225664:0;vim input/config_orig.json
-: 1599225754:0;gorepo
-: 1599225762:0;make clean
-: 1599225767:0;make model_spacy_ner
-: 1599225771:0;shipping/model_spacy_ner
-: 1599225772:0;ls
-: 1599225775:0;unzip model_spacy_ner.zip
-: 1599225782:0;ls
-: 1599225783:0;vim Dockerfile
-: 1599225792:0;vim skill.py
-: 1599225814:0;gorepo
-: 1599225816:0;make clean
-: 1599225818:0;make model_spacy_ner
-: 1599225821:0;shipping/model_spacy_ner
-: 1599225845:0;scp model_spacy_ner.zip oceanbao@35.199.176.231:/home/oceanbao/model_spacy.zip
-: 1599227842:0;gorepo
-: 1599227844:0;make clean
-: 1599227845:0;make model_spacy_ner
-: 1599227849:0;shipping/model_spacy_ner
-: 1599227851:0;scp model_spacy_ner.zip oceanbao@35.199.176.231:/home/oceanbao/model_spacy.zip
-: 1599228654:0;gorepo
-: 1599228664:0;dev/vol_model_spacy/spacy_ner_stock/input
-: 1599228664:0;ls
-: 1599228669:0;cd ../output
-: 1599228670:0;ls
-: 1599228671:0;cd train_output
-: 1599228672:0;ls
-: 1599228681:0;ptpython
-: 1599228689:0;source $HOME/EnvPy/bin/activate
-: 1599228693:0;ptpython
-: 1599228697:0;pip install ptpython
-: 1599228735:0;ssh oceanbao@35.199.176.231
-: 1599228743:0;ptpython
-: 1599229873:0;ssh oceanbao@35.199.176.231\
+: 1608686632:0;vim skill.py
+: 1608686632:0;scp model_ludwig.zip oceanbao@35.185.216.142:/home/oceanbao/model_spacy.zip
+: 1608686632:0;cd
+: 1608686632:0;ssh oceanbao@35.185.216.142\
 
-: 1599231076:0;gorepo
-: 1599231079:0;ls
-: 1599231081:0;make clean
-: 1599231083:0;make model_spacy_ner
-: 1599231087:0;shipping/model_spacy_ner
-: 1599231087:0;ls
-: 1599231092:0;scp model_spacy_ner.zip oceanbao@35.199.176.231:/home/oceanbao/model_spacy.zip
-: 1599232960:0;gorepo
-: 1599232963:0;make clean
-: 1599232965:0;make model_spacy_ner
-: 1599232971:0;shipping/model_spacy_ner
-: 1599232971:0;ls
-: 1599232973:0;scp model_spacy_ner.zip oceanbao@35.199.176.231:/home/oceanbao/model_spacy.zip
-: 1599233835:0;ptpython
-: 1599305915:0;dockc
-: 1599305924:0;docker images
-: 1599305938:0;vim $HOME/.vimrc
-: 1599305945:0;vim $HOME/.zshrc
-: 1599306006:0;docker images
-: 1599306014:0;df
-: 1599306077:0;dockc
-: 1599306091:0;docker container SpaDev start
-: 1599306097:0;docker start SpaDev
-: 1599306106:0;docker exec -it SpaDev bash
-: 1599306689:0;ptpython
-: 1599309651:0;cd 
-: 1599309653:0;gorepo
-: 1599309657:0;dev/vol_model_spacy/spacy_ner_stock/input
-: 1599309659:0;vim config.json
-: 1599310049:0;ptpython
-: 1599310070:0;pip install omegaconf
-: 1599310109:0;ptpython
-: 1599310161:0;pip install wheel
-: 1599310171:0;pip install omegaconf
-: 1599310175:0;ptpython
-: 1599311762:0;gorepo
-: 1599311765:0;apiary
-: 1599311765:0;ls
-: 1599311769:0;git status
-: 1599311797:0;git commit -am "locally tested spacy NER ok; about to test Lwg"
-: 1599311798:0;git push
-: 1599311815:0;vim .gitignore
-: 1599311837:0;vim config.json
-: 1599311841:0;vim .gitignore
-: 1599311885:0;git status
-: 1599312210:0;cd
-: 1599312213:0;dockc
-: 1599312242:0;docker start LwgDev
-: 1599312247:0;docker exec -it LwgDev bash
-: 1599356323:0;bash saveWinPic.sh
-: 1599362548:0;ssh oceanbao@35.185.216.142\
+: 1608686632:0;cd -
+: 1608686632:0;ls
+: 1608686632:0;cd
+: 1608686632:0;RA/REPO/dev/vol_ludwig/multiclass
+: 1608686632:0;ls
+: 1608686632:0;cd output/train_output
+: 1608686632:0;treee .
+: 1608686632:0;treee ludwig_output
+: 1608686632:0;treee ludwig_output/model_definition.yaml
+: 1608686632:0;treee ludwig_output/textcat_basic/model
+: 1608686632:0;treee ludwig_output/textcat_basic/model/log/train
+: 1608686632:0;treee ludwig_output/textcat_basic/model/training_progress.json
+: 1608686632:0;vim ludwig_output/textcat_basic/model/training_progress.json
+: 1608686632:0;treee ludwig_output/textcat_basic/model/
+: 1608686632:0;treee ludwig_output/textcat_basic/
+: 1608686632:0;treee ludwig_output/
+: 1608686632:0;treee 
+: 1608686632:0;treee  .
+: 1608686632:0;cd ..
+: 1608686632:0;ls
+: 1608686632:0;vim trian
+: 1608686632:0;cd train_output
+: 1608686632:0;ls
+: 1608686632:0;treee ludwig_output
+: 1608686632:0;treee ludwig_output/textcat_basic/model
+: 1608686632:0;vim ludwig_output/textcat_basic/model/training_progress.json
+: 1608686632:0;cd
+: 1608686632:0;gorepo
+: 1608686632:0;make clean
+: 1608686632:0;make model_ludwig
+: 1608686632:0;shipping/model_ludwig
+: 1608686632:0;ls
+: 1608686632:0;scp model_ludwig.zip oceanbao@35.185.216.142:/home/oceanbao/model_spacy.zip
+: 1608686632:0;ssh oceanbao@35.185.216.142\
 
-: 1599362591:0;gorepo
-: 1599362592:0;make clean
-: 1599362594:0;make model_spacy_ner
-: 1599362602:0;shipping/model_spacy_ner
-: 1599362603:0;ls
-: 1599362622:0;scp model_spacy_ner.zip oceanbao@35.185.216.142:/home/oceanbao/model_spacy.zip
-: 1599363057:0;ls
-: 1599363196:0;gorepo
-: 1599363197:0;ls
-: 1599363201:0;dev/vol_model_spacy/spacy_ner_stock/input
-: 1599363201:0;ls
-: 1599363206:0;vim config.json
-: 1599363233:0;vim pre_ent.csv
-: 1599363262:0;explore.exe .
-: 1599363266:0;explore
-: 1599364022:0;make clean
-: 1599364024:0;gorepo
-: 1599364026:0;make clean
-: 1599364034:0;vim Makefile
-: 1599364047:0;make model_ludwig
-: 1599364053:0;shipping/model_ludwig
-: 1599364053:0;ls
-: 1599364058:0;unzip model_spacy_ner.zip
-: 1599364062:0;unzip model_ludwig.zip
-: 1599364069:0;ls
-: 1599364074:0;vim Dockerfile
-: 1599364080:0;vim skill.py
-: 1599364108:0;scp model_ludwig.zip oceanbao@35.185.216.142:/home/oceanbao/model_spacy.zip
-: 1599364892:0;cd
-: 1599371364:0;ssh oceanbao@35.185.216.142\
-
-: 1599371701:0;cd -
-: 1599371702:0;ls
-: 1599371704:0;cd
-: 1599371728:0;RA/REPO/dev/vol_ludwig/multiclass
-: 1599371728:0;ls
-: 1599371735:0;cd output/train_output
-: 1599371747:0;treee .
-: 1599371824:0;treee ludwig_output
-: 1599371862:0;treee ludwig_output/model_definition.yaml
-: 1599371867:0;treee ludwig_output/textcat_basic/model
-: 1599371882:0;treee ludwig_output/textcat_basic/model/log/train
-: 1599371907:0;treee ludwig_output/textcat_basic/model/training_progress.json
-: 1599371912:0;vim ludwig_output/textcat_basic/model/training_progress.json
-: 1599372143:0;treee ludwig_output/textcat_basic/model/
-: 1599372145:0;treee ludwig_output/textcat_basic/
-: 1599372148:0;treee ludwig_output/
-: 1599372153:0;treee 
-: 1599372154:0;treee  .
-: 1599372157:0;cd ..
-: 1599372159:0;ls
-: 1599372161:0;vim trian
-: 1599372165:0;cd train_output
-: 1599372166:0;ls
-: 1599372171:0;treee ludwig_output
-: 1599372183:0;treee ludwig_output/textcat_basic/model
-: 1599372196:0;vim ludwig_output/textcat_basic/model/training_progress.json
-: 1599377995:0;cd
-: 1599377998:0;gorepo
-: 1599377999:0;make clean
-: 1599378005:0;make model_ludwig
-: 1599378010:0;shipping/model_ludwig
-: 1599378010:0;ls
-: 1599378016:0;scp model_ludwig.zip oceanbao@35.185.216.142:/home/oceanbao/model_spacy.zip
-: 1599378021:0;ssh oceanbao@35.185.216.142\
-
-: 1599389442:0;gorepo
-: 1599389444:0;apiary
-: 1599389449:0;git log --pretty=oneline --graph
-: 1599389483:0;git status
-: 1599389493:0;cd ../skill_containers
-: 1599389495:0;git log --pretty=oneline --graph
-: 1599389514:0;git log --graph
-: 1599389520:0;git log --graph --pretty=oneline
-: 1599389768:0;reftree
-: 1599389782:0;vim $HOME/.zshrc
-: 1599389856:0;treee .git/objects
-: 1599389860:0;treee .git/refs
-: 1599389868:0;tree .git/refs
-: 1599389959:0;git reflog
-: 1599389972:0;git reflog --pretty-online
-: 1599389976:0;git reflog --pretty-oneline
-: 1599389982:0;git reflog --pretty=oneline
-: 1599389991:0;git reflog
-: 1599389996:0;git reflog --graph
-: 1599390006:0;git reflog --all
-: 1599390013:0;git reflog
-: 1599390396:0;cd
-: 1599390397:0;ls
-: 1599390401:0;cd copy
-: 1599390401:0;ls
-: 1599390404:0;vim Makefile
-: 1599390410:0;vim train.sh
-: 1599390426:0;cd 
-: 1599390431:0;cd copy
-: 1599390433:0;git init
-: 1599390439:0;git add -A
-: 1599390444:0;git commit "init"
-: 1599390451:0;git commit -m "init"
-: 1599390456:0;git log --graph --pretty=oneline
-: 1599390459:0;git reflog
-: 1599390470:0;touch first.txt
-: 1599390500:0;git add -A && git commit -am "`date` update"
-: 1599390504:0;git reflog
-: 1599390508:0;git log --graph --pretty=oneline
-: 1599390517:0;git re
-: 1599390521:0;git reflog
-: 1599390537:0;echo "HAHA" > first.txt
-: 1599390548:0;git commit -am "haha'\
+: 1608686632:0;gorepo
+: 1608686632:0;apiary
+: 1608686632:0;git log --pretty=oneline --graph
+: 1608686632:0;git status
+: 1608686632:0;cd ../skill_containers
+: 1608686632:0;git log --pretty=oneline --graph
+: 1608686632:0;git log --graph
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;reftree
+: 1608686632:0;vim $HOME/.zshrc
+: 1608686632:0;treee .git/objects
+: 1608686632:0;treee .git/refs
+: 1608686632:0;tree .git/refs
+: 1608686632:0;git reflog
+: 1608686632:0;git reflog --pretty-online
+: 1608686632:0;git reflog --pretty-oneline
+: 1608686632:0;git reflog --pretty=oneline
+: 1608686632:0;git reflog
+: 1608686632:0;git reflog --graph
+: 1608686632:0;git reflog --all
+: 1608686632:0;git reflog
+: 1608686632:0;cd
+: 1608686632:0;ls
+: 1608686632:0;cd copy
+: 1608686632:0;ls
+: 1608686632:0;vim Makefile
+: 1608686632:0;vim train.sh
+: 1608686632:0;cd 
+: 1608686632:0;cd copy
+: 1608686632:0;git init
+: 1608686632:0;git add -A
+: 1608686632:0;git commit "init"
+: 1608686632:0;git commit -m "init"
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;git reflog
+: 1608686632:0;touch first.txt
+: 1608686632:0;git add -A && git commit -am "`date` update"
+: 1608686632:0;git reflog
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;git re
+: 1608686632:0;git reflog
+: 1608686632:0;echo "HAHA" > first.txt
+: 1608686632:0;git commit -am "haha'\
 "
-: 1599390551:0;git rel
-: 1599390554:0;git reflog
-: 1599390590:0;git checkout HEAD^0
-: 1599390618:0;git reflog
-: 1599390664:0;git switch --help
-: 1599390717:0;git log --graph --pretty=oneline
-: 1599390726:0;git checkout HEAD
-: 1599390733:0;git status
-: 1599390773:0;git log --graph --pretty=oneline
-: 1599390788:0;git checkout 860020
-: 1599390794:0;git reflog
-: 1599390801:0;git log --graph --pretty=oneline
-: 1599390806:0;git status
-: 1599390836:0;git checkout -b detached_head 
-: 1599390842:0;git status
-: 1599390851:0;git branch
-: 1599390856:0;git reflog
-: 1599390881:0;git checkout HEAD~0
-: 1599390886:0;git checkout HEAD~1
-: 1599390894:0;git log --graph --pretty=oneline
-: 1599390898:0;git reflog
-: 1599390927:0;git checkout HEAD
-: 1599390932:0;git checkout HEAD~0
-: 1599390935:0;git checkout HEAD~1
-: 1599390937:0;git checkout HEAD~2
-: 1599390944:0;git checkout HEAD
-: 1599390951:0;git status
-: 1599390959:0;git reflog
-: 1599390986:0;git checkout HEAD@{5}
-: 1599390989:0;git status
-: 1599390997:0;git log --graph --pretty=oneline
-: 1599391006:0;git checkout master
-: 1599391009:0;git status
-: 1599391013:0;git reflog
-: 1599391018:0;git log --graph --pretty=oneline
-: 1599391031:0;git checkout HEAD^1
-: 1599391034:0;git log
-: 1599391037:0;git log --graph --pretty=oneline
-: 1599391042:0;git reflog
-: 1599391059:0;touch second.txt
-: 1599391061:0;git status
-: 1599391073:0;git checkout -b detached_head 
-: 1599391080:0;git checkout -b detached_head1
-: 1599391086:0;ls
-: 1599391089:0;git status
-: 1599391095:0;git add -A && git commit -am "`date` update"
-: 1599391098:0;git log --graph --pretty=oneline
-: 1599391102:0;git reflog
-: 1599391145:0;git checkout HEAD@{3}
-: 1599391152:0;git checkout master
-: 1599391154:0;git reflog
-: 1599391167:0;git log --graph --pretty=oneline
-: 1599391184:0;git reflog
-: 1599391196:0;git checkout HEAD^1
-: 1599391199:0;git reflog
-: 1599391208:0;git log --graph --pretty=oneline
-: 1599391224:0;git reflog
-: 1599391238:0;git reset --hard 79728ef
-: 1599391241:0;git log --graph --pretty=oneline
-: 1599391247:0;git reflog
-: 1599391262:0;git log --graph --pretty=oneline
-: 1599391271:0;git log --graph --pretty=oneline --all
-: 1599391333:0;git reflog
-: 1599391348:0;git checkout d86ff01
-: 1599391352:0;git status
-: 1599391359:0;touch third.txt
-: 1599391372:0;git rebase --no-autostash
-: 1599391380:0;git rebase --no-autostash master
-: 1599391386:0;git log --graph --pretty=oneline --all
-: 1599391401:0;git branch -vv
-: 1599391411:0;git reflog
-: 1599391427:0;git checkout master
-: 1599391429:0;git status
-: 1599391432:0;ls
-: 1599391813:0;git status
-: 1599391819:0;git add -A && git commit -am "`date` update"
-: 1599391821:0;git log --graph --pretty=oneline --all
-: 1599391826:0;git reflog
-: 1599391832:0;git checkout HEAD^1
-: 1599391835:0;tree .git/refs
-: 1599391875:0;git status
-: 1599391884:0;git checkout -b detached_head2
-: 1599391887:0;git status
-: 1599391891:0;tree .git/refs
-: 1599391904:0;git log --graph --pretty=oneline --all
-: 1599391910:0;git reflog
-: 1599392391:0;touch fourth.txt
-: 1599392403:0;git add -A && git commit -am ":tada NEW"
-: 1599392406:0;git log --graph --pretty=oneline --all
-: 1599395379:0;git branch -avv
-: 1599395467:0;git diff HEAD HEAD~1
-: 1599395478:0;cd
-: 1599395483:0;cd ra/repo/apir
-: 1599395486:0;cd RA/REPO/apiary
-: 1599395490:0;git reflog
-: 1599395503:0;git log --graph --pretty=oneline --all
-: 1599395514:0;git branch -avv
-: 1599395528:0;git diff HEAD HEAD~1
-: 1599395550:0;git diff
-: 1599395573:0;git diff --help
-: 1599395715:0;git diff --color-words
-: 1599395891:0;git diff old_batch_learn master
-: 1599395935:0;ls
-: 1599476253:0;df
-: 1599476273:0;docker system
-: 1599476276:0;docker system info
-: 1599476308:0;docker system 
-: 1599476312:0;docker system events
-: 1599476366:0;docker info
-: 1599476375:0;docker system prune --help
-: 1599476382:0;docker system prune
-: 1599476397:0;dockc
-: 1599476403:0;docker images
-: 1599476410:0;docker system prune
-: 1599476450:0;dockc
-: 1599476456:0;docker images
-: 1599479249:0;dockc
-: 1599484225:0;ls
-: 1599484226:0;cd
-: 1599484227:0;ls
-: 1599484234:0;git clone https://oceanbao@bitbucket.org/oceanbao/learngit.git
-: 1599484257:0;ls
-: 1599484260:0;cd learngit
-: 1599484261:0;ls
-: 1599484264:0;git log
-: 1599484268:0;git log --graph --pretty=oneline --all
-: 1599484271:0;git branch -avv
-: 1599484278:0;git reflog
-: 1599484374:0;touch first.txt
-: 1599484377:0;echo 
-: 1599484379:0;echo "HAHA" > first.txt
-: 1599484389:0;git add -A
-: 1599484412:0;git commit -am "INIT"\
+: 1608686632:0;git rel
+: 1608686632:0;git reflog
+: 1608686632:0;git checkout HEAD^0
+: 1608686632:0;git reflog
+: 1608686632:0;git switch --help
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;git checkout HEAD
+: 1608686632:0;git status
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;git checkout 860020
+: 1608686632:0;git reflog
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;git status
+: 1608686632:0;git checkout -b detached_head 
+: 1608686632:0;git status
+: 1608686632:0;git branch
+: 1608686632:0;git reflog
+: 1608686632:0;git checkout HEAD~0
+: 1608686632:0;git checkout HEAD~1
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;git reflog
+: 1608686632:0;git checkout HEAD
+: 1608686632:0;git checkout HEAD~0
+: 1608686632:0;git checkout HEAD~1
+: 1608686632:0;git checkout HEAD~2
+: 1608686632:0;git checkout HEAD
+: 1608686632:0;git status
+: 1608686632:0;git reflog
+: 1608686632:0;git checkout HEAD@{5}
+: 1608686632:0;git status
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;git checkout master
+: 1608686632:0;git status
+: 1608686632:0;git reflog
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;git checkout HEAD^1
+: 1608686632:0;git log
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;git reflog
+: 1608686632:0;touch second.txt
+: 1608686632:0;git status
+: 1608686632:0;git checkout -b detached_head 
+: 1608686632:0;git checkout -b detached_head1
+: 1608686632:0;ls
+: 1608686632:0;git status
+: 1608686632:0;git add -A && git commit -am "`date` update"
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;git reflog
+: 1608686632:0;git checkout HEAD@{3}
+: 1608686632:0;git checkout master
+: 1608686632:0;git reflog
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;git reflog
+: 1608686632:0;git checkout HEAD^1
+: 1608686632:0;git reflog
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;git reflog
+: 1608686632:0;git reset --hard 79728ef
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;git reflog
+: 1608686632:0;git log --graph --pretty=oneline
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git reflog
+: 1608686632:0;git checkout d86ff01
+: 1608686632:0;git status
+: 1608686632:0;touch third.txt
+: 1608686632:0;git rebase --no-autostash
+: 1608686632:0;git rebase --no-autostash master
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git branch -vv
+: 1608686632:0;git reflog
+: 1608686632:0;git checkout master
+: 1608686632:0;git status
+: 1608686632:0;ls
+: 1608686632:0;git status
+: 1608686632:0;git add -A && git commit -am "`date` update"
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git reflog
+: 1608686632:0;git checkout HEAD^1
+: 1608686632:0;tree .git/refs
+: 1608686632:0;git status
+: 1608686632:0;git checkout -b detached_head2
+: 1608686632:0;git status
+: 1608686632:0;tree .git/refs
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git reflog
+: 1608686632:0;touch fourth.txt
+: 1608686632:0;git add -A && git commit -am ":tada NEW"
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git branch -avv
+: 1608686632:0;git diff HEAD HEAD~1
+: 1608686632:0;cd
+: 1608686632:0;cd ra/repo/apir
+: 1608686632:0;cd RA/REPO/apiary
+: 1608686632:0;git reflog
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git branch -avv
+: 1608686632:0;git diff HEAD HEAD~1
+: 1608686632:0;git diff
+: 1608686632:0;git diff --help
+: 1608686632:0;git diff --color-words
+: 1608686632:0;git diff old_batch_learn master
+: 1608686632:0;ls
+: 1608686632:0;df
+: 1608686632:0;docker system
+: 1608686632:0;docker system info
+: 1608686632:0;docker system 
+: 1608686632:0;docker system events
+: 1608686632:0;docker info
+: 1608686632:0;docker system prune --help
+: 1608686632:0;docker system prune
+: 1608686632:0;dockc
+: 1608686632:0;docker images
+: 1608686632:0;docker system prune
+: 1608686632:0;dockc
+: 1608686632:0;docker images
+: 1608686632:0;dockc
+: 1608686632:0;ls
+: 1608686632:0;cd
+: 1608686632:0;ls
+: 1608686632:0;git clone https://oceanbao@bitbucket.org/oceanbao/learngit.git
+: 1608686632:0;ls
+: 1608686632:0;cd learngit
+: 1608686632:0;ls
+: 1608686632:0;git log
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git branch -avv
+: 1608686632:0;git reflog
+: 1608686632:0;touch first.txt
+: 1608686632:0;echo 
+: 1608686632:0;echo "HAHA" > first.txt
+: 1608686632:0;git add -A
+: 1608686632:0;git commit -am "INIT"\
 "\
 "
-: 1599484424:0;git commit -am "INIT"
-: 1599484481:0;tree .git/refs
-: 1599484498:0;git tag
-: 1599484517:0;git tag -a -m "v0.1.0"
-: 1599484565:0;git tag --help
-: 1599484650:0;git tag -a -m "INITN tag" v0.1.0
-: 1599484652:0;git tag
-: 1599484656:0;git tag -v
-: 1599484677:0;git tag --list
-: 1599484695:0;tree .git/refs
-: 1599484698:0;git log --graph --pretty=oneline --all
-: 1599484775:0;git push --tags origin master
-: 1599484795:0;git log --graph --pretty=oneline --all
-: 1599484799:0;git branch -avv
-: 1599484807:0;git reflog
-: 1599485020:0;git pull --help
-: 1599485173:0;git fetch
-: 1599485189:0;git status
-: 1599485198:0;ls
-: 1599485206:0;git log --graph --pretty=oneline --all
-: 1599485385:0;git fetch origin
-: 1599485403:0;git pull --help
-: 1599485408:0;git status
-: 1599485432:0;git merge v0.1.0
-: 1599485458:0;git merge-tree
-: 1599485478:0;git merge-tree HEAD FETCH_HEAD
-: 1599485493:0;git merge-base
-: 1599485501:0;git merge-base -a
-: 1599485514:0;git merge-base HEAD FETCH_HEAD
-: 1599485520:0;git mergetool
-: 1599485547:0;git merge master
-: 1599485550:0;git merge HEAD
-: 1599485556:0;tree .git/refs
-: 1599485563:0;git merge FETCH_HEAD
-: 1599485571:0;git status
-: 1599485576:0;git pull
-: 1599485592:0;git status
-: 1599485594:0;git log --graph --pretty=oneline --all
-: 1599485601:0;git reflog
-: 1599485635:0;git branch future-plans
-: 1599485642:0;git branch -avv
-: 1599485648:0;git log --graph --pretty=oneline --all
-: 1599485674:0;git checkout HEAD
-: 1599485678:0;git status
-: 1599485685:0;git checkout HEAD~1
-: 1599485689:0;git log --graph --pretty=oneline --all
-: 1599485692:0;git reflog
-: 1599485718:0;git checkout HEAD@{2}
-: 1599485722:0;git status
-: 1599485726:0;git reflog
-: 1599485749:0;git checkout HEAD@{3}
-: 1599485756:0;git log --graph --pretty=oneline --all
-: 1599485758:0;git reflog
-: 1599485787:0;git status
-: 1599485790:0;ls
-: 1599485796:0;git reflog
-: 1599485807:0;git checkout HEAD@{0}
-: 1599485810:0;git status
-: 1599485811:0;ls
-: 1599485816:0;git reflog
-: 1599485834:0;git checkout v0.1.0
-: 1599485838:0;git status
-: 1599485841:0;git reflog
-: 1599485855:0;git checkout HEAD
-: 1599485858:0;git status
-: 1599485860:0;ls
-: 1599485863:0;git reflog
-: 1599485870:0;tree .git/refs
-: 1599485876:0;git checkout future-plans
-: 1599485879:0;git status
-: 1599485883:0;git reflog
-: 1599485887:0;git lo
-: 1599485889:0;git log --graph --pretty=oneline --all
-: 1599485911:0;touch third.txt
-: 1599485915:0;git status
-: 1599485919:0;git add -A
-: 1599485934:0;git commit -am "ADD third.txt"
-: 1599485948:0;git checkout master
-: 1599485954:0;git merge future-plans
-: 1599485957:0;git status
-: 1599485962:0;git branch -avv
-: 1599485971:0;git branch -d future-plans
-: 1599485974:0;git branch -avv
-: 1599485976:0;git reflog
-: 1599485982:0;git log --graph --pretty=oneline --all
-: 1599486007:0;git push origin master
-: 1599486042:0;git reflog
-: 1599486227:0;git fetch origin
-: 1599486245:0;git status
-: 1599486249:0;git reflog
-: 1599486270:0;git log --graph --pretty=oneline --all
-: 1599486284:0;git reflog
-: 1599486322:0;git reflog --all
-: 1599486555:0;git pull --rebase 
-: 1599486571:0;git reflog --all
-: 1599486580:0;git log --graph --pretty=oneline --all
-: 1599486587:0;cd
-: 1599486587:0;ls
-: 1599486591:0;rm -rf learngit
-: 1599487615:0;ssh oceanbao@34.83.188.201\
+: 1608686632:0;git commit -am "INIT"
+: 1608686632:0;tree .git/refs
+: 1608686632:0;git tag
+: 1608686632:0;git tag -a -m "v0.1.0"
+: 1608686632:0;git tag --help
+: 1608686632:0;git tag -a -m "INITN tag" v0.1.0
+: 1608686632:0;git tag
+: 1608686632:0;git tag -v
+: 1608686632:0;git tag --list
+: 1608686632:0;tree .git/refs
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git push --tags origin master
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git branch -avv
+: 1608686632:0;git reflog
+: 1608686632:0;git pull --help
+: 1608686632:0;git fetch
+: 1608686632:0;git status
+: 1608686632:0;ls
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git fetch origin
+: 1608686632:0;git pull --help
+: 1608686632:0;git status
+: 1608686632:0;git merge v0.1.0
+: 1608686632:0;git merge-tree
+: 1608686632:0;git merge-tree HEAD FETCH_HEAD
+: 1608686632:0;git merge-base
+: 1608686632:0;git merge-base -a
+: 1608686632:0;git merge-base HEAD FETCH_HEAD
+: 1608686632:0;git mergetool
+: 1608686632:0;git merge master
+: 1608686632:0;git merge HEAD
+: 1608686632:0;tree .git/refs
+: 1608686632:0;git merge FETCH_HEAD
+: 1608686632:0;git status
+: 1608686632:0;git pull
+: 1608686632:0;git status
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git reflog
+: 1608686632:0;git branch future-plans
+: 1608686632:0;git branch -avv
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git checkout HEAD
+: 1608686632:0;git status
+: 1608686632:0;git checkout HEAD~1
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git reflog
+: 1608686632:0;git checkout HEAD@{2}
+: 1608686632:0;git status
+: 1608686632:0;git reflog
+: 1608686632:0;git checkout HEAD@{3}
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git reflog
+: 1608686632:0;git status
+: 1608686632:0;ls
+: 1608686632:0;git reflog
+: 1608686632:0;git checkout HEAD@{0}
+: 1608686632:0;git status
+: 1608686632:0;ls
+: 1608686632:0;git reflog
+: 1608686632:0;git checkout v0.1.0
+: 1608686632:0;git status
+: 1608686632:0;git reflog
+: 1608686632:0;git checkout HEAD
+: 1608686632:0;git status
+: 1608686632:0;ls
+: 1608686632:0;git reflog
+: 1608686632:0;tree .git/refs
+: 1608686632:0;git checkout future-plans
+: 1608686632:0;git status
+: 1608686632:0;git reflog
+: 1608686632:0;git lo
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;touch third.txt
+: 1608686632:0;git status
+: 1608686632:0;git add -A
+: 1608686632:0;git commit -am "ADD third.txt"
+: 1608686632:0;git checkout master
+: 1608686632:0;git merge future-plans
+: 1608686632:0;git status
+: 1608686632:0;git branch -avv
+: 1608686632:0;git branch -d future-plans
+: 1608686632:0;git branch -avv
+: 1608686632:0;git reflog
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git push origin master
+: 1608686632:0;git reflog
+: 1608686632:0;git fetch origin
+: 1608686632:0;git status
+: 1608686632:0;git reflog
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;git reflog
+: 1608686632:0;git reflog --all
+: 1608686632:0;git pull --rebase 
+: 1608686632:0;git reflog --all
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;cd
+: 1608686632:0;ls
+: 1608686632:0;rm -rf learngit
+: 1608686632:0;ssh oceanbao@34.83.188.201\
 
-: 1599487770:0;ssh oceanbao@34.121.164.255\
+: 1608686632:0;ssh oceanbao@34.121.164.255\
 
-: 1599487973:0;RA/GIG/gig_HKUST
-: 1599487973:0;ls
-: 1599487984:0;mkdir 20200907
-: 1599487987:0;cd 20200907
-: 1599487988:0;ls
-: 1599488038:0;scp oceanbao@34.121.164.255:/home/ubuntu/training/03_main_train_textcat_files data
-: 1599488277:0;scp oceanbao@34.121.164.255:/home/ubuntu/data1.zip data1.zip
-: 1599492906:0;cd
-: 1599492907:0;ls
-: 1599492910:0;df
-: 1599532711:0;df -P
-: 1599535476:0;RA/GIG/gig_HKUST
-: 1599535476:0;ls
-: 1599535480:0;cd 20200907
-: 1599535481:0;ls
-: 1599535492:0;unzip data0.zip
-: 1599536087:0;ls
-: 1599536103:0;mv training/03_main_train_textcat_files/* .
-: 1599536104:0;ls
-: 1599536108:0;rm -rf training
-: 1599536117:0;unzip 'data1 (1).zip'
-: 1599536242:0;ls
-: 1599536256:0;mv training/03_main_train_textcat_files/sentiment .
-: 1599536258:0;ls sentiment
-: 1599536265:0;ls
-: 1599536270:0;rm -rf training
-: 1599536273:0;rm -rf data*
-: 1599536274:0;ls
-: 1599536283:0;ls industry
-: 1599536540:0;ls
-: 1599536570:0;for sha in ./*:\
+: 1608686632:0;RA/GIG/gig_HKUST
+: 1608686632:0;ls
+: 1608686632:0;mkdir 20200907
+: 1608686632:0;cd 20200907
+: 1608686632:0;ls
+: 1608686632:0;scp oceanbao@34.121.164.255:/home/ubuntu/training/03_main_train_textcat_files data
+: 1608686632:0;scp oceanbao@34.121.164.255:/home/ubuntu/data1.zip data1.zip
+: 1608686632:0;cd
+: 1608686632:0;ls
+: 1608686632:0;df
+: 1608686632:0;df -P
+: 1608686632:0;RA/GIG/gig_HKUST
+: 1608686632:0;ls
+: 1608686632:0;cd 20200907
+: 1608686632:0;ls
+: 1608686632:0;unzip data0.zip
+: 1608686632:0;ls
+: 1608686632:0;mv training/03_main_train_textcat_files/* .
+: 1608686632:0;ls
+: 1608686632:0;rm -rf training
+: 1608686632:0;unzip 'data1 (1).zip'
+: 1608686632:0;ls
+: 1608686632:0;mv training/03_main_train_textcat_files/sentiment .
+: 1608686632:0;ls sentiment
+: 1608686632:0;ls
+: 1608686632:0;rm -rf training
+: 1608686632:0;rm -rf data*
+: 1608686632:0;ls
+: 1608686632:0;ls industry
+: 1608686632:0;ls
+: 1608686632:0;for sha in ./*:\
 echo $sha
-: 1599536595:0;for sha in *:\
+: 1608686632:0;for sha in *:\
 echo $sha
-: 1599536621:0;for sha in `ls`:\
+: 1608686632:0;for sha in `ls`:\
 echo $sha
-: 1599536634:0;for sha in `ls`\
+: 1608686632:0;for sha in `ls`\
 echo $sha
-: 1599536639:0;for sha in ./*\
+: 1608686632:0;for sha in ./*\
 echo $sha
-: 1599536649:0;for sha in ./*\
+: 1608686632:0;for sha in ./*\
 echo $sha/shared
-: 1599536657:0;for sha in ./*\
+: 1608686632:0;for sha in ./*\
 echo $sha/shared/input/*
-: 1599536694:0;for sha in ./*\
+: 1608686632:0;for sha in ./*\
 echo mv $sha/shared/* $sha/
-: 1599536698:0;ls
-: 1599536699:0;ls industry
-: 1599536717:0;ls topics
-: 1599536720:0;tree .
-: 1599536727:0;treee .
-: 1599536731:0;treee . -L 3
-: 1599536734:0;treee . -L 4
-: 1599536749:0;for sha in ./*\
+: 1608686632:0;ls
+: 1608686632:0;ls industry
+: 1608686632:0;ls topics
+: 1608686632:0;tree .
+: 1608686632:0;treee .
+: 1608686632:0;treee . -L 3
+: 1608686632:0;treee . -L 4
+: 1608686632:0;for sha in ./*\
 echo mv $sha/shared/input/* $sha/
-: 1599536753:0;treee . -L 4
-: 1599536771:0;ls
-: 1599536800:0;vim -O ./*/shared/input/config.json
-: 1599536834:0;ls
-: 1599536910:0;cd
-: 1599536911:0;ls
-: 1599536915:0;cd RA
-: 1599536915:0;ls
-: 1599536922:0;cd DEV
-: 1599536923:0;ls
-: 1599536924:0;cd
-: 1599536934:0;ls
-: 1599536947:0;dockc
-: 1599536967:0;cd dotfiles
-: 1599536970:0;git status
-: 1599536988:0;vim $HOME/.zshrc
-: 1599537028:0;cd
-: 1599537031:0;ls
-: 1599537076:0;docker exec -it PyDev bash
-: 1599537182:0;dockc
-: 1599547687:0;pgre
-: 1599547939:0;htop
-: 1599551387:0;docker exec -it LwgDev bash
-: 1599551579:0;htop
-: 1599611409:0;dockc
-: 1599611415:0;docker iamges
-: 1599611417:0;docker images
-: 1599611424:0;ls
-: 1599611429:0;ls node_dev
-: 1599611477:0;ls
-: 1599611489:0;ls HACKING
-: 1599611493:0;cd HACKING
-: 1599611494:0;ls
-: 1599611497:0;ls DOCK_IMG
-: 1599611512:0;vim alias.txt
-: 1599611535:0;-
-: 1599611539:0;1
-: 1599611540:0;2
-: 1599611540:0;3
-: 1599611541:0;4
-: 1599611542:0;5
-: 1599611549:0;-
-: 1599611553:0;9
-: 1599611554:0;5
-: 1599611556:0;ls
-: 1599611558:0;vim alias.txt
-: 1599611627:0;whence
-: 1599611630:0;whence pwd
-: 1599611635:0;whence ls
-: 1599611643:0;whence dockc
-: 1599611652:0;vim alias.txt
-: 1599611663:0;ls
-: 1599611669:0;cd blog
-: 1599611671:0;ls
-: 1599611676:0;git branch -avv
-: 1599611688:0;git reflog --all
-: 1599611692:0;git log --graph --pretty=oneline --all
-: 1599611703:0;ls
-: 1599611706:0;..
-: 1599611708:0;ls
-: 1599611713:0;vim garbage.py
-: 1599611922:0;rm garbage.py
-: 1599611922:0;ls
-: 1599611926:0;vim vimQuick.txt
-: 1599612338:0;ls
-: 1599612343:0;ld pdf_demo
-: 1599612346:0;ls pdf_demo
-: 1599612353:0;ls TODO
-: 1599612355:0;ls
-: 1599612360:0;ls Notebook
-: 1599612363:0;cd Notebook
-: 1599612368:0;git status
-: 1599612376:0;git fetch origin
-: 1599612383:0;git status
-: 1599612405:0;git commit -am "EDIT spacy_guide, fastai_imdb"
-: 1599612407:0;git push
-: 1599612416:0;cd
-: 1599612417:0;ls
-: 1599612420:0;cd HACKING
-: 1599612421:0;ls
-: 1599612426:0;ls LEARN
-: 1599612428:0;ls
-: 1599612431:0;ls CODE
-: 1599612451:0;ls CODE/REPO_JS/
-: 1599612463:0;ls
-: 1599612465:0;..
-: 1599612466:0;ls
-: 1599612469:0;cd node_dev
-: 1599612470:0;ls
-: 1599612525:0;vim Makefile
-: 1599612594:0;rm Makefile
-: 1599612596:0;vim promise.js
-: 1599615693:0;mv promise.js ../HACKING/CODE/REPO_JS
-: 1599615696:0;..
-: 1599615701:0;rm -rf node_dev
-: 1599615701:0;ls
-: 1599615704:0;ls copy
-: 1599615709:0;rm -rf copy
-: 1599615710:0;ls
-: 1599615966:0;docker iamges
-: 1599615968:0;docker images
-: 1599617147:0;docker run -it --name Node --mount type=bind,source=/home/oceanbao/HACKING/CODE/REPO_JS,target=/home/oceanbao/ node bash
-: 1599618937:0;l HACKING/CODE/REPO_JS
-: 1599618947:0;l HACKING/CODE/
-: 1599619044:0;id 1001
-: 1599619049:0;id oceanbao
-: 1599619083:0;groups
-: 1599619087:0;groups docker
-: 1599619098:0;getent group docker
-: 1599619106:0;getent group
-: 1599619127:0;id
-: 1599619217:0;htop
-: 1599623806:0;docker ps
-: 1599625210:0;docker commit Node node:dev
-: 1599625237:0;ls
-: 1599625239:0;docker ps
-: 1599625240:0;docker c
-: 1599625243:0;dockc
-: 1599625252:0;docker start Node
-: 1599625255:0;docker ps
-: 1599627401:0;htop
-: 1599703204:0;cd
-: 1599703206:0;tmux
-: 1599703215:0;ls
-: 1599703220:0;dockc
-: 1599705027:0;lsof
-: 1599705029:0;lsof -nP
-: 1599705042:0;lsof -nP +c 15 | grep LISTEN
-: 1599705051:0;lsof -nP +c 15
-: 1599705125:0;namp
-: 1599705127:0;nmap
-: 1599705712:0;docker start Node
-: 1599705721:0;docker exec -it Node bash
-: 1599708628:0;tmux at
-: 1599708634:0;dockc
-: 1599708639:0;sysctl
-: 1599708643:0;systemctl
-: 1599708659:0;man systemctl
-: 1599708708:0;systemctl
-: 1599708716:0;man sysctl
-: 1599708767:0;sysctl -V
-: 1599708771:0;sysctl --version
-: 1599719016:0;cd
-: 1599719018:0;dokc
-: 1599719027:0;docker start Node
-: 1599734151:0;tmux
-: 1599734165:0;docker start LwgDev
-: 1599734924:0;source $HOME/EnvPy/bin/activate
-: 1599734926:0;ptpython
-: 1599898696:0;ls
-: 1599905259:0;git tag --help
-: 1599905289:0;dockc
-: 1599905379:0;docker image
-: 1599905380:0;docker images
-: 1599905395:0;docker start SpaDev
-: 1599905399:0;docker exec -it SpaDev bash
-: 1599905535:0;docker rmi oceanbao/dev:spa
-: 1599905547:0;docker container kill SpaDev
-: 1599905549:0;docker rmi oceanbao/dev:spa
-: 1599905563:0;docker container rm SpaDev
-: 1599905566:0;docker rmi oceanbao/dev:spa
-: 1599905577:0;dockc
-: 1599905584:0;docker start PyDev
-: 1599905586:0;dockc
-: 1599905591:0;docker system prune
-: 1599905598:0;docker imaages
-: 1599905601:0;docker images
-: 1599905620:0;dockc
-: 1599981486:0;cd ra/repo/apir
-: 1599981491:0;RA/REPO/apiary
-: 1599981491:0;ls
-: 1599981495:0;git push --tags
-: 1599981594:0;git status
-: 1599981609:0;git push
-: 1599998028:0;..
-: 1599998029:0;skill
-: 1599998032:0;skill_containers
-: 1599998033:0;ls
-: 1599998041:0;mkdir dockerfiles
-: 1599998054:0;mv Dockerfile_* dockerfiles
-: 1599998055:0;ls
-: 1599998061:0;vim Makefile
-: 1599999618:0;ls
-: 1599999620:0;git status
-: 1599999626:0;ls
-: 1599999629:0;cd dockerfiles
-: 1599999630:0;ls
-: 1599999633:0;vim Dockerfile_base_spacy
-: 1599999640:0;rm Dockerfile_base_spacy
-: 1599999641:0;ls
-: 1599999642:0;..
-: 1599999643:0;ls
-: 1599999651:0;git status
-: 1599999656:0;git add -A
-: 1599999658:0;git status
-: 1599999784:0;git commit -am "UPDATE README"
-: 1599999818:0;git tag -a v1.0.0 -m "INIT: push tag"
-: 1599999841:0;git push 
-: 1599999854:0;git push --tags
-: 1600052018:0;dockc
-: 1600071758:0;..
-: 1600071760:0;dockc
-: 1600071763:0;docker iamges
-: 1600071765:0;docker images
-: 1600071792:0;docker pull scrapinghub/splash
-: 1600072011:0;docker images
-: 1600072047:0;docker run -it -p 8050:8050 --rm scrapinghub/splash
-: 1600072078:0;docker start --help
-: 1600072118:0;dockc
-: 1600072135:0;docker images
-: 1600072146:0;docker commit PyDev oceanbao/dev:PyDev
-: 1600072181:0;docker container kill PyDev
-: 1600072220:0;cd
-: 1600072245:0;docker run --rm ping
-: 1600072313:0;docker run -it --name PyDev --mount type=bind,source=/home/oceanbao/RA,target=/home/oceanbao/RA -p 8050:8050 oceanbao/dev:PyDev bash
-: 1600072319:0;docker container rm PyDev
-: 1600072323:0;docker run -it --name PyDev --mount type=bind,source=/home/oceanbao/RA,target=/home/oceanbao/RA -p 8050:8050 oceanbao/dev:PyDev bash
-: 1600072422:0;docker docker run --help
-: 1600072439:0;docker run --help
-: 1600072589:0;docker run -it --name PyDev --mount type=bind,source=/home/oceanbao/RA,target=/home/oceanbao/RA --network=host oceanbao/dev:PyDev bash
-: 1600072593:0;docker container rm PyDev
-: 1600072594:0;docker run -it --name PyDev --mount type=bind,source=/home/oceanbao/RA,target=/home/oceanbao/RA --network=host oceanbao/dev:PyDev bash
-: 1600153003:0;ls
-: 1600153005:0;dockc
-: 1600153018:0;docker images
-: 1600153039:0;docker commit LwgDev oceanbao/dev:lwg
-: 1600153117:0;docker container stop LwgDev
-: 1600153138:0;dockc
-: 1600153148:0;docker container rm LwgDev
-: 1600153154:0;docker system prune
-: 1600153162:0;docker images
-: 1600153171:0;dev
-: 1600153172:0;ls
-: 1600174603:0;docker stack
-: 1600174606:0;docker machine
-: 1600174610:0;docker-machine
-: 1600174626:0;dockerd
-: 1600174724:0;pgrep -a dockerd
-: 1600174726:0;pgrep -a docker
-: 1600174756:0;docker stack
-: 1600174778:0;docker stack ps
-: 1600174782:0;docker stack ls
-: 1600174798:0;docker stack services
-: 1600223946:0;docker info | grep "driver"
-: 1600223957:0;docker info | cat 
-: 1600223963:0;docker info | cat | grep "driver"
-: 1600223974:0;docker info
-: 1600223985:0;docker info | grep "Driver"
-: 1600225161:0;ls
-: 1600225167:0;git clone https://github.com/kartheekgottipati/Docker-compose-flask-redis-deploy.git
-: 1600225172:0;ls
-: 1600225174:0;cd Docker
-: 1600225181:0;cd Docker-compose-flask-redis-deploy
-: 1600225182:0;ls
-: 1600225197:0;docker stack deploy -c docker-compose.yml demo
-: 1600225204:0;docker swarm init
-: 1600225230:0;docker ps
-: 1600225235:0;dockc
-: 1600225247:0;docker stack ls
-: 1600225249:0;docker stack ps
-: 1600225255:0;docker stack services
-: 1600225259:0;docker stack services demo
-: 1600225299:0;docker stack deploy -c docker-compose.yml demo
-: 1600225320:0;.
-: 1600225321:0;..
-: 1600225321:0;ls
-: 1600225326:0;cd crawlerstack
-: 1600225326:0;ls
-: 1600225330:0;vim config.yml
-: 1600225346:0;../Docker-compose-flask-redis-deploy
-: 1600225347:0;ls
-: 1600225354:0;vim docker-compose.yml
-: 1600225403:0;dockb -t flask:demo .
-: 1600225447:0;ls
-: 1600225451:0;docker stack deploy -c docker-compose.yml demo
-: 1600225479:0;docker stack ls
-: 1600225485:0;docker stack services demo
-: 1600226086:0;curl localhost:5000
-: 1600226127:0;docker service logs ls
-: 1600226132:0;docker service ls
-: 1600226148:0;docker service logs demo_web
-: 1600226243:0;docker service logs demo_radis
-: 1600226248:0;docker service logs demo_redis
-: 1600226299:0;docker service logs demo_radis -t
-: 1600226305:0;docker service logs demo_web -t
-: 1600226379:0;docker service logs demo_web -t --details
-: 1600226388:0;docker service logs demo_web -t --follow
-: 1600226657:0;docker service logs demo_web -t --raw
-: 1600226699:0;docker service logs demo_web -t --raw --no-trunc
-: 1600226723:0;docker service logs demo_web -t --raw --tail 2
-: 1600226966:0;docker plugin
-: 1600226982:0;docker plugin ls
-: 1600227463:0;NN=100 while [[ $NN -gt 0 ]];
-: 1600227477:0;NN=100
-: 1600227479:0;$NN
-: 1600227484:0;echo $NN
-: 1600227494:0;NN=$NN-1
-: 1600227496:0;echo $NN
-: 1600227510:0;NN=(($NN-1))
-: 1600227516:0;NN=(($NN - 1))
-: 1600227525:0;1 + 2
-: 1600227530:0;(1 + 2)
-: 1600227533:0;((1 + 2))
-: 1600227540:0;echo ((1 + 2))
-: 1600227560:0;ptpython
-: 1600227594:0;docker service logs demo_web -t --raw
-: 1600234018:0;docker service logs --timestamps --raw demo_web
-: 1600234025:0;docker service logs --timestamps --raw demo_redix
-: 1600234028:0;docker service logs --timestamps --raw demo_radix
-: 1600234031:0;docker service logs --timestamps --raw demo_redis
-: 1600234067:0;ls
-: 1600234074:0;docker volume
-: 1600234076:0;docker volume ls
-: 1600234093:0;docker volume inspect c6d
-: 1600234097:0;docker volume inspect c6d4
-: 1600234099:0;docker volume inspect c6d4c
-: 1600234105:0;docker volume inspect c6d4cd272c27c837a6486a53cc9c5896bd483b2742e83c678a44ecc101b0658c
-: 1600234116:0;dockc
-: 1600234151:0;ls
-: 1600234233:0;vim docker-compose.yml
-: 1600234399:0;docker service ls
-: 1600234416:0;docker service scale demo_web=5
-: 1600234435:0;docker service ls
-: 1600234442:0;curl localhost:5000
-: 1600234457:0;docker service logs --timestamps --raw demo_web
-: 1600234527:0;curl localhost:5000
-: 1600234529:0;docker service logs --timestamps --raw demo_web
-: 1600234663:0;curl
-: 1600234666:0;curl localhost:5000
-: 1600234673:0;docker service logs --timestamps --raw demo_web
-: 1600234704:0;docker service logs --timestamps --raw demo_web --tail 5
-: 1600234763:0;docker service logs --timestamps --raw demo_web --tail 2
-: 1600234899:0;docker service logs --timestamps --raw demo_web --tail 1
-: 1600234908:0;docker service logs --timestamps --raw demo_web --tail 2
-: 1600234912:0;docker service logs --timestamps --raw demo_web --tail 1
-: 1600235293:0;dockc
-: 1600235314:0;docker logs demo_web.2
-: 1600235321:0;docker logs demo_web.2.*
-: 1600235339:0;docker logs demo_web.2.xq8j6sc7lav8ig8732rd97ksd --raw -t 
-: 1600235342:0;docker logs demo_web.2.xq8j6sc7lav8ig8732rd97ksd -t
-: 1600235882:0;docker service ls
-: 1600235888:0;docker service ps
-: 1600235893:0;docker service ps demo_web
-: 1600235902:0;docker logs demo_web.1
-: 1600235916:0;docker logs wx9k
-: 1600235952:0;docker ls
-: 1600235954:0;docker ps
-: 1600235969:0;docker logs --help
-: 1600236013:0;docker logs cdbfef9469c9
-: 1600242831:0;docker version
-: 1600243022:0;docker df
-: 1600243695:0;docker ps
-: 1600243730:0;docker container pause demo_web
-: 1600243739:0;docker container pause demo_redis.1.pu1aolzsj892uhxxfgm49lnng
-: 1600243742:0;docker ps
-: 1600243749:0;curl localhost:5000
-: 1600243814:0;docker container unpause demo_redis.1.pu1aolzsj892uhxxfgm49lnng
-: 1600243996:0;docker kill demo_web.5.qr94cvs2954omnbx057lq1e2t
-: 1600243999:0;docker ps
-: 1600244005:0;docker service ps demo_web
-: 1600244026:0;docker service ps 
-: 1600244028:0;docker service ps demo_web
-: 1600244037:0;docker ps
-: 1600244078:0;docker logs demo_web.5.qr94cvs2954omnbx057lq1e2t
-: 1600244099:0;docker logs cdbfef9469c9
-: 1600244130:0;docker ps
-: 1600244140:0;docker ps --all
-: 1600244228:0;docker container stats demo_redis.1.pu1aolzsj892uhxxfgm49lnng
-: 1600244276:0;docker container stats demo_redis.1.pu1aolzsj892uhxxfgm49lnng > dele.txt
-: 1600244283:0;vim dele.txt
-: 1600244298:0;rm dele.txt
-: 1600244299:0;ls
-: 1600244772:0;docker stats
-: 1600246244:0;ls
-: 1600246246:0;..
-: 1600246246:0;ls
-: 1600246252:0;mkdir dele
-: 1600246253:0;cd dele
-: 1600246254:0;ls
-: 1600246255:0;VERSION=v0.36.0 # use the latest release version from https://github.com/google/cadvisor/releases
-: 1600246258:0;sudo docker run \\
+: 1608686632:0;treee . -L 4
+: 1608686632:0;ls
+: 1608686632:0;vim -O ./*/shared/input/config.json
+: 1608686632:0;ls
+: 1608686632:0;cd
+: 1608686632:0;ls
+: 1608686632:0;cd RA
+: 1608686632:0;ls
+: 1608686632:0;cd DEV
+: 1608686632:0;ls
+: 1608686632:0;cd
+: 1608686632:0;ls
+: 1608686632:0;dockc
+: 1608686632:0;cd dotfiles
+: 1608686632:0;git status
+: 1608686632:0;vim $HOME/.zshrc
+: 1608686632:0;cd
+: 1608686632:0;ls
+: 1608686632:0;docker exec -it PyDev bash
+: 1608686632:0;dockc
+: 1608686632:0;pgre
+: 1608686632:0;htop
+: 1608686632:0;docker exec -it LwgDev bash
+: 1608686632:0;htop
+: 1608686632:0;dockc
+: 1608686632:0;docker iamges
+: 1608686632:0;docker images
+: 1608686632:0;ls
+: 1608686632:0;ls node_dev
+: 1608686632:0;ls
+: 1608686632:0;ls HACKING
+: 1608686632:0;cd HACKING
+: 1608686632:0;ls
+: 1608686632:0;ls DOCK_IMG
+: 1608686632:0;vim alias.txt
+: 1608686632:0;-
+: 1608686632:0;1
+: 1608686632:0;2
+: 1608686632:0;3
+: 1608686632:0;4
+: 1608686632:0;5
+: 1608686632:0;-
+: 1608686632:0;9
+: 1608686632:0;5
+: 1608686632:0;ls
+: 1608686632:0;vim alias.txt
+: 1608686632:0;whence
+: 1608686632:0;whence pwd
+: 1608686632:0;whence ls
+: 1608686632:0;whence dockc
+: 1608686632:0;vim alias.txt
+: 1608686632:0;ls
+: 1608686632:0;cd blog
+: 1608686632:0;ls
+: 1608686632:0;git branch -avv
+: 1608686632:0;git reflog --all
+: 1608686632:0;git log --graph --pretty=oneline --all
+: 1608686632:0;ls
+: 1608686632:0;..
+: 1608686632:0;ls
+: 1608686632:0;vim garbage.py
+: 1608686632:0;rm garbage.py
+: 1608686632:0;ls
+: 1608686632:0;vim vimQuick.txt
+: 1608686632:0;ls
+: 1608686632:0;ld pdf_demo
+: 1608686632:0;ls pdf_demo
+: 1608686632:0;ls TODO
+: 1608686632:0;ls
+: 1608686632:0;ls Notebook
+: 1608686632:0;cd Notebook
+: 1608686632:0;git status
+: 1608686632:0;git fetch origin
+: 1608686632:0;git status
+: 1608686632:0;git commit -am "EDIT spacy_guide, fastai_imdb"
+: 1608686632:0;git push
+: 1608686632:0;cd
+: 1608686632:0;ls
+: 1608686632:0;cd HACKING
+: 1608686632:0;ls
+: 1608686632:0;ls LEARN
+: 1608686632:0;ls
+: 1608686632:0;ls CODE
+: 1608686632:0;ls CODE/REPO_JS/
+: 1608686632:0;ls
+: 1608686632:0;..
+: 1608686632:0;ls
+: 1608686632:0;cd node_dev
+: 1608686632:0;ls
+: 1608686632:0;vim Makefile
+: 1608686632:0;rm Makefile
+: 1608686632:0;vim promise.js
+: 1608686632:0;mv promise.js ../HACKING/CODE/REPO_JS
+: 1608686632:0;..
+: 1608686632:0;rm -rf node_dev
+: 1608686632:0;ls
+: 1608686632:0;ls copy
+: 1608686632:0;rm -rf copy
+: 1608686632:0;ls
+: 1608686632:0;docker iamges
+: 1608686632:0;docker images
+: 1608686632:0;docker run -it --name Node --mount type=bind,source=/home/oceanbao/HACKING/CODE/REPO_JS,target=/home/oceanbao/ node bash
+: 1608686632:0;l HACKING/CODE/REPO_JS
+: 1608686632:0;l HACKING/CODE/
+: 1608686632:0;id 1001
+: 1608686632:0;id oceanbao
+: 1608686632:0;groups
+: 1608686632:0;groups docker
+: 1608686632:0;getent group docker
+: 1608686632:0;getent group
+: 1608686632:0;id
+: 1608686632:0;htop
+: 1608686632:0;docker ps
+: 1608686632:0;docker commit Node node:dev
+: 1608686632:0;ls
+: 1608686632:0;docker ps
+: 1608686632:0;docker c
+: 1608686632:0;dockc
+: 1608686632:0;docker start Node
+: 1608686632:0;docker ps
+: 1608686632:0;htop
+: 1608686632:0;cd
+: 1608686632:0;tmux
+: 1608686632:0;ls
+: 1608686632:0;dockc
+: 1608686632:0;lsof
+: 1608686632:0;lsof -nP
+: 1608686632:0;lsof -nP +c 15 | grep LISTEN
+: 1608686632:0;lsof -nP +c 15
+: 1608686632:0;namp
+: 1608686632:0;nmap
+: 1608686632:0;docker start Node
+: 1608686632:0;docker exec -it Node bash
+: 1608686632:0;tmux at
+: 1608686632:0;dockc
+: 1608686632:0;sysctl
+: 1608686632:0;systemctl
+: 1608686632:0;man systemctl
+: 1608686632:0;systemctl
+: 1608686632:0;man sysctl
+: 1608686632:0;sysctl -V
+: 1608686632:0;sysctl --version
+: 1608686632:0;cd
+: 1608686632:0;dokc
+: 1608686632:0;docker start Node
+: 1608686632:0;tmux
+: 1608686632:0;docker start LwgDev
+: 1608686632:0;source $HOME/EnvPy/bin/activate
+: 1608686632:0;ptpython
+: 1608686632:0;ls
+: 1608686632:0;git tag --help
+: 1608686632:0;dockc
+: 1608686632:0;docker image
+: 1608686632:0;docker images
+: 1608686632:0;docker start SpaDev
+: 1608686632:0;docker exec -it SpaDev bash
+: 1608686632:0;docker rmi oceanbao/dev:spa
+: 1608686632:0;docker container kill SpaDev
+: 1608686632:0;docker rmi oceanbao/dev:spa
+: 1608686632:0;docker container rm SpaDev
+: 1608686632:0;docker rmi oceanbao/dev:spa
+: 1608686632:0;dockc
+: 1608686632:0;docker start PyDev
+: 1608686632:0;dockc
+: 1608686632:0;docker system prune
+: 1608686632:0;docker imaages
+: 1608686632:0;docker images
+: 1608686632:0;dockc
+: 1608686632:0;cd ra/repo/apir
+: 1608686632:0;RA/REPO/apiary
+: 1608686632:0;ls
+: 1608686632:0;git push --tags
+: 1608686632:0;git status
+: 1608686632:0;git push
+: 1608686632:0;..
+: 1608686632:0;skill
+: 1608686632:0;skill_containers
+: 1608686632:0;ls
+: 1608686632:0;mkdir dockerfiles
+: 1608686632:0;mv Dockerfile_* dockerfiles
+: 1608686632:0;ls
+: 1608686632:0;vim Makefile
+: 1608686632:0;ls
+: 1608686632:0;git status
+: 1608686632:0;ls
+: 1608686632:0;cd dockerfiles
+: 1608686632:0;ls
+: 1608686632:0;vim Dockerfile_base_spacy
+: 1608686632:0;rm Dockerfile_base_spacy
+: 1608686632:0;ls
+: 1608686632:0;..
+: 1608686632:0;ls
+: 1608686632:0;git status
+: 1608686632:0;git add -A
+: 1608686632:0;git status
+: 1608686632:0;git commit -am "UPDATE README"
+: 1608686632:0;git tag -a v1.0.0 -m "INIT: push tag"
+: 1608686632:0;git push 
+: 1608686632:0;git push --tags
+: 1608686632:0;dockc
+: 1608686632:0;..
+: 1608686632:0;dockc
+: 1608686632:0;docker iamges
+: 1608686632:0;docker images
+: 1608686632:0;docker pull scrapinghub/splash
+: 1608686632:0;docker images
+: 1608686632:0;docker run -it -p 8050:8050 --rm scrapinghub/splash
+: 1608686632:0;docker start --help
+: 1608686632:0;dockc
+: 1608686632:0;docker images
+: 1608686632:0;docker commit PyDev oceanbao/dev:PyDev
+: 1608686632:0;docker container kill PyDev
+: 1608686632:0;cd
+: 1608686632:0;docker run --rm ping
+: 1608686632:0;docker run -it --name PyDev --mount type=bind,source=/home/oceanbao/RA,target=/home/oceanbao/RA -p 8050:8050 oceanbao/dev:PyDev bash
+: 1608686632:0;docker container rm PyDev
+: 1608686632:0;docker run -it --name PyDev --mount type=bind,source=/home/oceanbao/RA,target=/home/oceanbao/RA -p 8050:8050 oceanbao/dev:PyDev bash
+: 1608686632:0;docker docker run --help
+: 1608686632:0;docker run --help
+: 1608686632:0;docker run -it --name PyDev --mount type=bind,source=/home/oceanbao/RA,target=/home/oceanbao/RA --network=host oceanbao/dev:PyDev bash
+: 1608686632:0;docker container rm PyDev
+: 1608686632:0;docker run -it --name PyDev --mount type=bind,source=/home/oceanbao/RA,target=/home/oceanbao/RA --network=host oceanbao/dev:PyDev bash
+: 1608686632:0;ls
+: 1608686632:0;dockc
+: 1608686632:0;docker images
+: 1608686632:0;docker commit LwgDev oceanbao/dev:lwg
+: 1608686632:0;docker container stop LwgDev
+: 1608686632:0;dockc
+: 1608686632:0;docker container rm LwgDev
+: 1608686632:0;docker system prune
+: 1608686632:0;docker images
+: 1608686632:0;dev
+: 1608686632:0;ls
+: 1608686632:0;docker stack
+: 1608686632:0;docker machine
+: 1608686632:0;docker-machine
+: 1608686632:0;dockerd
+: 1608686632:0;pgrep -a dockerd
+: 1608686632:0;pgrep -a docker
+: 1608686632:0;docker stack
+: 1608686632:0;docker stack ps
+: 1608686632:0;docker stack ls
+: 1608686632:0;docker stack services
+: 1608686632:0;docker info | grep "driver"
+: 1608686632:0;docker info | cat 
+: 1608686632:0;docker info | cat | grep "driver"
+: 1608686632:0;docker info
+: 1608686632:0;docker info | grep "Driver"
+: 1608686632:0;ls
+: 1608686632:0;git clone https://github.com/kartheekgottipati/Docker-compose-flask-redis-deploy.git
+: 1608686632:0;ls
+: 1608686632:0;cd Docker
+: 1608686632:0;cd Docker-compose-flask-redis-deploy
+: 1608686632:0;ls
+: 1608686632:0;docker stack deploy -c docker-compose.yml demo
+: 1608686632:0;docker swarm init
+: 1608686632:0;docker ps
+: 1608686632:0;dockc
+: 1608686632:0;docker stack ls
+: 1608686632:0;docker stack ps
+: 1608686632:0;docker stack services
+: 1608686632:0;docker stack services demo
+: 1608686632:0;docker stack deploy -c docker-compose.yml demo
+: 1608686632:0;.
+: 1608686632:0;..
+: 1608686632:0;ls
+: 1608686632:0;cd crawlerstack
+: 1608686632:0;ls
+: 1608686632:0;vim config.yml
+: 1608686632:0;../Docker-compose-flask-redis-deploy
+: 1608686632:0;ls
+: 1608686632:0;vim docker-compose.yml
+: 1608686632:0;dockb -t flask:demo .
+: 1608686632:0;ls
+: 1608686632:0;docker stack deploy -c docker-compose.yml demo
+: 1608686632:0;docker stack ls
+: 1608686632:0;docker stack services demo
+: 1608686632:0;curl localhost:5000
+: 1608686632:0;docker service logs ls
+: 1608686632:0;docker service ls
+: 1608686632:0;docker service logs demo_web
+: 1608686632:0;docker service logs demo_radis
+: 1608686632:0;docker service logs demo_redis
+: 1608686632:0;docker service logs demo_radis -t
+: 1608686632:0;docker service logs demo_web -t
+: 1608686632:0;docker service logs demo_web -t --details
+: 1608686632:0;docker service logs demo_web -t --follow
+: 1608686632:0;docker service logs demo_web -t --raw
+: 1608686632:0;docker service logs demo_web -t --raw --no-trunc
+: 1608686632:0;docker service logs demo_web -t --raw --tail 2
+: 1608686632:0;docker plugin
+: 1608686632:0;docker plugin ls
+: 1608686632:0;NN=100 while [[ $NN -gt 0 ]];
+: 1608686632:0;NN=100
+: 1608686632:0;$NN
+: 1608686632:0;echo $NN
+: 1608686632:0;NN=$NN-1
+: 1608686632:0;echo $NN
+: 1608686632:0;NN=(($NN-1))
+: 1608686632:0;NN=(($NN - 1))
+: 1608686632:0;1 + 2
+: 1608686632:0;(1 + 2)
+: 1608686632:0;((1 + 2))
+: 1608686632:0;echo ((1 + 2))
+: 1608686632:0;ptpython
+: 1608686632:0;docker service logs demo_web -t --raw
+: 1608686632:0;docker service logs --timestamps --raw demo_web
+: 1608686632:0;docker service logs --timestamps --raw demo_redix
+: 1608686632:0;docker service logs --timestamps --raw demo_radix
+: 1608686632:0;docker service logs --timestamps --raw demo_redis
+: 1608686632:0;ls
+: 1608686632:0;docker volume
+: 1608686632:0;docker volume ls
+: 1608686632:0;docker volume inspect c6d
+: 1608686632:0;docker volume inspect c6d4
+: 1608686632:0;docker volume inspect c6d4c
+: 1608686632:0;docker volume inspect c6d4cd272c27c837a6486a53cc9c5896bd483b2742e83c678a44ecc101b0658c
+: 1608686632:0;dockc
+: 1608686632:0;ls
+: 1608686632:0;vim docker-compose.yml
+: 1608686632:0;docker service ls
+: 1608686632:0;docker service scale demo_web=5
+: 1608686632:0;docker service ls
+: 1608686632:0;curl localhost:5000
+: 1608686632:0;docker service logs --timestamps --raw demo_web
+: 1608686632:0;curl localhost:5000
+: 1608686632:0;docker service logs --timestamps --raw demo_web
+: 1608686632:0;curl
+: 1608686632:0;curl localhost:5000
+: 1608686632:0;docker service logs --timestamps --raw demo_web
+: 1608686632:0;docker service logs --timestamps --raw demo_web --tail 5
+: 1608686632:0;docker service logs --timestamps --raw demo_web --tail 2
+: 1608686632:0;docker service logs --timestamps --raw demo_web --tail 1
+: 1608686632:0;docker service logs --timestamps --raw demo_web --tail 2
+: 1608686632:0;docker service logs --timestamps --raw demo_web --tail 1
+: 1608686632:0;dockc
+: 1608686632:0;docker logs demo_web.2
+: 1608686632:0;docker logs demo_web.2.*
+: 1608686632:0;docker logs demo_web.2.xq8j6sc7lav8ig8732rd97ksd --raw -t 
+: 1608686632:0;docker logs demo_web.2.xq8j6sc7lav8ig8732rd97ksd -t
+: 1608686632:0;docker service ls
+: 1608686632:0;docker service ps
+: 1608686632:0;docker service ps demo_web
+: 1608686632:0;docker logs demo_web.1
+: 1608686632:0;docker logs wx9k
+: 1608686632:0;docker ls
+: 1608686632:0;docker ps
+: 1608686632:0;docker logs --help
+: 1608686632:0;docker logs cdbfef9469c9
+: 1608686632:0;docker version
+: 1608686632:0;docker df
+: 1608686632:0;docker ps
+: 1608686632:0;docker container pause demo_web
+: 1608686632:0;docker container pause demo_redis.1.pu1aolzsj892uhxxfgm49lnng
+: 1608686632:0;docker ps
+: 1608686632:0;curl localhost:5000
+: 1608686632:0;docker container unpause demo_redis.1.pu1aolzsj892uhxxfgm49lnng
+: 1608686632:0;docker kill demo_web.5.qr94cvs2954omnbx057lq1e2t
+: 1608686632:0;docker ps
+: 1608686632:0;docker service ps demo_web
+: 1608686632:0;docker service ps 
+: 1608686632:0;docker service ps demo_web
+: 1608686632:0;docker ps
+: 1608686632:0;docker logs demo_web.5.qr94cvs2954omnbx057lq1e2t
+: 1608686632:0;docker logs cdbfef9469c9
+: 1608686632:0;docker ps
+: 1608686632:0;docker ps --all
+: 1608686632:0;docker container stats demo_redis.1.pu1aolzsj892uhxxfgm49lnng
+: 1608686632:0;docker container stats demo_redis.1.pu1aolzsj892uhxxfgm49lnng > dele.txt
+: 1608686632:0;vim dele.txt
+: 1608686632:0;rm dele.txt
+: 1608686632:0;ls
+: 1608686632:0;docker stats
+: 1608686632:0;ls
+: 1608686632:0;..
+: 1608686632:0;ls
+: 1608686632:0;mkdir dele
+: 1608686632:0;cd dele
+: 1608686632:0;ls
+: 1608686632:0;VERSION=v0.36.0 # use the latest release version from https://github.com/google/cadvisor/releases
+: 1608686632:0;sudo docker run \\
   --volume=/:/rootfs:ro \\
   --volume=/var/run:/var/run:ro \\
   --volume=/sys:/sys:ro \\
@@ -1431,22 +767,22 @@ echo mv $sha/shared/input/* $sha/
   --privileged \\
   --device=/dev/kmsg \\
   gcr.io/cadvisor/cadvisor:$VERSION
-: 1600246326:0;docker ps
-: 1600246520:0;docker kill cadvisor
-: 1600246525:0;docker container rm cadvisor
-: 1600246528:0;docker images
-: 1600246545:0;docker
-: 1600246553:0;docker ps
-: 1600246558:0;docker
-: 1600246595:0;sudo docker
-: 1600246597:0;docker
-: 1600246628:0;cd
-: 1600246628:0;ls
-: 1600246631:0;docker
-: 1600246641:0;dockc
-: 1600246642:0;docker
-: 1600246903:0;VERSION=v0.36.0 # use the latest release version from https://github.com/google/cadvisor/releases
-: 1600246910:0;sudo docker run \\
+: 1608686632:0;docker ps
+: 1608686632:0;docker kill cadvisor
+: 1608686632:0;docker container rm cadvisor
+: 1608686632:0;docker images
+: 1608686632:0;docker
+: 1608686632:0;docker ps
+: 1608686632:0;docker
+: 1608686632:0;sudo docker
+: 1608686632:0;docker
+: 1608686632:0;cd
+: 1608686632:0;ls
+: 1608686632:0;docker
+: 1608686632:0;dockc
+: 1608686632:0;docker
+: 1608686632:0;VERSION=v0.36.0 # use the latest release version from https://github.com/google/cadvisor/releases
+: 1608686632:0;sudo docker run \\
   --volume=/:/rootfs:ro \\
   --volume=/var/run:/var/run:ro \\
   --volume=/sys:/sys:ro \\
@@ -1458,189 +794,2096 @@ echo mv $sha/shared/input/* $sha/
   --privileged \\
   --device=/dev/kmsg \
 : 1600246912:0;docker
-: 1600246921:0;dockc
-: 1600246922:0;docker
-: 1600246925:0;which docker
-: 1600246932:0;whereis docker
-: 1600246940:0;/usr/bin/docker
-: 1600247098:0;/mnt/c/ProgramData/DockerDesktop/version-bin/docker
-: 1600247203:0;ps
-: 1600247308:0;docker 
-: 1600247411:0;docker
-: 1600247507:0;whereis docker
-: 1600247514:0;/usr/libexec/docker
-: 1600247518:0;ls
-: 1600247520:0;cd
-: 1600247521:0;ls
-: 1600247530:0;/mnt/c/ProgramData/DockerDesktop/version-bin/docker.exe
-: 1600247539:0;/mnt/c/ProgramData/DockerDesktop/version-bin/docker.exe container ls -a
-: 1600247569:0;ls
-: 1600247572:0;whereis docker
-: 1600247737:0;cd
-: 1600247740:0;docker
-: 1600247744:0;dockc
-: 1600247755:0;docker start PyDev
-: 1600247764:0;dockc
-: 1600247765:0;docker images
-: 1600247784:0;docker system prune
-: 1600247789:0;dockc
-: 1600247799:0;docker images
-: 1600247813:0;docker rmi demo_dockerfile:latest
-: 1600247830:0;docker rmi node:latest
-: 1600247840:0;docker rmi gcr.io/cadvisor/cadvisor:v0.36.0
-: 1600247843:0;docker images
-: 1600247846:0;docker system prune
-: 1600247851:0;docker images
-: 1600247861:0;dockc
-: 1600247867:0;docker service ps demo_web
-: 1600247879:0;docker service ls
-: 1600247882:0;docker service  ps
-: 1600247889:0;docker service ps demo_redis
-: 1600247893:0;docker ps
-: 1600249114:0;ls
-: 1600249119:0;RA/DEV
-: 1600249119:0;ls
-: 1600249120:0;dev
-: 1600249123:0;cd dev
-: 1600249127:0;cd RA_Dev
-: 1600249127:0;ls
-: 1600249166:0;source $HOME/EnvPy/bin/activate
-: 1600249167:0;ls
-: 1600249170:0;ptpython
-: 1600266006:0;tmux
-: 1600266022:0;dockc
-: 1600266031:0;docker exec -it PyDev bash
-: 1600266120:0;docker start Node
-: 1600266125:0;docker images
-: 1600266139:0;docker run -it --name Node --mount type=bind,source=/home/oceanbao/HACKING/CODE/REPO_JS,target=/home/oceanbao/ node bash
-: 1600266147:0;docker run -it --name Node --mount type=bind,source=/home/oceanbao/HACKING/CODE/REPO_JS,target=/home/oceanbao/ node:dev bash
-: 1600267519:0;docker exec -it PyDev bash
-: 1600267622:0;docker stats PyDev
-: 1600268486:0;htop
-: 1600311334:0;cd
-: 1600311335:0;ls
-: 1600311338:0;pwd
-: 1600311814:0;docker
-: 1600311816:0;dockc
-: 1600315581:0;docker volume create portainer_data
-: 1600315634:0;docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
-: 1600317720:0;dockc
-: 1600318015:0;RA/DEV/RA_Dev
-: 1600318016:0;ls
-: 1600318019:0;cd crawlerstack/did
-: 1600318019:0;ls
-: 1600318021:0;vim Dockerfile
-: 1600318041:0;docker images
-: 1600318051:0;ls
-: 1600318068:0;dockb -t did .
-: 1600318338:0;ls
-: 1600318343:0;git staus
-: 1600318346:0;git status
-: 1600318353:0;cd
-: 1600318355:0;docker images
-: 1600318401:0;docker run -it --name did /var/run/docker.sock:/var/run/docker.sock did bash
-: 1600318412:0;docker run -it --name did -v /var/run/docker.sock:/var/run/docker.sock did bash
-: 1600318429:0;cd
-: 1600318432:0;cd dotfiles
-: 1600318434:0;git status
-: 1600318455:0;ls
-: 1600318467:0;vim Makefile
-: 1600318475:0;make update
-: 1602767770:0;ls
-: 1602767774:0;g++ -v
-: 1602767840:0;ls
-: 1602767847:0;cd dele_js_runner
-: 1602767847:0;ls
-: 1602767850:0;node
-: 1602767852:0;ls
-: 1602767859:0;..
-: 1602767860:0;ls
-: 1602768023:0;ls ProgramizDSA/Stack
-: 1602768066:0;ls
-: 1602810065:0;l
-: 1602810066:0;ls
-: 1603159126:0;l
-: 1603159128:0;ls
-: 1603159151:0;rm *.class
-: 1603159152:0;ls
-: 1603159156:0;rm *.java
-: 1603159156:0;ls
-: 1603159164:0;cd Hack
-: 1603159169:0;cd HackerEarth
-: 1603159170:0;ls
-: 1603159172:0;ls welcome
-: 1603159179:0;rm -r welcome
-: 1603159180:0;ls
-: 1603159181:0;..
-: 1603159181:0;ls
-: 1603159187:0;cd ProgramizDSA
-: 1603159188:0;ls
-: 1603159192:0;tree
-: 1603159199:5;sudo apt update
-: 1603159212:3;sudo apt install tree
-: 1603159217:0;tree .
-: 1603159277:0;cd
-: 1603159277:0;ls
-: 1603159283:0;node
-: 1603159428:9;wget https://nodejs.org/dist/v12.19.0/node-v12.19.0-linux-x64.tar.xz
-: 1603159438:0;ls
-: 1603159455:0;tar -xzf node-v12.19.0-linux-x64.tar.xz
-: 1603159463:1;tar -xf node-v12.19.0-linux-x64.tar.xz
-: 1603159465:0;ls
-: 1603159468:0;cd node-v12.19.0-linux-x64
-: 1603159469:0;ls
-: 1603159477:46;vim README.md
-: 1603159524:0;ls
-: 1603159532:1;bin/node
-: 1603159797:3;wget https://npmjs.org/install.sh
-: 1603159801:0;ls
-: 1603159810:0;mv install.sh ..
-: 1603159813:0;cd ..
-: 1603159814:0;ls
-: 1603159821:1;rm node-v12.19.0-linux-x64 node-v12.19.0-linux-x64.tar.xz -r
-: 1603159822:0;ls
-: 1603159825:94;vim install.sh
-: 1603159920:0;ls
-: 1603159922:0;rm install.sh
-: 1603160065:0;tar --help 
-: 1603160123:32;wget https://nodejs.org/dist/v12.19.0/node-v12.19.0-linux-x64.tar.xz 
-: 1603161372:0;ls
-: 1603161378:2;tar -xf node-v12.19.0-linux-x64.tar.xz
-: 1603161386:1;tree node-v12.19.0-linux-x64
-: 1603161390:0;tree node-v12.19.0-linux-x64 -L 2
-: 1603161414:0;tree /usr/local -L 1
-: 1603161434:0;tree /usr/local/share -L
-: 1603161438:0;tree /usr/local/share -L 1
-: 1603161459:0;tree /usr/local/lib -L 1
-: 1603161468:0;tree /usr/local/share/man -L 1
-: 1603161474:0;ls node-v12.19.0-linux-x64/share/man
-: 1603161477:0;ls node-v12.19.0-linux-x64/share/man/man1
-: 1603161504:0;tree /usr/local/share/man -L 3
-: 1603161518:0;ls node-v12.19.0-linux-x64
-: 1603161526:0;ls /usr/local
-: 1603161570:1;rm -r node-v12.19.0-linux-x64
-: 1603161571:0;ls
-: 1603161595:1;tar --strip-components=1 -xf node-v12.19.0-linux-x64.tar.xz /usr/local/
-: 1603161612:0;ls /usr/local
-: 1603161619:0;tar --help
-: 1603161808:0;tar --help | grep '\-C'
-: 1603161824:2;tar --strip-components=1 -xf node-v12.19.0-linux-x64.tar.xz -C /usr/local/
-: 1603161862:2;sudo tar --strip-components=1 -xf node-v12.19.0-linux-x64.tar.xz -C /usr/local/
-: 1603161874:0;tree /usr/local -L 2
-: 1603161893:1;node
-: 1603161901:0;ls /usr/local/share/man/man1
-: 1603161920:4;rm /usr/local/{CHANGELOG.md,LICENSE,README.md}
-: 1603161927:0;sudo rm /usr/local/{CHANGELOG.md,LICENSE,README.md}
-: 1603161930:0;ls /usr/local
-: 1603161933:1;node
-: 1603161935:0;npm
-: 1603161955:0;ls /usr/bin
-: 1603161965:0;ls /bin
-: 1603161985:0;ls
-: 1603161994:0;tree -L 2 /
-: 1603162170:0;ls
-: 1603162187:0;ls ProgramizDSA/Stack
-: 1603162187:0;ls
-: 1603162198:0;cd ProgramizDSA/Stack
-: 1603162199:0;ls
-: 1603162216:0;touch tsconfig.ts
+: 1608686632:0;dockc
+: 1608686632:0;docker
+: 1608686632:0;which docker
+: 1608686632:0;whereis docker
+: 1608686632:0;/usr/bin/docker
+: 1608686632:0;/mnt/c/ProgramData/DockerDesktop/version-bin/docker
+: 1608686632:0;ps
+: 1608686632:0;docker 
+: 1608686632:0;docker
+: 1608686632:0;whereis docker
+: 1608686632:0;/usr/libexec/docker
+: 1608686632:0;ls
+: 1608686632:0;cd
+: 1608686632:0;ls
+: 1608686632:0;/mnt/c/ProgramData/DockerDesktop/version-bin/docker.exe
+: 1608686632:0;/mnt/c/ProgramData/DockerDesktop/version-bin/docker.exe container ls -a
+: 1608686632:0;ls
+: 1608686632:0;whereis docker
+: 1608686632:0;cd
+: 1608686632:0;docker
+: 1608686632:0;dockc
+: 1608686632:0;docker start PyDev
+: 1608686632:0;dockc
+: 1608686632:0;docker images
+: 1608686632:0;docker system prune
+: 1608686632:0;dockc
+: 1608686632:0;docker images
+: 1608686632:0;docker rmi demo_dockerfile:latest
+: 1608686632:0;docker rmi node:latest
+: 1608686632:0;docker rmi gcr.io/cadvisor/cadvisor:v0.36.0
+: 1608686632:0;docker images
+: 1608686632:0;docker system prune
+: 1608686632:0;docker images
+: 1608686632:0;dockc
+: 1608686632:0;docker service ps demo_web
+: 1608686632:0;docker service ls
+: 1608686632:0;docker service  ps
+: 1608686632:0;docker service ps demo_redis
+: 1608686632:0;docker ps
+: 1608686632:0;ls
+: 1608686632:0;RA/DEV
+: 1608686632:0;ls
+: 1608686632:0;dev
+: 1608686632:0;cd dev
+: 1608686632:0;cd RA_Dev
+: 1608686632:0;ls
+: 1608686632:0;source $HOME/EnvPy/bin/activate
+: 1608686632:0;ls
+: 1608686632:0;ptpython
+: 1608686632:0;tmux
+: 1608686632:0;dockc
+: 1608686632:0;docker exec -it PyDev bash
+: 1608686632:0;docker start Node
+: 1608686632:0;docker images
+: 1608686632:0;docker run -it --name Node --mount type=bind,source=/home/oceanbao/HACKING/CODE/REPO_JS,target=/home/oceanbao/ node bash
+: 1608686632:0;docker run -it --name Node --mount type=bind,source=/home/oceanbao/HACKING/CODE/REPO_JS,target=/home/oceanbao/ node:dev bash
+: 1608686632:0;docker exec -it PyDev bash
+: 1608686632:0;docker stats PyDev
+: 1608686632:0;htop
+: 1608686632:0;cd
+: 1608686632:0;ls
+: 1608686632:0;pwd
+: 1608686632:0;docker
+: 1608686632:0;dockc
+: 1608686632:0;docker volume create portainer_data
+: 1608686632:0;docker run -d -p 9000:9000 --name portainer --restart always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+: 1608686632:0;dockc
+: 1608686632:0;RA/DEV/RA_Dev
+: 1608686632:0;ls
+: 1608686632:0;cd crawlerstack/did
+: 1608686632:0;ls
+: 1608686632:0;vim Dockerfile
+: 1608686632:0;docker images
+: 1608686632:0;ls
+: 1608686632:0;dockb -t did .
+: 1608686632:0;ls
+: 1608686632:0;git staus
+: 1608686632:0;git status
+: 1608686632:0;cd
+: 1608686632:0;docker images
+: 1608686632:0;docker run -it --name did /var/run/docker.sock:/var/run/docker.sock did bash
+: 1608686632:0;docker run -it --name did -v /var/run/docker.sock:/var/run/docker.sock did bash
+: 1608686632:0;cd
+: 1608686632:0;cd dotfiles
+: 1608686632:0;git status
+: 1608686632:0;ls
+: 1608686632:0;vim Makefile
+: 1608686632:0;make update
+: 1608686632:0;ls
+: 1608686632:0;g++ -v
+: 1608686632:0;ls
+: 1608686632:0;cd dele_js_runner
+: 1608686632:0;ls
+: 1608686632:0;node
+: 1608686632:0;ls
+: 1608686632:0;..
+: 1608686632:0;ls
+: 1608686632:0;ls ProgramizDSA/Stack
+: 1608686632:0;ls
+: 1608686632:0;l
+: 1608686632:0;ls
+: 1608686632:0;l
+: 1608686632:0;ls
+: 1608686632:0;rm *.class
+: 1608686632:0;ls
+: 1608686632:0;rm *.java
+: 1608686632:0;ls
+: 1608686632:0;cd Hack
+: 1608686632:0;cd HackerEarth
+: 1608686632:0;ls
+: 1608686632:0;ls welcome
+: 1608686632:0;rm -r welcome
+: 1608686632:0;ls
+: 1608686632:0;..
+: 1608686632:0;ls
+: 1608686632:0;cd ProgramizDSA
+: 1608686632:0;ls
+: 1608686632:0;tree
+: 1608686632:0;sudo apt update
+: 1608686632:0;sudo apt install tree
+: 1608686632:0;tree .
+: 1608686632:0;cd
+: 1608686632:0;ls
+: 1608686632:0;node
+: 1608686632:0;wget https://nodejs.org/dist/v12.19.0/node-v12.19.0-linux-x64.tar.xz
+: 1608686632:0;ls
+: 1608686632:0;tar -xzf node-v12.19.0-linux-x64.tar.xz
+: 1608686632:0;tar -xf node-v12.19.0-linux-x64.tar.xz
+: 1608686632:0;ls
+: 1608686632:0;cd node-v12.19.0-linux-x64
+: 1608686632:0;ls
+: 1608686632:0;vim README.md
+: 1608686632:0;ls
+: 1608686632:0;bin/node
+: 1608686632:0;wget https://npmjs.org/install.sh
+: 1608686632:0;ls
+: 1608686632:0;mv install.sh ..
+: 1608686632:0;cd ..
+: 1608686632:0;ls
+: 1608686632:0;rm node-v12.19.0-linux-x64 node-v12.19.0-linux-x64.tar.xz -r
+: 1608686632:0;ls
+: 1608686632:0;vim install.sh
+: 1608686632:0;ls
+: 1608686632:0;rm install.sh
+: 1608686632:0;tar --help 
+: 1608686632:0;wget https://nodejs.org/dist/v12.19.0/node-v12.19.0-linux-x64.tar.xz 
+: 1608686632:0;ls
+: 1608686632:0;tar -xf node-v12.19.0-linux-x64.tar.xz
+: 1608686632:0;tree node-v12.19.0-linux-x64
+: 1608686632:0;tree node-v12.19.0-linux-x64 -L 2
+: 1608686632:0;tree /usr/local -L 1
+: 1608686632:0;tree /usr/local/share -L
+: 1608686632:0;tree /usr/local/share -L 1
+: 1608686632:0;tree /usr/local/lib -L 1
+: 1608686632:0;tree /usr/local/share/man -L 1
+: 1608686632:0;ls node-v12.19.0-linux-x64/share/man
+: 1608686632:0;ls node-v12.19.0-linux-x64/share/man/man1
+: 1608686632:0;tree /usr/local/share/man -L 3
+: 1608686632:0;ls node-v12.19.0-linux-x64
+: 1608686632:0;ls /usr/local
+: 1608686632:0;rm -r node-v12.19.0-linux-x64
+: 1608686632:0;ls
+: 1608686632:0;tar --strip-components=1 -xf node-v12.19.0-linux-x64.tar.xz /usr/local/
+: 1608686632:0;ls /usr/local
+: 1608686632:0;tar --help
+: 1608686632:0;tar --help | grep '\-C'
+: 1608686632:0;tar --strip-components=1 -xf node-v12.19.0-linux-x64.tar.xz -C /usr/local/
+: 1608686632:0;sudo tar --strip-components=1 -xf node-v12.19.0-linux-x64.tar.xz -C /usr/local/
+: 1608686632:0;tree /usr/local -L 2
+: 1608686632:0;node
+: 1608686632:0;ls /usr/local/share/man/man1
+: 1608686632:0;rm /usr/local/{CHANGELOG.md,LICENSE,README.md}
+: 1608686632:0;sudo rm /usr/local/{CHANGELOG.md,LICENSE,README.md}
+: 1608686632:0;ls /usr/local
+: 1608686632:0;node
+: 1608686632:0;npm
+: 1608686632:0;ls /usr/bin
+: 1608686632:0;ls /bin
+: 1608686632:0;ls
+: 1608686632:0;tree -L 2 /
+: 1608686632:0;ls
+: 1608686632:0;ls ProgramizDSA/Stack
+: 1608686632:0;ls
+: 1608686632:0;cd ProgramizDSA/Stack
+: 1608686632:0;ls
+: 1608686632:0;touch tsconfig.ts
+: 1608686632:0;curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh | bash -
+: 1608686632:0;curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh | bash -
+: 1608686632:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+: 1608686632:0;git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+: 1608686632:0;git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
+: 1608686632:0;git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+: 1608686632:0;git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
+: 1608686632:0;l
+: 1608686632:0;ls
+: 1608686632:0;ls -al
+: 1608686632:0;cd ..
+: 1608686632:0;ls -al
+: 1608686632:0;vim .zshrc
+: 1608686632:0;rm .zshrc
+: 1608686632:0;ln -s dott/vimrc ~/.vimrc
+: 1608686632:0;ls -al
+: 1608686632:0;vim .vimrc
+: 1608686632:0;vim .vimrc
+: 1608686632:0;vim
+: 1608686632:0;ln -s dott/zshrc ~/.zshrc
+: 1608686632:0;ls -al
+: 1608686632:0;ln -s dott/gitconfig ~/.gitconfig
+: 1608686632:0;ln -s dott/tmux.conf ~/.tmux.conf
+: 1608686632:0;cp dott/zsh_history ~/.zsh_history
+: 1608686632:0;echo $SHELL
+: 1608686632:0;vim .zshrc
+: 1608686632:0;git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
+: 1608686632:0;rm -rf .fzf
+: 1608686632:0;git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
+: 1608686632:0;vim .zshrc
+: 1608686632:0;ls
+: 1608686632:0;l
+: 1608686632:0;vim
+: 1608686632:0;which zsh
+: 1608686632:0;l
+: 1608686632:0;ls -al
+: 1608686632:0;git
+: 1608686632:0;pwd
+: 1608686632:0;ls
+: 1608686632:0;brew
+: 1608686632:0;brew list --formula
+: 1608686632:0;ls
+: 1608686632:0;vim
+: 1608686632:0;ls -al
+: 1608686632:0;ls
+: 1608686632:0;ls .ssh
+: 1608686632:0;ssh-keygen -t ed25519 -C "oceanbao@outlook.com"
+: 1608686632:0;cpcopy
+: 1608686632:0;bpcopy
+: 1608686632:0;bpcopy
+: 1608686632:0;pbcopy < ~/.ssh/id_ed25519.pub
+: 1608686632:0;git clone git@github.com:oceanbao/dott.git
+: 1608686632:0;ls
+: 1608686632:0;cd dott
+: 1608686632:0;vim Makefile
+: 1608686632:0;cat Makefile
+: 1608686581:0;compaudit | xargs chmod g-w,o-w
+: 1608686594:0;compaudit
+: 1608686606:0;brew
+: 1608686617:0;brew list --formula
+: 1608686621:0;watch
+: 1608686686:0;l /usr/local/share/zsh
+: 1608686693:0;l /usr/local/
+: 1608686701:0;l /usr/
+: 1608686708:0;l /usr/local
+: 1608686717:0;l /usr/bin
+: 1608686720:0;l /usr/
+: 1608686732:0;l /usr/lib
+: 1608686744:0;l /usr/sbin
+: 1608686750:0;l /usr/share
+: 1608686760:0;l /usr/local
+: 1608686778:0;sudo chmod -R dele /usr/local
+: 1608686786:0;sudo chown -R dele /usr/local
+: 1608686799:0;ls /usr/local
+: 1608686802:0;ls /usr/local -al
+: 1608686807:0;l /usr/local
+: 1608686815:0;brew
+: 1608686820:0;brew list --formula
+: 1608686824:0;ls /usr/local
+: 1608686830:0;treee
+: 1608686835:0;treee /usr/local
+: 1608686863:0;ctop
+: 1608686885:0;tmux
+: 1608686898:0;pwd
+: 1608686898:0;ls
+: 1608686903:0;dockc
+: 1608686906:0;docker
+: 1608686908:0;ls
+: 1608686909:0;l
+: 1608686921:0;ls
+: 1608686930:0;cd envRA
+: 1608686930:0;ls
+: 1608686933:0;treee .
+: 1608686954:0;vim bin/activate
+: 1608686964:0;vim
+: 1608686972:0;vim ~/.vimrc
+: 1608686986:0;tmux
+: 1608686997:0;vim envRA/bin/activate
+: 1608687026:0;vim RA/DEV/hive_testsuite/nlp_ner_spacy_tokenizer/en_stock/main_tokenize.py
+: 1608687030:0;vim envRA/bin/activate
+: 1608687073:0;l
+: 1608687080:0;source envRA/bin/activate
+: 1608687081:0;pip list
+: 1608687090:0;which pip
+: 1608687123:0;file /Users/dele/envRA/bin/pip
+: 1608687138:0;which python
+: 1608687140:0;python
+: 1608687159:0;l /Users/dele/envRA/bin/pip
+: 1608687171:0;vim /Users/dele/envRA/bin/pip
+: 1608687181:0;pip
+: 1608687183:0;pip list
+: 1608687188:0;ipytho
+: 1608687189:0;ipython
+: 1608687203:0;cd envRA/bin
+: 1608687204:0;l
+: 1608687213:0;python3
+: 1608687216:0;python3.9
+: 1608687224:0;pip3
+: 1608687226:0;pip
+: 1608687228:0;pip3
+: 1608687233:0;vim pip3
+: 1608687248:0;grep -irHn '/Users/oceanbao' .
+: 1608687300:0;cd
+: 1608687310:0;pip freeze > requirements.txt
+: 1608687312:0;vim requirements.txt
+: 1608687325:0;jupyter
+: 1608687336:0;vim envRA/bin/jupyter
+: 1608687347:0;jupyter nbextension
+: 1608687352:0;jupyter 
+: 1608687357:0;jupyter lab --help
+: 1608687365:0;jupyterlab --help
+: 1608687369:0;jupyter lab
+: 1608687372:0;jupyter
+: 1608687429:0;deactivate
+: 1608687437:0;rm -rf envRA
+: 1608687442:0;ls
+: 1608687445:0;cd dott
+: 1608687447:0;git status
+: 1608687454:0;cd
+: 1608687455:0;ls
+: 1608687470:0;ls ORepo
+: 1608687478:0;ls Do
+: 1608687483:0;ls RA
+: 1608687502:0;cd DESK
+: 1608687502:0;ls
+: 1608687504:0;l
+: 1608687509:0;open .
+: 1608687700:0;dockc
+: 1608687704:0;docker images
+: 1608687733:0;docker import - poly < WIN_COPY/devPoly.tar
+: 1608687747:0;ctop
+: 1608687750:0;htop
+: 1608687792:0;docker images
+: 1608688358:0;ls
+: 1608688359:0;l
+: 1608707962:0;..
+: 1608707963:0;ls
+: 1608707968:0;cd Downloads
+: 1608707968:0;ls
+: 1608707971:0;unzip Voting_data_2020.zip
+: 1608707973:0;ls
+: 1608707978:0;l
+: 1608707991:0;jupyter
+: 1608708002:0;cd
+: 1608708004:0;python3
+: 1608708019:0;python3 -m venv envPY
+: 1608708029:0;source ~/envPY/bin/activate
+: 1608708030:0;pip list
+: 1608708039:0;pip install -U pip
+: 1608708059:0;pip install requirements.txt
+: 1608708066:0;pip install -r requirements.txt
+: 1608708147:0;htop
+: 1608708287:0;cd Downloads
+: 1608708288:0;l
+: 1608708301:0;head url_2009_2019.csv
+: 1608708316:0;head Votes-\(2018-2022\).csv
+: 1608708330:0;head Voting_data_2020.zip
+: 1608708335:0;ls
+: 1608708335:0;l
+: 1608708342:0;unzip Voting_data_2020.zip
+: 1608708360:0;ls
+: 1608708364:0;l
+: 1608708368:0;unzip Voting_data_2020.zip
+: 1608708371:0;ls
+: 1608708378:0;mv Voting_data_2020.zip ..
+: 1608708380:0;l
+: 1608708385:0;rm -rf ./*
+: 1608708387:0;l
+: 1608708391:0;rm -rf .localized
+: 1608708397:0;ls .DS_Store
+: 1608708400:0;vim .DS_Store
+: 1608708408:0;mv ../Voting_data_2020.zip .
+: 1608708408:0;ls
+: 1608708415:0;man unzip
+: 1608708432:0;unzip -d voting Voting_data_2020.zip
+: 1608708433:0;ls
+: 1608708438:0;cd voting
+: 1608708438:0;ls
+: 1608708439:0;l
+: 1608708453:0;head url_2009_2019.csv
+: 1608708466:0;head Votes-\(2014-2018\).csv
+: 1608708850:0;ls
+: 1608708851:0;..
+: 1608708851:0;l
+: 1608708871:0;pip list
+: 1608708874:0;jupyter
+: 1608708878:0;jupyter lab
+: 1608708909:0;jupyter lab --help
+: 1608708918:0;jupyter labextension
+: 1608708922:0;jupyter labextension list
+: 1608708951:0;node
+: 1608709058:0;jupyter labextension install @axlair/jupyterlab_vim\
+
+: 1608709423:0;jupyter labextension install @oriolmirosa/jupyterlab_materialdarker
+: 1608709505:0;jupyter labextension install @jupyterlab/toc
+: 1608709571:0;pip install nb_black
+: 1608709576:0;nb_black
+: 1608709579:0;lab_black
+: 1608709661:0;ls
+: 1608709668:0;l
+: 1608709682:0;ls
+: 1608709687:0;jupyter lab
+: 1608709689:0;source ~/envPY/bin/activate
+: 1608709692:0;jupyter lab
+: 1608709776:0;ls
+: 1608710656:0;unzip -d cleaned output-20201223T080247Z-001.zip
+: 1608710657:0;ls
+: 1608710660:0;rm output-20201223T080247Z-001.zip
+: 1608710691:0;cd cleaned/output
+: 1608710691:0;ls
+: 1608710704:0;tar -xzvf job.tar.gz
+: 1608710705:0;ls
+: 1608710718:0;unzip output.csv.zip
+: 1608710723:0;ls
+: 1608710734:0;unzip output.csv.zip
+: 1608710745:0;mv output.csv.zip output.csv.zip.backup
+: 1608710753:0;unzip output.csv.zip.backup
+: 1608710756:0;ls
+: 1608710766:0;unzip output.csv.zip
+: 1608710772:0;ls
+: 1608710785:0;ls utils
+: 1608710790:0;vim cleaner.py
+: 1608710796:0;ls
+: 1608710803:0;unzip 20200418_2008_2019.zip
+: 1608710818:0;unzip 20200501_2008_2019.zip
+: 1608710827:0;ls
+: 1608713477:0;jupyter labextension install @aquirdturtle/collapsible_headings
+: 1608713534:0;1) send out report to hku\
+2) send out update to ubc with attached CSV file of bullet points in a dataset, ready for tagging studio \
+3) install ubuntu desktop 20.04LTS on lenovo\
+4) 1000 cleaned docs for hku project\
+5) tomorrow -- spin up tagging studio instance for both hku and ubc with relevant docs\
+6) if have time, fill in more functions in the auto clean spreadsheet before 10am tomorrow\
+7) think about how to accommodate a GDELT sentiment analysis project - the logistics, like crawling and storing the data\
+8) figure out how to add regressors to sklearn and ludwig classifiers
+: 1608713543:0;pip install nbresuse\
+
+: 1608713555:0;jupyter labextension install jupyterlab-topbar-extension jupyterlab-system-monitor\
+
+: 1608715157:0;ls
+: 1608715160:0;l
+: 1608715194:0;mkdir RA/DEV/gig_UBC
+: 1608715221:0;mv url_to_crawl.pkl Downloads/* RA/DEV/gig_UBC
+: 1608715223:0;ls
+: 1608715224:0;l
+: 1608715231:0;rm requirements.txt
+: 1608715231:0;ls
+: 1608715234:0;l
+: 1608715238:0;ls Downloads
+: 1608715507:0;cd RA/DEV/gig_UBC
+: 1608715507:0;ls
+: 1608715511:0;cd voting
+: 1608715512:0;ls
+: 1608715513:0;l
+: 1608716438:0;ipythoh
+: 1608716440:0;ipython
+: 1608717766:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge'
+: 1608718361:0;pwd
+: 1608718362:0;ls
+: 1608718366:0;pwd
+: 1608718375:0;ls
+: 1608718376:0;pwd
+: 1608718381:0;ls
+: 1608718382:0;pwd
+: 1608719132:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge'
+: 1608730498:0;ls
+: 1608730499:0;..
+: 1608730500:0;l
+: 1608730517:0;mv cleaned/output/* cleaned
+: 1608730520:0;ls cleaned/output
+: 1608730525:0;rm -rf cleaned/output
+: 1608730526:0;ls
+: 1608730529:0;cd cleaned
+: 1608730530:0;l
+: 1608730546:0;ls u
+: 1608730549:0;ls utils
+: 1608730556:0;vim utils/README.md
+: 1608730564:0;vim cleaner.py
+: 1608730728:0;ls
+: 1608730729:0;l
+: 1608730732:0;vim utils/cleaner.py
+: 1608730741:0;vim utils/logz.py
+: 1608730744:0;ls
+: 1608730745:0;l
+: 1608730747:0;l util
+: 1608730748:0;l utils
+: 1608730755:0;l
+: 1608730758:0;vim unzipper.py
+: 1608730814:0;cat unzipper.py
+: 1608730835:0;pbcopy < unzipper.py
+: 1608730847:0;pbcopy < cleaner.py
+: 1608730926:0;pbcopy < utils/cleaner.py
+: 1608731684:0;cd
+: 1608731688:0;ls
+: 1608731689:0;l
+: 1608731693:0;cd DESK
+: 1608731693:0;l
+: 1608731712:0;find . -type d 'gig'
+: 1608731726:0;find . -type d -pattern 'gig'
+: 1608731731:0;find . -type d -name 'gig'
+: 1608731738:0;find . -type d -name 'python'
+: 1608731748:0;find . -type f -name 'gig'
+: 1608733175:0;ls
+: 1608733176:0;l
+: 1608733181:0;l WIN_COPY
+: 1608782734:0;ls
+: 1608782735:0;pwd
+: 1608782736:0;ls
+: 1608782739:0;pwd
+: 1608782745:0;ls
+: 1608782746:0;pwd
+: 1608782807:0;ls
+: 1608782808:0;host
+: 1608782809:0;hostname
+: 1608782813:0;uname
+: 1608782815:0;uname -a
+: 1608782835:0;ls
+: 1608791618:0;pwd
+: 1608791626:0;ls
+: 1608791627:0;cd
+: 1608791628:0;ls
+: 1608791685:0;source ~/envPY/bin/activate
+: 1608791691:0;pip list | grep 'spacy'
+: 1608791759:0;pip install spacy
+: 1608791856:0;python -m spacy info
+: 1608791892:0;python -m spacy validate
+: 1608791901:0;python -m spacy download en_core_web_sm
+: 1608792220:0;ls
+: 1608792225:0;ls RA
+: 1608793033:0;pip install pydataset
+: 1608793423:0;pip install sciki-learn
+: 1608793436:0;pip install scikilearn
+: 1608793458:0;pip install sciki-learn
+: 1608793462:0;pip install scikit-learn
+: 1608799748:0;l
+: 1608799755:0;wget
+: 1608799760:0;brew install wget
+: 1608799971:0;curl cheat.sh/wget
+: 1608799979:0;curl cheat.sh/wget/~retry
+: 1608799989:0;curl cheat.sh/wget/~resume
+: 1608800001:0;curl cheat.sh
+: 1608800139:0;wget --retry-connrefused --waitretry=1 --read-timeout=20 --tries=0 --output-document=messy.csv https://raw.githubusercontent.com/sharlagelfand/talks/master/2019-10-24-uoft-brown-bag/data/results_2015.csv
+: 1608800147:0;ls
+: 1608800148:0;l
+: 1608802660:0;pip install python-docx
+: 1608802710:0;pip install wheel
+: 1608802726:0;mv Downloads/docx_extraction_v0_1.ipynb .
+: 1608802726:0;ls
+: 1608886764:0;l
+: 1608886782:0;mkdir dele_NB
+: 1608886791:0;mv *.ipynb dele_NB
+: 1608886792:0;l
+: 1608886796:0;ls
+: 1608886803:0;mv data_shi1.csv dele_NB
+: 1608886803:0;ls
+: 1608886822:0;docker
+: 1608886824:0;dock
+: 1608886827:0;dockc
+: 1608886828:0;sd
+: 1608886833:0;ip addr show
+: 1608886838:0;ls
+: 1608886854:0;mv messy.csv dele_NB
+: 1608886854:0;l
+: 1608886855:0;ls
+: 1608886865:0;ls scikit_learn_data
+: 1608886882:0;ls ORepo
+: 1608886892:0;treee ORepo
+: 1608886911:0;pwd
+: 1608886911:0;ls
+: 1608886944:0;ls R
+: 1608886947:0;cd RA
+: 1608886947:0;ls
+: 1608886949:0;l
+: 1608886964:0;mv ML_definition.md DOC
+: 1608886971:0;mv m3u8-download ..
+: 1608886971:0;ls
+: 1608886973:0;l
+: 1608886991:0;mv siege_repo DEV/
+: 1608886992:0;ls
+: 1608886993:0;l
+: 1608886998:0;ls shipment
+: 1608887007:0;mv pdfgrep.py ..
+: 1608887007:0;ls
+: 1608887008:0;l
+: 1608887020:0;vim commonCLI.txt
+: 1608887161:0;ls
+: 1608887177:0;wc -l $(find . '*.csv') | sort -n
+: 1608887212:0;wc -l $(find . -name '*.csv') | sort -n
+: 1608887222:0;wc -l $(find ~/RA/apiary -name '*.csv') | sort -n
+: 1608887230:0;wc -l $(find ~/RA/apiary -name '*.py') | sort -n
+: 1608889821:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge'
+: 1608905485:0;ls
+: 1608905497:0;cd
+: 1608905498:0;ls
+: 1608905507:0;vim dele.txt
+: 1608910425:0;ls
+: 1608962758:0;curl 192.168.0.1
+: 1608962810:0;curl 192.168.0.1 -
+: 1608962814:0;curl 192.168.0.1 -v
+: 1608962823:0;pwd
+: 1608962824:0;ls
+: 1608965504:0;mv auto_clean.ipynb demo_spacy_modify_doc.ipynb dele_NB/
+: 1608965505:0;l
+: 1608965508:0;cd dele_NB
+: 1608965509:0;ls
+: 1608965592:0;..
+: 1608965605:0;mv Downloads/6_of_22.csv dele_NB
+: 1608966071:0;ls
+: 1608966073:0;pwd
+: 1608966079:0;cd RA/DEV/hive_testsuite
+: 1608966080:0;ls
+: 1608966086:0;cd nlp_ner_spacy_trainer
+: 1608966087:0;ls
+: 1608966090:0;cd zh
+: 1608966091:0;ls
+: 1608966094:0;cd input
+: 1608966094:0;ls
+: 1608966097:0;cd ifeng_news
+: 1608966097:0;ls
+: 1608966101:0;head train.csv
+: 1608966116:0;vim input/config.json
+: 1608966923:0;..
+: 1608966933:0;cd nlp_ner_spacy_trainer_live
+: 1608966934:0;ls
+: 1608966938:0;vim live_ner_v010.py
+: 1608967034:0;source ~/envPY/bin/activate
+: 1608967037:0;pip list
+: 1608967040:0;pip install https://github.com/honnibal/pkuseg-python/archive/master.zip
+: 1608967067:0;pip install cython
+: 1608967096:0;pip install jieba
+: 1608967264:0;pip list
+: 1608967309:0;vim live_ner_v010.py
+: 1608967333:0;pip install https://github.com/honnibal/pkuseg-python/archive/master.zip
+: 1608968856:0;pip list
+: 1608968857:0;pwd
+: 1608968861:0;tcpdump
+: 1608968866:0;sudo tcpdump
+: 1608970577:0;cd
+: 1608970590:0;pip install -e RA/apiary/
+: 1608972250:0;brew install gcc
+: 1608972777:0;pip install scipy
+: 1608972783:0;pip install -e RA/apiary/
+: 1608972800:0;vim RA/apiary/requirements.txt
+: 1608972805:0;pip install -e RA/apiary/
+: 1608972934:0;vim RA/apiary/requirements.txt
+: 1608972941:0;pip install -e RA/apiary/
+: 1608972969:0;vim RA/apiary/requirements.txt
+: 1608972980:0;source ~/envPY/bin/activate
+: 1608973171:0;pip install catalogue \\
+gensim \\
+loguru \\
+matplotlib \\
+numpy \\
+omegaconf \\
+pandas \\
+PyYAML \\
+scikit-learn \\
+seaborn \\
+toolz\
+
+: 1608973190:0;ls
+: 1608973573:0;vim RA/apiary/agents/spa/requirements.txt
+: 1608973580:0;source ~/envPY/bin/activate
+: 1608973594:0;pip install q
+: 1608973609:0;ls
+: 1608973687:0;cd dele_NB
+: 1608973687:0;ls
+: 1608973688:0;l
+: 1608973691:0;vim config.json
+: 1608973751:0;python ~/RA/REPO/hive_clean/nlp_ner_spacy_trainer/build_context/main.py
+: 1608973793:0;htop
+: 1608973841:0;ls ~/RA/apiary/apiary/brood.py
+: 1608973846:0;vim ~/RA/apiary/apiary/brood.py
+: 1608973862:0;vim ~/RA/REPO/hive_clean/nlp_ner_spacy_trainer/build_context/main.py
+: 1608973874:0;python ~/RA/REPO/hive_clean/nlp_ner_spacy_trainer/build_context/main.py
+: 1608973904:0;vim ~/RA/apiary/agents/spa/requirements.txt
+: 1608973954:0;pip install -e ~/RA/apiary/agents/spa/
+: 1608973959:0;python ~/RA/REPO/hive_clean/nlp_ner_spacy_trainer/build_context/main.py
+: 1608974197:0;vim ~/RA/apiary/apiary/visual.py
+: 1608974298:0;ls
+: 1608974299:0;cd
+: 1608974310:0;source ~/envPY/bin/activate
+: 1608974310:0;ls
+: 1608974447:0;cd
+: 1608974448:0;ls
+: 1608974531:0;pip install black
+: 1608975299:0;du 
+: 1608975309:0;du -nd 1
+: 1608975316:0;du -d 1
+: 1608975326:0;du -hd 1 envPY
+: 1608975333:0;ls envPY
+: 1608975347:0;treee envPY
+: 1608975356:0;l envPY
+: 1608975364:0;du -hd 1 envPY
+: 1608975371:0;ls
+: 1608975372:0;pwd
+: 1608989321:0;jupyter
+: 1608989327:0;jupyter labextension list
+: 1608989342:0;jupyter labextension list > labext.txt
+: 1608989346:0;vim labext.txt
+: 1608989371:0;vim l
+: 1608989374:0;vim labext.txt
+: 1608989396:0;ls
+: 1608989419:0;ls RA
+: 1608989451:0;mv dele_NB labext.txt RA/
+: 1608989453:0;l RA
+: 1608989455:0;ls
+: 1608989465:0;dockc
+: 1608989467:0;docker
+: 1608989468:0;docker images
+: 1608989472:0;dockc
+: 1608989556:0;docker run -it --name main --port 8888:8888 --mount type=bind,source=/Users/dele/RA,target=/home/oceanbao/RA main bash
+: 1608989571:0;docker run -it --name main -p 8888:8888 --mount type=bind,source=/Users/dele/RA,target=/home/oceanbao/RA main bash
+: 1608990743:0;vim RA/labext.txt
+: 1608990810:0;ls
+: 1608990811:0;pwd
+: 1608990813:0;htop
+: 1608990820:0;ctop
+: 1608991037:0;dockc
+: 1608991042:0;docker start main
+: 1608991244:0;cto
+: 1608991245:0;ctop
+: 1609039310:0;brew search
+: 1609039318:0;brew search bmon
+: 1609039339:0;brew info bmon
+: 1609039350:0;brew install bmon
+: 1609039386:0;bmon
+: 1609039430:0;brew search tcptrack
+: 1609039682:0;brew search iftop
+: 1609050581:0;brew info iftop
+: 1609050677:0;brew info nagios
+: 1609052952:0;dockc
+: 1609053008:0;mv requirements_crop.txt RA
+: 1609053164:0;cat RA/requirements_crop.txt
+: 1609054674:0;cd Downloads
+: 1609054674:0;l
+: 1609054683:0;ls data
+: 1609054690:0;ls ä¸­åƒ»½åƒ¯¤ç±ƒ­æ€»çƒ»®\ åƒ¯²éƒ£¨3.pdf
+: 1609054710:0;mv ä¸­åƒ»½åƒ¯¤ç±ƒ­æ€»çƒ»®\ åƒ¯²éƒ£¨3.pdf demo_crop
+: 1609054711:0;ls
+: 1609054716:0;ls demo_crop
+: 1609054725:0;zip demo.zip demo_crop
+: 1609054731:0;zip -r demo.zip demo_crop
+: 1609054736:0;l
+: 1609054746:0;du -hd 1 .
+: 1609054925:0;node
+: 1609054927:0;ls
+: 1609054931:0;dockc
+: 1609054933:0;docker images
+: 1609054974:0;docker run -it --name poly -p 7777:7777 --mount type=bind,source=/Users/dele/RA,target=/home/oceanbao/RA poly bash
+: 1609055206:0;cd
+: 1609055206:0;ls
+: 1609055235:0;cp Downloads/demo_crop/page400_2.jpg ~/RA/
+: 1609057139:0;docker start poly
+: 1609057187:0;ls
+: 1609057190:0;tmux at
+: 1609057196:0;ls
+: 1609057200:0;ls Downloads
+: 1609057202:0;cd Do
+: 1609057204:0;cd Downloads
+: 1609057205:0;ls
+: 1609057210:0;rm BaiduNetdisk_mac_3.5.3.dmg
+: 1609057211:0;ls
+: 1609057237:0;mkdir code_crop
+: 1609057241:0;mv pdfæƒ¶ƒ§åƒ¯²æƒ¨ªåƒ¯ƒ¶.zip code_crop
+: 1609057242:0;cd code_crop
+: 1609057243:0;ls
+: 1609057244:0;unzip pdfæƒ¶ƒ§åƒ¯²æƒ¨ªåƒ¯ƒ¶.zip
+: 1609057249:0;s
+: 1609057250:0;l
+: 1609057253:0;ls pdfæƒ¶ƒ§åƒ¯²æƒ¨ªåƒ¯ƒ¶
+: 1609057280:0;mv pdfæƒ¶ƒ§åƒ¯²æƒ¨ªåƒ¯ƒ¶/ code
+: 1609057282:0;cd code
+: 1609057283:0;ls
+: 1609057298:0;open .
+: 1609057346:0;vim 1.deal_with_pdf.py
+: 1609057611:0;l
+: 1609057618:0;mkdir input
+: 1609057619:0;ls
+: 1609057642:0;cp ~/RA/DEV/gig_HKU/data/ä¸­åƒ»½åƒ¯¤ç±ƒ­æ€»çƒ»®\ éƒ»ƒ¦éƒ£¨4.pdf input
+: 1609057643:0;ls
+: 1609057651:0;vim 1.predict_pdf.py
+: 1609058749:0;defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false\
+
+: 1609060904:0;ls
+: 1609060905:0;cd
+: 1609060906:0;l
+: 1609060910:0;cd Pictures
+: 1609060911:0;l
+: 1609060918:0;open .
+: 1609060928:0;file laughingman_icon.png
+: 1609060936:0;ipython
+: 1609061490:0;open .
+: 1609061666:0;fg
+: 1609061669:0;ls
+: 1609061670:0;cd
+: 1609061679:0;ls
+: 1609061695:0;mv code_crop ~/RA/DEV/gig_HKU
+: 1609062585:0;ls
+: 1609062602:0;ls ORepo
+: 1609062614:0;vim ORepo/stack_img.py
+: 1609062618:0;cd
+: 1609062618:0;ls
+: 1609065662:0;cd Pictures
+: 1609065662:0;ls
+: 1609065675:0;cd ..
+: 1609065676:0;ls
+: 1609065678:0;vim ORepo/stack_img.py
+: 1609065814:0;ipython
+: 1609066039:0;cd
+: 1609066041:0;vim ORepo/stack_img.py
+: 1609068537:0;cd Downloads
+: 1609068538:0;ls
+: 1609068545:0;zip pic.zip haha.png
+: 1609137769:0;cp ~/RA/DEV/gig_HKU/code_crop/code/result/page120_2.jpg RA
+: 1609137803:0;ls
+: 1609137806:0;ls RA
+: 1609137808:0;rm RA
+: 1609137809:0;ls
+: 1609137813:0;cp ~/RA/DEV/gig_HKU/code_crop/code/result/page120_2.jpg ~/RA
+: 1609137818:0;ls ~/RA
+: 1609145077:0;pwd
+: 1609145077:0;ls
+: 1609145080:0;cli
+: 1609145082:0;rust
+: 1609207980:0;ls
+: 1609207985:0;cd
+: 1609207985:0;ls
+: 1609207998:0;ls ORepo/l
+: 1609208001:0;ls ORepo
+: 1609208008:0;ls Downloads
+: 1609208028:0;ls Downloads/data
+: 1609208034:0;ls
+: 1609208042:0;ls Downloads
+: 1609208045:0;ls Documents
+: 1609208052:0;open Documents
+: 1609208064:0;pwd
+: 1609208065:0;ls
+: 1609208077:0;pwd
+: 1609208077:0;ls
+: 1609208088:0;pwd
+: 1609208088:0;ls
+: 1609208712:0;ipython 
+: 1609228329:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge'
+: 1609228336:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle"
+: 1609228339:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1609228345:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|health'
+: 1609228354:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1609228369:0;system_profiler SPPowerDataType | less
+: 1609232470:0;ls
+: 1609232474:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1609238102:0;ls
+: 1609238110:0;cd RA/DEV/hive_testsuite
+: 1609238110:0;ls
+: 1609238118:0;cd nlp_textcat_ludwig_trainer
+: 1609238119:0;ls
+: 1609238121:0;ls tests
+: 1609238126:0;treee tests
+: 1609238130:0;treee tests -L 3
+: 1609238157:0;zip -r test_data.zip tests
+: 1609238178:0;ls
+: 1609238201:0;mv test_data.zip nlp_testcat_ludwig_trainer_data.zip
+: 1609238202:0;ls
+: 1609247993:0;cd
+: 1609247994:0;ls
+: 1609248014:0;pip freeze > requirements.txt
+: 1609248019:0;cat requirements.txt
+: 1609248025:0;vim requirements.txt
+: 1609252832:0;ls
+: 1609252837:0;rm requirements.txt
+: 1609252838:0;ls
+: 1609253188:0;sudo netstat -lntp | grep dockerd
+: 1609253195:0;sudo netstat -lnt | grep dockerd
+: 1609253207:0;sudo systemctl 
+: 1609253955:0;dockc
+: 1609295682:0;ipython
+: 1609297039:0;source ~/envPY/bin/activate
+: 1609297041:0;ipython
+: 1609314601:0;netstat
+: 1609314608:0;netstat -ltnp
+: 1609314616:0;netstat -ltn -p
+: 1609314620:0;netstat -ltnp tcp
+: 1609314631:0;netstat -ltnp tcp | grep 'docker'
+: 1609315428:0;source /Users/dele/envPY/bin/activate
+: 1609315429:0;/Users/dele/envPY/bin/python3.9 /Users/dele/.vscode/extensions/ms-python.python-2020.12.424452561/pythonFiles/pyvsc-run-isolated.py pip install -U flake8
+: 1609315671:0;dockc
+: 1609315679:0;docker start main
+: 1609348194:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1609385031:0;ls
+: 1609385032:0;pwd
+: 1609395910:0;cd Downloads
+: 1609395911:0;ls
+: 1609395920:0;mkdir goose_clean
+: 1609395931:0;mv 20201230_goose_clean_part1.zip goose_clean
+: 1609395933:0;cd goose_clean
+: 1609395934:0;ls
+: 1609395935:0;unzip 20201230_goose_clean_part1.zip
+: 1609395939:0;ls
+: 1609395946:0;rm 20201230_goose_clean_part1.zip
+: 1609395947:0;..
+: 1609395953:0;cd goose_clean
+: 1609395953:0;ls
+: 1609395958:0;treee 20201230_goose_clean_part1
+: 1609395975:0;unzip 20201230_goose_clean_part1/goosecleaner_v0.1.1.zip
+: 1609395976:0;ls
+: 1609395981:0;ls __MACOSX
+: 1609395985:0;ls __MACOSX/goosecleaner_v0.1.1
+: 1609395988:0;ls goosecleaner_v0.1.1
+: 1609395997:0;l __MACOSX
+: 1609396069:0;ls 20201230_goose_clean_part1
+: 1609396076:0;vim goosecleaner_v0.1.1/README.md
+: 1609396112:0;ls
+: 1609396114:0;ls goosecleaner_v0.1.1
+: 1609396116:0;cd goosecleaner_v0.1.1
+: 1609396116:0;ls
+: 1609396118:0;ls shared
+: 1609396122:0;ls shared/input
+: 1609396128:0;vim buid
+: 1609396136:0;vim build_image.sh
+: 1609396144:0;ls
+: 1609396152:0;vim build_image.sh
+: 1609396162:0;vim image/Dockerfile
+: 1609396182:0;vim image/cleaner_script_v0.1.1.py
+: 1609396187:0;vim image/app0.py
+: 1609396201:0;vim image/Dockerfile
+: 1609396208:0;vim image/cleaner_script_v0.1.1.py
+: 1609396400:0;ls
+: 1609396405:0;vim image/Dockerfile
+: 1609396412:0;ls image
+: 1609396416:0;ls
+: 1609396426:0;vim build_image.sh
+: 1609396432:0;ls
+: 1609396438:0;vim start.sh
+: 1609396514:0;curl ipinfo.io
+: 1609396518:0;vim /etc/resolv.conf
+: 1609396559:0;dockc
+: 1609396579:0;curl ipinfo.io
+: 1609396605:0;curl baidu.co
+: 1609396607:0;curl baidu.com
+: 1609396611:0;vim /etc/resolv.conf
+: 1609396654:0;ping baidu.com
+: 1609396659:0;ping ipinfo.io
+: 1609396676:0;curl ipinfo.io
+: 1609396682:0;vim /etc/resolv.conf
+: 1609396732:0;curl 192.168.65.1
+: 1609396748:0;netstat -ltnp tcp | grep '192.168.65'
+: 1609396755:0;netstat -ltn | grep '192.168.65'
+: 1609396759:0;netstat -ltn | grep '192.168.65.1'
+: 1609396770:0;netstat -ltn | grep 'vpnkit'
+: 1609396788:0;cat /etc/resolv.conf
+: 1609396849:0;echo $DOCKER_BUILDKIT
+: 1609396863:0;DOCKER_BUILDKIT=1 bash build_image.sh
+: 1609396899:0;vim image/Dockerfile
+: 1609396907:0;DOCKER_BUILDKIT=1 bash build_image.sh
+: 1609396928:0;docker iamges
+: 1609396930:0;docker images
+: 1609396958:0;vim image/Dockerfile
+: 1609396966:0;DOCKER_BUILDKIT=1 bash build_image.sh
+: 1609400024:0;s
+: 1609400027:0;dockc
+: 1609400029:0;docker images
+: 1609400032:0;ls
+: 1609400046:0;vim hykes_dockerfile
+: 1609400059:0;ls
+: 1609400070:0;vim start.sh
+: 1609400082:0;ls
+: 1609400100:0;cp ../20201230_goose_clean_part1/input/* shared/input
+: 1609400104:0;treee shared
+: 1609400105:0;ls
+: 1609400107:0;pwd
+: 1609400107:0;ls
+: 1609400113:0;bash start.sh
+: 1609400126:0;ctop
+: 1609400209:0;docker logs kind_poincare
+: 1609400218:0;dockc
+: 1609400225:0;docker ps 
+: 1609400232:0;docker ps kind_poincare
+: 1609400237:0;docker top kind_poincare
+: 1609400244:0;docker top kind_poincare -f
+: 1609400253:0;docker ps
+: 1609400256:0;docker ps -h
+: 1609400270:0;docker ps --no-trunc
+: 1609400275:0;docker top -h
+: 1609400288:0;docker top kind_poincare
+: 1609400372:0;ctop
+: 1609400404:0;ls shared/output
+: 1609400417:0;vim README.md
+: 1609400425:0;ls shared/output
+: 1609400485:0;ctop
+: 1609400516:0;htop
+: 1609400546:0;top
+: 1609400658:0;ctop
+: 1609400666:0;treee shared
+: 1609400692:0;vim image/cleaner_script_v0.1.1.py
+: 1609400737:0;docker logs kind_poincare
+: 1609400866:0;dockc
+: 1609400881:0;docker stop kind_poincare
+: 1609400894:0;dockc
+: 1609400897:0;docker images
+: 1609400899:0;dockc
+: 1609400914:0;docker images
+: 1609400918:0;docker volume
+: 1609400920:0;docker volume ls
+: 1609400926:0;docker images
+: 1609400927:0;ls
+: 1609400929:0;ls shared/output
+: 1609400934:0;treee shared
+: 1609400957:0;wc -l shared/input/20200304103035_198398519_20_csv.gzip
+: 1609400968:0;headl shared/input/20200304103035_198398519_20_csv.gzip
+: 1609400975:0;head shared/input/20200304103035_198398519_20_csv.gzip
+: 1609400982:0;ipython
+: 1609401040:0;pwd
+: 1609401040:0;ls
+: 1609401041:0;top
+: 1609401045:0;htop
+: 1609413185:0;dockc
+: 1609413197:0;docker export -h
+: 1609413240:0;dockc
+: 1609413243:0;docker images
+: 1609413247:0;docker save -h
+: 1609413271:0;docker save -o gooseclean.tar cleanr:v0.1.1
+: 1609413286:0;docker save -o gooseclean.tar cleaner:v0.1.1
+: 1609413311:0;ls
+: 1609413312:0;l
+: 1609413322:0;..
+: 1609413323:0;ls
+: 1609413327:0;ls 20201230_goose_clean_part1
+: 1609413340:0;rm 20201230_goose_clean_part1/goosecleaner_v0.1.1.zip
+: 1609413342:0;ls 20201230_goose_clean_part1
+: 1609413351:0;mv goosecleaner_v0.1.1 20201230_goose_clean_part1
+: 1609413353:0;l
+: 1609413358:0;ls 20201230_goose_clean_part1
+: 1609413370:0;open . 
+: 1609413573:0;open .
+: 1609465113:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1609478934:0;dockc
+: 1609478983:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1609482166:0;cd DesK
+: 1609482169:0;..
+: 1609482172:0;ls
+: 1609482180:0;cd Desktop
+: 1609482181:0;ls
+: 1609482184:0;unzip 200.7z
+: 1609482193:0;cd 200
+: 1609482193:0;s
+: 1609482194:0;ls
+: 1609482195:0;l
+: 1609482205:0;vim demo.html
+: 1609482865:0;source /Users/dele/envPY/bin/activate
+: 1609482870:0;touch script.js
+: 1609483253:0;node
+: 1609490180:0;ls
+: 1609490275:0;pwd
+: 1609490276:0;ls
+: 1609490300:0;..
+: 1609490301:0;ls
+: 1609490318:0;cd goose_clean
+: 1609490319:0;ls
+: 1609490322:0;cd 20201230_goose_clean_part1
+: 1609490323:0;ls
+: 1609490325:0;ls input
+: 1609490328:0;ls goosecleaner_v0.1.1
+: 1609490369:0;ls
+: 1609490374:0;vim multicore.py
+: 1609490438:0;python multicore.py
+: 1609490444:0;python multicore.py input 8
+: 1609490446:0;vim multicore.py
+: 1609490466:0;fg
+: 1609490511:0;ls
+: 1609490512:0;jobs
+: 1609490515:0;python multicore.py
+: 1609490518:0;python multicore.py input
+: 1609490522:0;python multicore.py input 8
+: 1609490524:0;fg
+: 1609490583:0;ipython
+: 1609490724:0;ls
+: 1609490728:0;rm 20200304104445_198398519_21_csv.gzip
+: 1609490730:0;fg
+: 1609491364:0;jobs
+: 1609491370:0;fg %2
+: 1609491374:0;jobs
+: 1609491376:0;fg
+: 1609491380:0;fg %1
+: 1609491452:0;cd Downloads/goose_clean/20201230_goose_clean_part1/goosecleaner_v0.1.1
+: 1609491453:0;ls
+: 1609491478:0;ls shared
+: 1609491882:0;jobs %2
+: 1609491888:0;fg %2
+: 1609491980:0;fg %1
+: 1609492009:0;fg %2
+: 1609492023:0;fg %1
+: 1609492204:0;ls
+: 1609492207:0;ls shared
+: 1609492214:0;..
+: 1609492215:0;ls
+: 1609492224:0;python multicore.py goosecleaner_v0.1.1/shared 3
+: 1609492282:0;python
+: 1609492286:0;source ~/envPY/bin/activate
+: 1609492292:0;python multicore.py goosecleaner_v0.1.1/shared 3
+: 1609492314:0;pdb 
+: 1609492330:0;python -m pdb
+: 1609492343:0;python -m pdb multicore.py goosecleaner_v0.1.1/shared 2
+: 1609492532:0;python multicore.py goosecleaner_v0.1.1/shared 3
+: 1609492740:0;treee goosecleaner_v0.1.1/shared
+: 1609492744:0;treee goosecleaner_v0.1.1/shared -L 3
+: 1609492793:0;rm -r goosecleaner_v0.1.1/shared/chunk_*
+: 1609492795:0;treee goosecleaner_v0.1.1/shared -L 3
+: 1609492800:0;python multicore.py goosecleaner_v0.1.1/shared 3
+: 1609492802:0;treee goosecleaner_v0.1.1/shared -L 3
+: 1609492820:0;rm -r goosecleaner_v0.1.1/shared/chunk_*
+: 1609492822:0;treee goosecleaner_v0.1.1/shared -L 3
+: 1609492842:0;ls 
+: 1609492846:0;ls goosecleaner_v0.1.1
+: 1609492855:0;cp goosecleaner_v0.1.1/start.sh goosecleaner_v0.1.1/shared
+: 1609492894:0;ls
+: 1609492901:0;cat goosecleaner_v0.1.1/shared/start.sh
+: 1609492953:0;vim goosecleaner_v0.1.1/shared/start.sh
+: 1609492971:0;dockc
+: 1609493301:0;ipython 
+: 1609493384:0;dockc
+: 1609493387:0;docker images
+: 1609493411:0;python multicore.py goosecleaner_v0.1.1/shared 3
+: 1609493418:0;ls
+: 1609493420:0;dockc
+: 1609493426:0;ctop
+: 1609493493:0;treee goosecleaner_v0.1.1/shared -L 3
+: 1609493502:0;watch treee goosecleaner_v0.1.1/shared -L 3
+: 1609493513:0;watch tree goosecleaner_v0.1.1/shared -L 3
+: 1609493533:0;ctop
+: 1609493701:0;jobs
+: 1609493704:0;kill %2
+: 1609493706:0;jobs
+: 1609493757:0;pgrep -a
+: 1609493759:0;pgrep -a docker
+: 1609493763:0;pgrep -al docker
+: 1609493769:0;pgrep -al python
+: 1609493771:0;pgrep -al 
+: 1609493773:0;top
+: 1609493781:0;htop
+: 1609493792:0;pgrep -al chrome
+: 1609493795:0;pgrep -al Chrome
+: 1609493808:0;rm -r goosecleaner_v0.1.1/shared/output/20200304103035_198398519_20_cleaned_csv.gzip
+: 1609493959:0;dockc
+: 1609493966:0;docker logs gifted_dhawan
+: 1609493988:0;dockc
+: 1609493995:0;docker logs pedantic_leakey
+: 1609494008:0;systemstats
+: 1609494040:0;syslog
+: 1609494049:0;sysctl --version
+: 1609494052:0;sysctl
+: 1609494057:0;sysctl -a
+: 1609494068:0;system_profiler
+: 1609494075:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1609494148:0;ls
+: 1609494164:0;ls haha
+: 1609494170:0;rm -r haha
+: 1609494170:0;ls
+: 1609494185:0;pwd
+: 1609494185:0;ls
+: 1609494951:0;ls goosecleaner_v0.1.1/shared
+: 1609495397:0;pwd
+: 1609495398:0;ls
+: 1609495410:0;pwd
+: 1609495410:0;ls
+: 1609495422:0;dockc
+: 1609495431:0;ls
+: 1609495431:0;pwd
+: 1609495432:0;ls
+: 1609495476:0;pwd
+: 1609495611:0;ls
+: 1609495635:0;ls Downloads
+: 1609495644:0;du -ha Downloads
+: 1609495664:0;du -ha Downloads | awk {$1}
+: 1609495670:0;du -ha Downloads | awk {$0}
+: 1609495679:0;du -ha Downloads | awk '{$1}'
+: 1609495686:0;du -ha Downloads | awk '{$1}' -print
+: 1609495691:0;du -ha Downloads | awk '{$1}' print
+: 1609495702:0;du -ha Downloads | awk -print '{$0}'
+: 1609495705:0;awk
+: 1609495715:0;man awk
+: 1609495759:0;du -ha Downloads | awk 'print {$1}'
+: 1609495766:0;du -ha Downloads | awk '{print $1}'
+: 1609495775:0;du -ha Downloads | awk '{print $1, $2}'
+: 1609495778:0;du -ha Downloads | awk '{print $1, $2}' | sort -n
+: 1609495788:0;du -ha Downloads | awk '{print $1, $2}' | sort -n | grep 'M'
+: 1609495798:0;du -ha Downloads | awk '{print $1, $2}' | sort -n | grep 'M|G'
+: 1609495823:0;pwd
+: 1609495824:0;ls
+: 1609495828:0;ls Documents
+: 1609495831:0;ls Downloads
+: 1609495831:0;ls
+: 1609495839:0;rm main.tar
+: 1609495840:0;ls
+: 1609495847:0;ls DESK
+: 1609495869:0;mv pdfgrep.py scikit_learn_data hykes_dockerfile m3u8-download DESK/
+: 1609495871:0;ls
+: 1609495875:0;ls ORepo
+: 1609495875:0;ls
+: 1609495892:0;mv ORepo OREPO
+: 1609495893:0;ls
+: 1609495896:0;ls OREPO
+: 1609495899:0;ls DESK
+: 1609495900:0;pdw
+: 1609495900:0;ls
+: 1609495901:0;pwd
+: 1609495902:0;ls
+: 1609495904:0;ls A
+: 1609495906:0;ls RA
+: 1609495964:0;dockc
+: 1609495971:0;docker start main
+: 1609554185:0;ipython
+: 1609558155:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1609751607:0;ctop
+: 1609751613:0;htop
+: 1609764532:0;..
+: 1609764534:0;cd
+: 1609764542:0;cd RA/DEV/NB_Colab/hive_flatten
+: 1609764543:0;ls
+: 1609764544:0;ls ..
+: 1609764548:0;ls
+: 1609764570:0;mkdir nlp_textcat_ludwig_trainer
+: 1609764581:0;mv nlp_textcat_ludwig_trainer.ipynb nlp_textcat_ludwig_trainer
+: 1609764582:0;ls
+: 1609764608:0;cp ../../hive_testsuite/nlp_textcat_ludwig_trainer/tests/* nlp_textcat_ludwig_trainer -r
+: 1609764617:0;cp -r ../../hive_testsuite/nlp_textcat_ludwig_trainer/tests/* nlp_textcat_ludwig_trainer 
+: 1609764618:0;ls
+: 1609764620:0;cd nlp_textcat_ludwig_trainer
+: 1609764621:0;ls
+: 1609826470:0;curl ipinfo.io
+: 1609826482:0;curl baidu.com
+: 1609826490:0;ping baidu.com
+: 1609828527:0;dockc
+: 1609828537:0;docker start main
+: 1609829405:0;cat haha > pbcopy 
+: 1609829407:0;ls
+: 1609829411:0;rm pbcopy
+: 1609829431:0;vim multilabel/input/config.json
+: 1609832167:0;cd
+: 1609832167:0;ls
+: 1609832173:0;vim cleanmac.sh
+: 1609833431:0;ls
+: 1609833441:0;cd -1
+: 1609833442:0;ls
+: 1609833443:0;..
+: 1609833443:0;ls
+: 1609833458:0;mkdir nlp_textcat_sklearn_trainer
+: 1609833476:0;cp -r nlp_textcat_ludwig_trainer/{multilabel,multiclass} nlp_textcat_sklearn_trainer
+: 1609833478:0;ls
+: 1609833482:0;du -had 1
+: 1609833487:0;du -ahd 1
+: 1609833490:0;du -ah
+: 1609833496:0;du -ahl 1
+: 1609833503:0;du -ahL 1
+: 1609833513:0;du -ah -d 1
+: 1609833520:0;du -ahd 1
+: 1609833525:0;du -hd 1
+: 1609833548:0;du -hd 1 nlp_textcat_ludwig_trainer
+: 1609833560:0;du -hd 1 nlp_textcat_ludwig_trainer/multilabel
+: 1609833578:0;ls
+: 1609833582:0;mkdir dele
+: 1609833583:0;cd dele
+: 1609833584:0;ls
+: 1609833588:0;mkdir a b
+: 1609833596:0;mkdir a/output b/output
+: 1609833598:0;..
+: 1609833600:0;treee dele
+: 1609833614:0;find dele -type d
+: 1609833622:0;find dele -type d -exec ls
+: 1609833627:0;find dele -type d -exec ls ;
+: 1609833630:0;find dele -type d -exec ls \;
+: 1609833660:0;find dele -type d -print0
+: 1609833666:0;find dele -type d -print0 | xargs -0 ls
+: 1609833669:0;find dele -type d -print0 | xargs -0 l
+: 1609833670:0;find dele -type d -print0 | xargs -0 ls
+: 1609833675:0;find dele -type d -print0 | xargs -0 ls -al
+: 1609833689:0;find dele -type d -print0 | xargs -0 file
+: 1609833691:0;find dele -type d -print0 | xargs -0 type
+: 1609833695:0;find dele -type d -print0 | xargs -0 file
+: 1609833710:0;find dele -type d -name 'b' -print0 | xargs -0 file
+: 1609833719:0;find dele -type d -name 'output' -print0 | xargs -0 file
+: 1609833725:0;find dele -type d -name 'output' -print0 | xargs -0 rm -r
+: 1609833728:0;treee dele
+: 1609833738:0;ls
+: 1609833741:0;rm -rf dele
+: 1609833767:0;find ./ -type d -name 'output' -print0 | xargs -0 rm -rf
+: 1609833770:0;treee .
+: 1609833774:0;treee . -L 5
+: 1609833804:0;du -hd 1
+: 1609833808:0;cd
+: 1609833811:0;du -hd 1
+: 1609833850:0;du -hd 1 | awk '{print $1 $2}' | sort -n
+: 1609833879:0;du -hd 1 | awk '{print $1 $2}' | sort -n -c 1
+: 1609833926:0;du -hd 1 | awk '{print $1 $2}' | sort -h
+: 1609833947:0;du -hd 1 | awk '{print $1\s$2}' | sort -h
+: 1609833956:0;du -hd 1 | awk '{print $1 $2}' | sort -h
+: 1609833970:0;ls .Trash
+: 1609834047:0;du -ha | awk '{print $1 $2}' | sort -h
+: 1609834058:0;l
+: 1609834069:0;l /Volumes
+: 1609834083:0;l /
+: 1609834108:0;ls
+: 1609834111:0;cd RA
+: 1609834116:0;du -hd 1 | awk '{print $1 $2}' | sort -h
+: 1609834128:0;ls GIG
+: 1609834133:0;cd DEV
+: 1609834135:0;du -hd 1 | awk '{print $1 $2}' | sort -h
+: 1609834156:0;ls
+: 1609834158:0;l
+: 1609834183:0;l | awk '{print $5}'
+: 1609834192:0;l | awk '{print $5 $9}'
+: 1609834203:0;l | awk '{print $5 \s $9}'
+: 1609834222:0;l | awk '{print $5 "\s" $9}'
+: 1609834322:0;l | awk '{print $5"\s"$9}'
+: 1609834329:0;l | awk '{print $5 "\t" $9}'
+: 1609834334:0;l | awk '{print $5 "\t" $9}' | sort -h
+: 1609834350:0;l | awk '{print $5, $9}' | sort -h
+: 1609834366:0;ls
+: 1609834366:0;pwd
+: 1609834367:0;ls
+: 1609834386:0;du -hd 1 gig_HKU
+: 1609834393:0;du -hd 1 gig_UBC
+: 1609834398:0;ls
+: 1609834399:0;cd
+: 1609834467:0;mv Downloads/nlp_textcat_ludwig_trainer.ipynb RA/DEV/NB_Colab/hive_flatten/nlp_textcat_sklearn_trainer
+: 1609834473:0;cd -3
+: 1609834476:0;cd nlp_textcat_sklearn_trainer
+: 1609834476:0;ls
+: 1609834490:0;mv nlp_textcat_ludwig_trainer.ipynb nlp_textcat_sklearn_trainer.ipynb
+: 1609835606:0;ls
+: 1609835606:0;pwd
+: 1609835654:0;ls
+: 1609860713:0;node
+: 1609860716:0;npm
+: 1609860718:0;cd
+: 1609860719:0;ls
+: 1609860722:0;cd OREPO
+: 1609860723:0;ls
+: 1609860728:0;git clone https://github.com/leerob/youtube-to-mp3.git --depth=1
+: 1609860735:0;ls
+: 1609860737:0;cd youtube-to-mp3
+: 1609860738:0;ls
+: 1609860752:0;yarn --help
+: 1609860760:0;..
+: 1609860767:0;brew info yarn
+: 1609860779:0;brew node
+: 1609860782:0;brew info node
+: 1609860801:0;brew install yarn
+: 1609860853:0;rm -rf youtube-to-mp3
+: 1609860897:0;brew ask
+: 1609860899:0;brew cask
+: 1609860924:0;brew cask install mpv
+: 1609860943:0;brew install --cask mpv
+: 1609861030:0;mpv
+: 1609861055:0;brew uninstall mpv
+: 1609861074:0;brew remove mpv
+: 1609861089:0;brew install mplayer
+: 1609861505:0;which python
+: 1609861509:0;which python3
+: 1609861516:0;python
+: 1609861522:0;deactivate
+: 1609861524:0;which python
+: 1609861526:0;which python3
+: 1609861528:0;python
+: 1609861531:0;python3
+: 1609861533:0;which python3
+: 1609861539:0;which pip
+: 1609861540:0;which pip3
+: 1609861543:0;pip3 list
+: 1609861548:0;source ~/envPY/bin/activate
+: 1609861559:0;brew install mps-youtube
+: 1609861627:0;mpsyt
+: 1609861774:0;brew remove mps-youtube
+: 1609861783:0;brew uninstall mps-youtube
+: 1609861788:0;brew list
+: 1609861792:0;brew list --formula
+: 1609862160:0;brew info youtube-dl
+: 1609862175:0;brew install youtube-dl
+: 1609862248:0;youtube-dl
+: 1609862264:0;youtube-dl -x --audio-format mp3 https://www.youtube.com/watch\?v\=dDI8jLlc5WE\&t\=61s
+: 1609863022:0;ls
+: 1609863030:0;rm Programming\ âƒ¶«ï¸ƒ¯\ Designing\ âƒ¶«ï¸ƒ¯\ Coding\ âƒ¶«ï¸ƒ¯\ Music\ ðƒ¿ƒ³ƒ¨-dDI8jLlc5WE.webm
+: 1609863031:0;ls
+: 1609863038:0;docker start main
+: 1609863189:0;cd
+: 1609863189:0;ls
+: 1609863194:0;cd Downloads
+: 1609863195:0;ls
+: 1609863199:0;ls goo
+: 1609863202:0;ls goose_clean
+: 1609863296:0;cd goose_clean/20201230_goose_clean_part1
+: 1609863296:0;ls
+: 1609863300:0;cd goosecleaner_v0.1.1
+: 1609863301:0;ls
+: 1609863303:0;ls shared/output
+: 1609863308:0;..
+: 1609863309:0;ls
+: 1609863310:0;ls input
+: 1609863592:0;cd
+: 1609863606:0;ls DESK
+: 1609863625:0;mv DESK STUFF
+: 1609863626:0;ls
+: 1609863628:0;cd Desktop
+: 1609863628:0;ls
+: 1609863641:0;mv 20200304103035_198398519_20_cleaned_csv.gzip ~/RA
+: 1609912023:0;docker start main
+: 1609914310:0;cd
+: 1609914331:0;mv Downloads/cleaned_gzip.zip ~/RA/dele_langdetect_ner
+: 1609917347:0;ctop
+: 1609917948:0;ls
+: 1609917972:0;ls Downloads
+: 1609917976:0;cd Downloads/goose_clean
+: 1609917976:0;l
+: 1609917978:0;cd 20201230_goose_clean_part1
+: 1609917979:0;ls
+: 1609917983:0;vim multicore.py
+: 1609918033:0;cp multicore.py ~/RA/dele_langdetect_ner/
+: 1609919978:0;ctop
+: 1609937840:0;ks
+: 1609937841:0;ls
+: 1609937842:0;pwd
+: 1609937843:0;ls
+: 1609937846:0;cd
+: 1609937870:0;cd RA/dele_langdetect_ner
+: 1609937870:0;ls
+: 1609937873:0;cd detect
+: 1609937874:0;ls
+: 1609937880:0;bash start.sh
+: 1609937889:0;vim start.sh
+: 1609937896:0;bash start.sh
+: 1609938030:0;vim start.sh
+: 1609938101:0;vim context/Dockerfile
+: 1609938135:0;bash start.sh
+: 1609938162:0;vim context/Dockerfile
+: 1609938171:0;bash start.sh
+: 1609938315:0;vim context/Dockerfile
+: 1609938323:0;bash start.sh
+: 1609938553:0;docker help
+: 1609938562:0;docker run -h
+: 1609938567:0;docker run --help
+: 1609938619:0;vim context/Dockerfile
+: 1609938627:0;vim start.sh
+: 1609938648:0;bash start.sh
+: 1609938659:0;docker ps
+: 1609938665:0;dockc
+: 1609938676:0;ls
+: 1609938696:0;vim start.sh
+: 1609938728:0;ls
+: 1609938732:0;vim context/Dockerfile
+: 1609938739:0;vim context/main.py
+: 1609938748:0;ls
+: 1609938755:0;docker logs detector
+: 1609938760:0;vim context/main.py
+: 1609938766:0;vim context/run_detect.py
+: 1609938770:0;ls
+: 1609938777:0;bash start.sh
+: 1609938792:0;docker container rm detector
+: 1609938808:0;bash start.sh
+: 1609938813:0;dockc
+: 1609938821:0;docker logs detector
+: 1609938830:0;ls
+: 1609938832:0;ls context
+: 1609938840:0;vim context/Dockerfile
+: 1609938858:0;..
+: 1609938860:0;cd detect
+: 1609938861:0;ls
+: 1609938863:0;bash start.sh
+: 1609938876:0;docker container rm detector
+: 1609938881:0;ls
+: 1609938885:0;bash start.sh
+: 1609938897:0;docker logs detector
+: 1609938906:0;ls
+: 1609938908:0;vim start.sh
+: 1609938917:0;ls
+: 1609938922:0;vim start.sh
+: 1609938947:0;mv context/* .
+: 1609938948:0;ls
+: 1609938951:0;rm context
+: 1609938952:0;ls
+: 1609938955:0;rm -rf context
+: 1609938956:0;ls
+: 1609938957:0;vim start.sh
+: 1609938967:0;vim Dockerfile
+: 1609939038:0;ls
+: 1609939047:0;bash start.sh
+: 1609939059:0;docker container rm detector
+: 1609939062:0;bash start.sh
+: 1609939067:0;dockc
+: 1609939073:0;docker logs detector
+: 1609939078:0;vim main.py
+: 1609939107:0;docker container rm detector
+: 1609939110:0;bash start.sh
+: 1609939115:0;dockc
+: 1609939121:0;docker logs detector
+: 1609939144:0;ls
+: 1609939151:0;ls chunk_0
+: 1609939182:0;rm -f chunk_0
+: 1609939186:0;rm -rf chunk_0
+: 1609939186:0;ls
+: 1609939188:0;ls input
+: 1609939191:0;vim Dockerfile
+: 1609939219:0;vim main.py
+: 1609939256:0;vim run_detect.py
+: 1609939265:0;ls
+: 1609939271:0;vim run_detect.py
+: 1609939277:0;ls
+: 1609939285:0;docker container rm detector
+: 1609939287:0;ls
+: 1609939290:0;bash start.sh
+: 1609939658:0;dockc
+: 1609939662:0;docker logs detector
+: 1609939669:0;watch docker logs detector
+: 1609939749:0;ctop
+: 1609939774:0;docker logs main
+: 1609939837:0;ls
+: 1609939845:0;treee .
+: 1609939852:0;treee . -L4
+: 1609939854:0;treee . -L 4
+: 1609939856:0;treee . -L 5
+: 1609939870:0;ls
+: 1609939875:0;ctop
+: 1609939879:0;ls
+: 1609939886:0;docker logs main
+: 1609939892:0;docker logs detector
+: 1609939900:0;ls
+: 1609939912:0;treee .
+: 1609939926:0;treee . -L 4
+: 1609939934:0;vim main.py
+: 1609939950:0;vim run_detect.py
+: 1609940024:0;vim main.py
+: 1609940036:0;docker container rm detector
+: 1609940039:0;ls
+: 1609940041:0;rm -rf chunk_*
+: 1609940042:0;ls
+: 1609940046:0;bash start.sh
+: 1609940089:0;docker logs detector
+: 1609940093:0;ls
+: 1609940098:0;vim main.py
+: 1609940157:0;ls
+: 1609940158:0;ls chunk_
+: 1609940160:0;ls chunk_0
+: 1609940166:0;vim chunk_0/main.py
+: 1609940177:0;cd chunk_0
+: 1609940177:0;ls
+: 1609940180:0;python main.py
+: 1609940188:0;ls input
+: 1609940190:0;..
+: 1609940191:0;ls
+: 1609940194:0;rm -rf chunk_*
+: 1609940196:0;ls
+: 1609940201:0;bash start.sh
+: 1609940208:0;docker container rm detector
+: 1609940211:0;bash start.sh
+: 1609940217:0;dockc
+: 1609940221:0;docker logs detector
+: 1609940224:0;dockc
+: 1609940228:0;ctop
+: 1609940309:0;docker logs detector
+: 1609940316:0;ls
+: 1609940322:0;vim main.py
+: 1609940423:0;docker container rm detector
+: 1609940427:0;bash start.sh
+: 1609940445:0;ctop
+: 1609940451:0;ls
+: 1609940456:0;docker logs detector
+: 1609940459:0;rm -rf chunk_*
+: 1609940461:0;ls
+: 1609940469:0;docker container rm detector
+: 1609940473:0;bash start.sh
+: 1609940591:0;dockc
+: 1609940595:0;docker logs detector
+: 1609940605:0;ls
+: 1609940611:0;ls chunk_0/output
+: 1609940616:0;vim main.py
+: 1609940645:0;ls
+: 1609940648:0;rm -rf chunk_*
+: 1609940649:0;ls
+: 1609940654:0;docker container rm detector
+: 1609940657:0;bash start.sh
+: 1609940674:0;ctop
+: 1609940686:0;watch docker logs detector
+: 1609940703:0;ctop
+: 1609940724:0;ls
+: 1609940730:0;vim main.py
+: 1609940775:0;ls
+: 1609940780:0;ipython
+: 1609940824:0;ls
+: 1609940827:0;vim main.py
+: 1609940860:0;docker container rm detector
+: 1609940861:0;ls
+: 1609940863:0;rm -rf chunk_*
+: 1609940864:0;ls
+: 1609940872:0;bash start.sh
+: 1609940881:0;watch docker logs detector
+: 1609940926:0;ctop
+: 1609940973:0;ls
+: 1609940978:0;treee .
+: 1609940984:0;ls
+: 1609940988:0;rm -rf chunk_*
+: 1609940990:0;vim main.py
+: 1609941020:0;ls
+: 1609941028:0;ls input
+: 1609941031:0;ls
+: 1609941036:0;vim main.py
+: 1609941042:0;ls
+: 1609941050:0;vim Dockerfile
+: 1609941056:0;vim main.py
+: 1609941083:0;docker container rm detector
+: 1609941084:0;ls
+: 1609941088:0;bash start.sh
+: 1609941099:0;docker logs detector
+: 1609941104:0;watch docker logs detector -n 0.1
+: 1609941119:0;watch -n 1 docker logs detector 
+: 1609941194:0;treee .
+: 1609941200:0;vim main.py
+: 1609941216:0;docker logs detector
+: 1609941226:0;ls
+: 1609941228:0;ls chunk_
+: 1609941389:0;ls
+: 1609941391:0;vim main.py
+: 1609941448:0;ls
+: 1609941452:0;rm -rf chunk_*
+: 1609941453:0;ls
+: 1609941459:0;vim start.sh
+: 1609941467:0;vim Dockerfile
+: 1609941482:0;ls
+: 1609941489:0;docker container rm detector
+: 1609941494:0;bash start.sh
+: 1609941502:0;ctop
+: 1609941511:0;ls
+: 1609941512:0;ls output
+: 1609941518:0;rm -rf output
+: 1609941519:0;ls
+: 1609941538:0;mv main.py ../chunk.py
+: 1609941538:0;ls
+: 1609941541:0;..
+: 1609941542:0;ls
+: 1609941548:0;vim detect/start.sh
+: 1609941577:0;ls
+: 1609941584:0;cd detect
+: 1609941585:0;ls
+: 1609941588:0;bash start.sh
+: 1609941607:0;docker build --help
+: 1609941617:0;vim Dockerfile
+: 1609941621:0;vim start.sh
+: 1609941635:0;ls
+: 1609941640:0;bash start.sh
+: 1609941652:0;vim start.sh
+: 1609941661:0;bash start.sh
+: 1609941675:0;vim start.sh
+: 1609941716:0;ls
+: 1609941721:0;vim Dockerfile
+: 1609941736:0;mkdir context
+: 1609941741:0;mv Dockerfile run_detect.py context
+: 1609941742:0;ls
+: 1609941744:0;bash start.sh
+: 1609941752:0;docker container rm detector
+: 1609941755:0;ls
+: 1609941759:0;bash start.sh
+: 1609941763:0;ctop
+: 1609941770:0;docker logs detector
+: 1609941779:0;ls
+: 1609941781:0;vim s
+: 1609941784:0;vim start.sh
+: 1609941792:0;ls context
+: 1609941809:0;vim context/Dockerfile
+: 1609941857:0;docker container rm detector
+: 1609941862:0;bash start.sh
+: 1609941870:0;ctop
+: 1609941875:0;docker logs detector
+: 1609941885:0;vim context/Dockerfile
+: 1609941900:0;vim start.sh
+: 1609941920:0;ls
+: 1609941924:0;docker container rm detector
+: 1609941925:0;ls
+: 1609941927:0;bash start.sh
+: 1609941930:0;ls
+: 1609941936:0;vim start.sh
+: 1609941943:0;bash start.sh
+: 1609941948:0;ctop
+: 1609941953:0;docker logs detector
+: 1609941957:0;vim context/Dockerfile
+: 1609941974:0;docker container rm detector
+: 1609941977:0;ls
+: 1609941978:0;bash start.sh
+: 1609941983:0;ctop
+: 1609941988:0;docker logs detector
+: 1609941996:0;l
+: 1609942019:0;vim start.sh
+: 1609942052:0;docker container rm detector
+: 1609942053:0;ls
+: 1609942056:0;bash start.sh
+: 1609942062:0;ctop
+: 1609942067:0;docker logs detector
+: 1609942081:0;vim start.sh
+: 1609942107:0;ls
+: 1609942112:0;docker container rm detector
+: 1609942114:0;bash start.sh
+: 1609942132:0;vim start.sh
+: 1609942155:0;ls
+: 1609942161:0;docker container rm detector
+: 1609942163:0;ls
+: 1609942165:0;bash start.sh
+: 1609942172:0;ls
+: 1609942175:0;ctop
+: 1609942181:0;docker logs detector
+: 1609942190:0;vim start.sh
+: 1609942235:0;ls
+: 1609942246:0;vim 
+: 1609942247:0;ls
+: 1609942276:0;ls context
+: 1609942283:0;vim start.sh
+: 1609942289:0;vim context/Dockerfile
+: 1609942330:0;vim context/run_detect.py
+: 1609942391:0;ls
+: 1609942394:0;vim start.sh
+: 1609942405:0;ls
+: 1609942409:0;docker container rm detector
+: 1609942411:0;bash start.sh
+: 1609942416:0;ctop
+: 1609942420:0;ls
+: 1609942422:0;ls output
+: 1609942424:0;ctop
+: 1609942426:0;ls
+: 1609942431:0;rm -rf output
+: 1609942431:0;ls
+: 1609942440:0;..
+: 1609942441:0;ls
+: 1609942450:0;zip -r detect.zip detect
+: 1609942452:0;l
+: 1609942454:0;ls
+: 1609942464:0;open .
+: 1609942737:0;ls
+: 1609942739:0;pwd
+: 1609942739:0;ls
+: 1609943363:0;cd tokenize
+: 1609943363:0;ls
+: 1609943364:0;bash start.sh
+: 1609943373:0;ls
+: 1609943374:0;vim start.sh
+: 1609943378:0;ls
+: 1609943380:0;ls context
+: 1609943384:0;cd context
+: 1609943387:0;mv Dockerfiile Dockerfile
+: 1609943389:0;ls
+: 1609943389:0;..
+: 1609943391:0;bash start.sh
+: 1609943446:0;vim context/Dockerfile
+: 1609943461:0;ls
+: 1609943464:0;ls context
+: 1609943468:0;ls
+: 1609943471:0;bash start.sh
+: 1609944360:0;cto
+: 1609944361:0;ctop
+: 1609944371:0;docker container rm detector
+: 1609944373:0;dockc
+: 1609944378:0;docker logs tokenizer
+: 1609944385:0;vim context/
+: 1609944390:0;ls context
+: 1609944402:0;cd context
+: 1609944402:0;ls
+: 1609944408:0;mv run_tokenize.py run_tokenizer.py
+: 1609944408:0;ls
+: 1609944410:0;..
+: 1609944410:0;ls
+: 1609944415:0;docker container rm tokenizer
+: 1609944417:0;bash start.sh
+: 1609944425:0;cto
+: 1609944427:0;ctop
+: 1609944435:0;ls
+: 1609944436:0;ls output
+: 1609944441:0;watch -n ls o
+: 1609944445:0;watch -n ls output
+: 1609944449:0;watch -n 1 ls output
+: 1609944455:0;ls
+: 1609944456:0;ctop
+: 1609944459:0;ls
+: 1609944472:0;watch -n 1 docker logs tokenizer
+: 1609944492:0;ls
+: 1609944493:0;ls output
+: 1609944498:0;docker logs tokenizer
+: 1609944503:0;vim context/run_tokenizer.py
+: 1609944541:0;ls
+: 1609944543:0;ctop
+: 1609944548:0;ls
+: 1609944549:0;ls output
+: 1609944556:0;watch -n 1 ls output
+: 1609944584:0;ctop
+: 1609944586:0;ls
+: 1609944589:0;docker logs tokenizer
+: 1609944593:0;ls
+: 1609944601:0;rm -rf output
+: 1609944602:0;ls
+: 1609944604:0;bash start.sh
+: 1609944612:0;docker container rm tokenizer
+: 1609944615:0;bash start.sh
+: 1609944620:0;ctop
+: 1609944628:0;ls output
+: 1609944631:0;watch -n 1 ls output
+: 1609944703:0;ctop
+: 1609944707:0;ls output
+: 1609944717:0;docker stop tokenizer
+: 1609944733:0;docker container rm tokenizer
+: 1609944734:0;dockc
+: 1609944738:0;docker images
+: 1609944742:0;docker image prune
+: 1609944745:0;docker images
+: 1609944750:0;ls
+: 1609944753:0;rm -rf output
+: 1609944754:0;ls
+: 1609944756:0;..
+: 1609944757:0;ls
+: 1609944765:0;zip -r tokenize.zip tokenize
+: 1609944768:0;ls
+: 1609944770:0;open .
+: 1609944866:0;ls
+: 1609944871:0;ls cleaned_gzip
+: 1609944872:0;ls
+: 1609944885:0;cd detect
+: 1609944885:0;ls
+: 1609944889:0;rm input/*
+: 1609944891:0;ls input
+: 1609944902:0;cp ../cleaned_gzip/* input
+: 1609944913:0;ls input | wc -l
+: 1609944918:0;ls input | wc -n
+: 1609944920:0;ls input | wc -c
+: 1609944922:0;ls input | wc -l
+: 1609944924:0;ls
+: 1609944944:0;bash start.sh
+: 1609944953:0;dockc
+: 1609944958:0;docker ps 
+: 1609944966:0;docker ps detector
+: 1609944971:0;docker top detector
+: 1609944978:0;ctop
+: 1609944987:0;ls
+: 1609944989:0;ls output
+: 1609944995:0;ctop
+: 1609945683:0;ls output | wc -l
+: 1609945686:0;ls
+: 1609945712:0;rm ../tokenize/input/*
+: 1609945722:0;mv output/* ../tokenize/input
+: 1609945727:0;cd ../tokenize
+: 1609945728:0;ls input
+: 1609945733:0;ls input | wc -l
+: 1609945733:0;ls
+: 1609945737:0;bash start.sh
+: 1609945746:0;ctop
+: 1609945984:0;ls output | wc -l
+: 1609946006:0;ls
+: 1609950850:0;ls output | wc -l
+: 1609950862:0;dockc
+: 1609950868:0;docker logs tokenizer
+: 1609950933:0;vim context/run_tokenizer.py
+: 1609950943:0;fg
+: 1609951205:0;ls
+: 1609951219:0;docker stop tokenizer
+: 1609951233:0;docker container rm tokenizer
+: 1609951234:0;ls
+: 1609951236:0;vim context/run_tokenizer.py
+: 1609951240:0;ls
+: 1609951246:0;bash start.sh
+: 1609951259:0;ctop
+: 1609951263:0;ls output
+: 1609951296:0;watch -n 1 ls output
+: 1609951312:0;ls output
+: 1609951331:0;ctop
+: 1609951338:0;docker logs tokenizer
+: 1609951359:0;vim context/run_tokenizer.py
+: 1609951400:0;docker container rm tokenizer
+: 1609951401:0;ls
+: 1609951403:0;bash start.sh
+: 1609951408:0;ctop
+: 1609951417:0;ls output
+: 1609951421:0;ctop
+: 1609951432:0;ls output
+: 1609951449:0;ctop
+: 1609951455:0;ls output
+: 1609951457:0;ctop
+: 1609951463:0;ls output
+: 1609951478:0;ctop
+: 1609951486:0;docker logs tokenizer
+: 1609951489:0;ls output
+: 1609951519:0;ctop
+: 1609951524:0;ls output
+: 1609951552:0;cto
+: 1609951553:0;ctop
+: 1609951559:0;cto
+: 1609951561:0;ctop
+: 1609951564:0;ls output
+: 1609951577:0;ctop
+: 1609951583:0;htop
+: 1609951588:0;ls
+: 1609951591:0;ls output
+: 1609951600:0;ctop
+: 1609951605:0;ls output
+: 1609951615:0;vim context/run_tokenizer.py
+: 1609951661:0;ipython
+: 1609951698:0;ls
+: 1609951700:0;ls output
+: 1609951710:0;open .
+: 1609951832:0;ls output
+: 1609951835:0;ctop
+: 1609951843:0;ls output
+: 1609951860:0;ls
+: 1609951861:0;pwd
+: 1609951873:0;ls
+: 1609951875:0;ls output
+: 1609951877:0;ctop
+: 1609952427:0;ls output
+: 1609952432:0;ls
+: 1609952434:0;..
+: 1609952436:0;cd detect
+: 1609952440:0;vim context/run_detect.py
+: 1609952573:0;ls output
+: 1609952580:0;ls
+: 1609952584:0;..
+: 1609952585:0;ls
+: 1609952587:0;ls tokenize
+: 1609952590:0;ls tokenize/output
+: 1609952592:0;ctop
+: 1609952600:0;ls tokenize/output
+: 1609952604:0;docker logs tokenizer
+: 1609952624:0;cp tokenize/input/* detect/output
+: 1609952632:0;cd detect
+: 1609952633:0;ls
+: 1609952636:0;bash start.sh
+: 1609952649:0;docker container rm detector
+: 1609952652:0;bash start.sh
+: 1609952675:0;ctop
+: 1609952741:0;cto
+: 1609952742:0;ctop
+: 1609952752:0;docker logs detector
+: 1609952756:0;ls
+: 1609952758:0;ls output
+: 1609952774:0;ctop
+: 1609952785:0;ls output
+: 1609952790:0;ls input
+: 1609952792:0;ls output
+: 1609952802:0;ls output | wc -l
+: 1609952811:0;ctop
+: 1609952841:0;vim context/run_detect.py
+: 1609952863:0;ctop
+: 1609952970:0;ls
+: 1609952983:0;ctop
+: 1609952989:0;ls output
+: 1609952992:0;ls output | wc -l
+: 1609952998:0;docker logs detector
+: 1609953003:0;ctop
+: 1609953010:0;qls
+: 1609953010:0;ls
+: 1609953016:0;ls output
+: 1609953024:0;ls input
+: 1609953050:0;ls
+: 1609953055:0;docker container rm detector
+: 1609953064:0;vim context/run_detect.py
+: 1609953127:0;ctop
+: 1609953132:0;bash start.sh
+: 1609953141:0;ctop
+: 1609953152:0;vim context/run_detect.py
+: 1609953172:0;docker container rm detector
+: 1609953175:0;bash start.sh
+: 1609953180:0;ctop
+: 1609953239:0;docker logs detector
+: 1609953242:0;ls output
+: 1609953248:0;ctop
+: 1609953284:0;ls
+: 1609953307:0;open .
+: 1609953421:0;ctop
+: 1609953438:0;ls
+: 1609953440:0;docker container rm detector
+: 1609953441:0;ls
+: 1609953555:0;ctop
+: 1609953564:0;ls
+: 1609953567:0;.
+: 1609953568:0;,,
+: 1609953569:0;ls
+: 1609953574:0;cd ../tokenize
+: 1609953574:0;ls
+: 1609953577:0;ls o
+: 1609953578:0;ls output
+: 1609953586:0;ctop
+: 1609953598:0;ls
+: 1609953613:0;..
+: 1609953614:0;ls
+: 1609953627:0;vim start.sh
+: 1609953652:0;ls
+: 1609953665:0;cd context
+: 1609953666:0;ls
+: 1609953668:0;ls output
+: 1609953669:0;rm output
+: 1609953672:0;rm -r output
+: 1609953672:0;ls
+: 1609953674:0;..
+: 1609953680:0;mv context/run_detect.py .
+: 1609953681:0;ls
+: 1609953692:0;vim context/Dockerfile
+: 1609953719:0;bash start.sh
+: 1609953728:0;ctop
+: 1609953750:0;ls
+: 1609953762:0;dockc
+: 1609953784:0;ls
+: 1609953791:0;docker attach detector
+: 1609953802:0;ctop
+: 1609953831:0;ls
+: 1609953840:0;dockc
+: 1609953844:0;ctop
+: 1609953979:0;vim run_detect.py
+: 1609954346:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1609985465:0;ls
+: 1609985467:0;pwd
+: 1609985467:0;ls
+: 1609985477:0;pwd
+: 1609985478:0;ls
+: 1609985894:0;dockc
+: 1609985899:0;docker container rm detector
+: 1609985905:0;bash start.sh
+: 1609985910:0;dockc
+: 1609985916:0;ctop
+: 1609985973:0;docker container rm detector
+: 1609985977:0;bash start.sh
+: 1609985980:0;ctop
+: 1609985992:0;docker images
+: 1609985999:0;docker image prune
+: 1609986003:0;docker images
+: 1609986185:0;docker volume ls
+: 1609987689:0;ls
+: 1609987690:0;pwd
+: 1609987691:0;ls
+: 1609987696:0;cd
+: 1609987696:0;ls
+: 1609987699:0;docker images
+: 1609987701:0;dockc
+: 1609988097:0;docker container rm tokenizer
+: 1609988105:0;cd RA/dele_langdetect_ner/tokenize
+: 1609988105:0;ls
+: 1609988108:0;bash start.sh
+: 1609988215:0;ls
+: 1609988220:0;pwd
+: 1609988227:0;docker container rm tokenizer
+: 1609988439:0;bash start.sh
+: 1609988523:0;docker container rm tokenizer
+: 1609988526:0;bash start.sh
+: 1609988587:0;ls
+: 1609988589:0;cd output
+: 1609988590:0;ls
+: 1609988653:0;rm *_15??_ent_csv.csv
+: 1609988655:0;ls
+: 1609988674:0;rm *_15??_tokens_csv.csv
+: 1609988675:0;ls
+: 1609988680:0;docker container rm tokenizer
+: 1609988684:0;bash start.sh
+: 1609988686:0;..
+: 1609988687:0;ls
+: 1609988689:0;bash start.sh
+: 1609988932:0;ls output | wc -l
+: 1609988936:0;ls input | wc -l
+: 1609988965:0;docker container rm tokenizer
+: 1609988970:0;docker container rm tokenizer -f
+: 1609988981:0;ls
+: 1609988983:0;dockc
+: 1609988987:0;docker images
+: 1609988994:0;docker image prune
+: 1609988996:0;ls
+: 1609989017:0;docker export -h
+: 1609989047:0;docker save -o tokenizer.tar tokenizer
+: 1609989096:0;l
+: 1609989130:0;open .
+: 1609989705:0;docker save -o detector.tar detector
+: 1609989718:0;open .
+: 1610001885:0;ls
+: 1610001888:0;ls ..
+: 1610007441:0;docker start main
+: 1610030477:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1610032345:0;ls
+: 1610032346:0;dockc
+: 1610033057:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1610071500:0;ls
+: 1610071506:0;tmux ls
+: 1610071510:0;tmux at
+: 1610071689:0;cd
+: 1610071690:0;ls
+: 1610071693:0;cd dott
+: 1610071694:0;ls
+: 1610071699:0;vim Makefile
+: 1610071713:0;git status
+: 1610071719:0;vim zshrc
+: 1610071744:0;vim vimrc
+: 1610071757:0;make push
