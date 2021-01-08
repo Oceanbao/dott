@@ -75,6 +75,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+export EDITOR='vim'
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -98,13 +99,26 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias envra="PYTHONPATH=/home/ocean/RA/REPO/"
 alias dockc="docker container ls -a -s"
 alias dockb="DOCKER_BUILDKIT=1 docker build"
-alias gorepo="cd $HOME/RA/REPO"
 alias treee="tree -L 2 -ugDh --sort=size"
 alias rm="rm -rfIv"
 alias sd="sudo "
+alias ddu="du -sh * | sort - hr | head -10"
+
+# Functions
+ftext () {
+	grep -iIHrn --color=always "$1" . | less -R -r
+}
+
+duplicatefind ()
+{
+	find . -not -empty -type f -exec -printf "%s\n" \; | sort -rn | uniq -d | xargs -I{} -n1 find -type f -size {}c -print0 | xargs -0 md5sum | sort | uniq -w32 --all-repeated=separate
+}
+
+generateqr () {
+	printf "$@" | curl -F-=\<- qrenco.de
+}
 
 export TERM=xterm-256color
 
