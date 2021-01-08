@@ -25,6 +25,7 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'Yggdroot/indentLine'
+Plugin 'gcmt/wildfire.vim'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
