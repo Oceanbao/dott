@@ -10,7 +10,6 @@ init:
 	git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 	git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-	git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 	rm ${HOME}/.zshrc
 	ln -s dott/vimrc ${HOME}/.vimrc
 	vim +PluginInstall +qall
@@ -18,8 +17,8 @@ init:
 	ln -s dott/gitconfig ${HOME}/.gitconfig
 	ln -s dott/tmux.conf ${HOME}/.tmux.conf
 	cp zsh_history ${HOME}/.zsh_history
+	git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 	sudo usermod -s /bin/zsh oceanbao
-
 
 push:
 	echo "Updating dotfiles..."
