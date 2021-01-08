@@ -104,7 +104,7 @@ alias dockb="DOCKER_BUILDKIT=1 docker build"
 alias treee="tree -L 2 -ugDh --sort=size"
 alias rm="rm -rfIv"
 alias sd="sudo "
-alias ddu="du -sh * | sort - hr | head -10"
+alias ddu="du -sh * | sort -hr | head -10"
 
 # Functions
 ftext () {
