@@ -2887,3 +2887,2562 @@ toolz\
 : 1610071719:0;vim zshrc
 : 1610071744:0;vim vimrc
 : 1610071757:0;make push
+: 1610071781:0;vim Makefile
+: 1610071795:0;git pull
+: 1610071816:0;vim Makefile
+: 1610071826:0;vim zsh_history
+: 1610071868:0;git status
+: 1610071886:0;rm zsh_history
+: 1610071894:0;git status
+: 1610071923:0;vim zshrc
+: 1610072100:0;vim vimrc
+: 1610072561:0;htop
+: 1610072653:0;ls
+: 1610072663:0;cd
+: 1610072664:0;ls
+: 1610072675:0;dockc
+: 1610072691:0;docker images
+: 1610072712:0;docker commit main main
+: 1610072834:0;docker images
+: 1610072842:0;docker system df
+: 1610072866:0;docker system prune
+: 1610072872:0;dockc
+: 1610072891:0;docker commit poly poly
+: 1610072901:0;docker images
+: 1610072908:0;docker system prune
+: 1610072913:0;docker system prune --help
+: 1610072924:0;docker system prune
+: 1610072932:0;docker system df
+: 1610072948:0;docker volume ls
+: 1610072959:0;docker volume --help
+: 1610072966:0;docker volume inspect df915
+: 1610072979:0;docker volume inspect df9152eaf
+: 1610072985:0;docker volume ls
+: 1610072988:0;docker volume --help
+: 1610073001:0;docker volume rm df915
+: 1610073006:0;docker volume rm prune
+: 1610073011:0;docker volume prune
+: 1610073017:0;docker volume ls
+: 1610073022:0;docker images
+: 1610073160:0;docker system df
+: 1610073162:0;docker system df -av
+: 1610073165:0;docker system df -v
+: 1610073235:0;ls
+: 1610073236:0;s
+: 1610073237:0;ls
+: 1610073244:0;dockc
+: 1610073257:0;docker images
+: 1610073408:0;docker container rm main -f
+: 1610073428:0;dockc
+: 1610073432:0;docker images
+: 1610073442:0;docker system df prune
+: 1610073447:0;docker system prune
+: 1610073457:0;docker system df 
+: 1610073470:0;ls
+: 1610073495:0;docker images
+: 1610073540:0;docker rmi main
+: 1610073555:0;docker system d
+: 1610073556:0;docker system df
+: 1610073565:0;docker info
+: 1610073771:0;docker images
+: 1610073944:0;docker pull python:3.8-slim-buster
+: 1610073964:0;docker images
+: 1610074157:0;l
+: 1610074158:0;sls
+: 1610074159:0;ls
+: 1610074163:0;mkdir VOL_CON
+: 1610074163:0;ls
+: 1610074204:0;docker run -it python:3.8-slim-buster bash
+: 1610075076:0;dockc
+: 1610075088:0;docker commit admiring_wu main
+: 1610075093:0;dockc
+: 1610075094:0;docker images
+: 1610075120:0;docker container rm admiring_wu -f
+: 1610075121:0;dockc
+: 1610075189:0;docker run -it --name main -p 8888:8888 --mount type=bind,source=/Users/dele/VOL_CON,target=/home/oceanbao/VOL_CON main bash
+: 1610075729:0;dockc
+: 1610075733:0;docker commit main main
+: 1610075749:0;ls
+: 1610075774:0;mv RA/RA_requirements.txt VOL_CON
+: 1610075776:0;ls DEV
+: 1610075779:0;ls 
+: 1610075781:0;ls RA
+: 1610075815:0;cd RA
+: 1610075816:0;ls
+: 1610075855:0;mv todo.md apiary ../VOL_CON
+: 1610075857:0;cd ..
+: 1610075858:0;ls
+: 1610075860:0;ls VOL_CON
+: 1610075870:0;ls
+: 1610076332:0;mv RA/main_requirements.txt VOL_CON
+: 1610077374:0;dockc
+: 1610078374:0;docker images
+: 1610079280:0;htop
+: 1610091737:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1610091915:0;ls
+: 1610091944:0;mv RA/DEV/hive_testsuite/nlp_textcat_sklearn_trainer VOL_CON
+: 1610091945:0;ls
+: 1610101975:0;vim RA/DEV/hive_testsuite/nlp_textcat_ludwig_trainer/colab_script.py
+: 1610111789:0;ls
+: 1610111791:0;vim RA/DEV/hive_testsuite/nlp_textcat_ludwig_trainer/colab_script.py
+: 1610112179:0;cp RA/DEV/hive_testsuite/nlp_textcat_ludwig_trainer/colab_script.py VOL_CON/colab_ludwig.py
+: 1610161155:0;ls
+: 1610161157:0;ls RA
+: 1610161225:0;find ./ -type f -name 'jupyter' -print0 | xargs -0 ls
+: 1610161240:0;find ./RA -type f -name 'jupyter' -print0 | xargs -0 ls
+: 1610161248:0;find ./STUFF -type f -name 'jupyter' -print0 | xargs -0 ls
+: 1610161266:0;ls Downloads
+: 1610161297:0;find ./STUFF -type f -name 'labext' -print0 | xargs -0 ls
+: 1610161304:0;find ./RA -type f -name 'labext' -print0 | xargs -0 ls
+: 1610161316:0;jupyter labextension list
+: 1610161937:0;cp RA/DEV/NB_Colab/hive_flatten VOL_CON/ -r
+: 1610161942:0;cp RA/DEV/NB_Colab/hive_flatten VOL_CON/
+: 1610161951:0;cp -r RA/DEV/NB_Colab/hive_flatten VOL_CON/
+: 1610172120:0;brew update
+: 1610173445:0;vimdiff VOL_CON/hive_flatten/colab_template_trainer.py VOL_CON/nlp_textcat_sklearn_trainer/colab_ludwig.py
+: 1610174497:0;vim .tmux.conf
+: 1610174508:0;ls
+: 1610175051:0;vim .vimrc
+: 1610175085:0;vim
+: 1610175233:0;vim .vimrc
+: 1610175333:0;vim
+: 1610175718:0;tcpdump
+: 1610175725:0;brew list
+: 1610175797:0;vim .vimrc
+: 1610175857:0;ls
+: 1610175858:0;pwd
+: 1610175859:0;ls
+: 1610175877:0;cp .vimrc VOL_CON/haha
+: 1610176068:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1610176219:0;ls
+: 1610176219:0;vim
+: 1610176228:0;vim .vimrc
+: 1610176241:0;vim
+: 1610176333:0;ls
+: 1610176731:0;vim
+: 1610176769:0;vim .vimrc
+: 1610176797:0;vim
+: 1610177674:0;dockc
+: 1610177680:0;ls
+: 1610177681:0;dockc
+: 1610177689:0;docker images
+: 1610182922:0;vim RA/DEV/hive_testsuite/nlp_textcat_sklearn_trainer_live/live_textcat_separate_v012.py
+: 1610202357:0;ls
+: 1610202404:0;source ~/envPY/bin/activate
+: 1610202405:0;ls
+: 1610202406:0;pip list
+: 1610202432:0;ls
+: 1610202479:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1610202483:0;ls
+: 1610202484:0;pwd
+: 1610207861:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1610245000:0;ls
+: 1610245045:0;nohup jupyter lab --port=8888 > jupyter.log &
+: 1610245056:0;job
+: 1610245057:0;jobs
+: 1610245061:0;cat jupyter.log
+: 1610245361:0;pip install ludwig
+: 1610245409:0;pip uninstall ludiwg
+: 1610245411:0;pip uninstall ludwig
+: 1610245421:0;pip install ludwig==0.3.2
+: 1610245464:0;pip install tensorflow-cpu
+: 1610245563:0;pip install tensorflow
+: 1610245574:0;which pip
+: 1610245578:0;pip list
+: 1610245677:0;cd VOL_CON/hive_flatten
+: 1610245684:0;rm -rf data/multilabel/output
+: 1610245690:0;rm -r data/multilabel/output
+: 1610245693:0;ls
+: 1610245695:0;cd data
+: 1610245695:0;ls
+: 1610245697:0;ls multi
+: 1610245699:0;treee .
+: 1610245703:0;rm multilabel/output
+: 1610245708:0;cd multilabel
+: 1610245708:0;l
+: 1610245718:0;ls output
+: 1610245720:0;rm output
+: 1610245736:0;vim ~/.zshrc
+: 1610245746:0;rm
+: 1610245755:0;rm output
+: 1610245763:0;rm
+: 1610246092:0;ls
+: 1610246092:0;pwd
+: 1610246095:0;tmux ls
+: 1610246097:0;tmux at
+: 1610246107:0;jobs
+: 1610246110:0;kill %1
+: 1610246114:0;tmux ls
+: 1610246117:0;tmux 
+: 1610246119:0;rm
+: 1610246122:0;ls
+: 1610246125:0;touch haha
+: 1610246127:0;rm haha
+: 1610246145:0;vim .zshrc
+: 1610246156:0;rm haha
+: 1610246162:0;source .zshrc
+: 1610246164:0;rm haha
+: 1610246165:0;ls
+: 1610246169:0;mkdir haha
+: 1610246171:0;touch haha/haha
+: 1610246172:0;rm haha
+: 1610246181:0;rm --help
+: 1610246183:0;man rm
+: 1610246225:0;vim .zshrc
+: 1610246244:0;source .zshrc
+: 1610246248:0;mkdir haha
+: 1610246252:0;touch haha/haha
+: 1610246253:0;rm haha
+: 1610246286:0;ls
+: 1610246292:0;cd VOL_CON/hive_flatten
+: 1610246292:0;ls
+: 1610246297:0;rm data/multilabel/output
+: 1610246318:0;ls
+: 1610246321:0;ls data/multilabel
+: 1610246342:0;rm data/multilabel/output
+: 1610246346:0;ls data/multilabel
+: 1610246353:0;ls data/multilabel/output
+: 1610246359:0;vim .zshrc
+: 1610246367:0;vim ~/.zshrc
+: 1610246381:0;ls
+: 1610246390:0;rm data/multilabel/output
+: 1610246395:0;source .zshrc
+: 1610246400:0;rm data/multilabel/output
+: 1610246419:0;ls data/multilabel/output
+: 1610246426:0;vim ~/.zshrc
+: 1610246435:0;which rm
+: 1610246443:0;source ~/.zshrc
+: 1610246446:0;rm data/multilabel/output
+: 1610246449:0;ls
+: 1610246453:0;ls data/multilabel/
+: 1610246454:0;ls
+: 1610246912:0;dockc
+: 1610246921:0;source ~/envPY/bin/activate
+: 1610246927:0;touch haha
+: 1610246929:0;rm haha
+: 1610246936:0;docker start main
+: 1610249060:0;powermetrics
+: 1610249064:0;sudo powermetrics
+: 1610249109:0;sudo powermetrics -n 1 --samplers smc | grep "(CPU|GPU) die|Fan"
+: 1610249127:0;sudo powermetrics  | grep "(CPU|GPU) die|Fan"
+: 1610249499:0;ls
+: 1610249504:0;zip -r data.zip data
+: 1610249624:0;ls
+: 1610249631:0;mkdir haha
+: 1610249634:0;mv data.zip haha
+: 1610249635:0;cd haha
+: 1610249637:0;unzip data.zip
+: 1610249638:0;ls
+: 1610249641:0;..
+: 1610249642:0;ls
+: 1610249644:0;rm haha
+: 1610249646:0;ls
+: 1610250517:0;zip -r data.zip data
+: 1610260763:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1610267800:0;cd
+: 1610267801:0;ls
+: 1610267804:0;vim
+: 1610269047:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1610272641:0;vim VOL_CON/todo.md
+: 1610273120:0;ls
+: 1610273130:0;cd RA/DEV/
+: 1610273131:0;ls
+: 1610273176:0;find ./ -type d -name 'emulat' -print0 | xargs -0 ls
+: 1610273185:0;find ./ -type d -name 'emu' -print0 | xargs -0 ls
+: 1610273196:0;find ./ -type d,f -name 'emu' -print0 | xargs -0 ls
+: 1610273203:0;find ./  -name 'emu' -print0 | xargs -0 ls
+: 1610273208:0;ls RA
+: 1610273217:0;find ./  -name 'emu' -print0 | xargs -0 ls
+: 1610273218:0;..
+: 1610273220:0;find ./  -name 'emu' -print0 | xargs -0 ls
+: 1610273227:0;find ./  -name 'emulat' -print0 | xargs -0 ls
+: 1610273229:0;ls
+: 1610273235:0;ls RA
+: 1610273239:0;cd REPO
+: 1610273240:0;ls
+: 1610273244:0;cd hive_clean
+: 1610273244:0;ls
+: 1610273263:0;ls cloud_run_emulator
+: 1610273888:0;ls
+: 1610273893:0;..
+: 1610273903:0;find ./  -regex 'emulat' -print0 | xargs -0 ls
+: 1610273931:0;find ./  -regex 'logit' -print0 | xargs -0 ls
+: 1610273942:0;find ./  -regex r'logit' -print0 | xargs -0 ls
+: 1610273949:0;ls
+: 1610273950:0;pwd
+: 1610273964:0;find ./  -regex r'logit' -print0 | xargs -0
+: 1610282015:0;find ./ -name 'emulator' -print0
+: 1610282024:0;find ./ -name '*emulator'
+: 1610282027:0;find ./ -name '*emulator' -print0
+: 1610282030:0;find ./ -name '*emulator'
+: 1610282048:0;find -name '*emulator*'
+: 1610282054:0;find . -name '*emulator*'
+: 1610282062:0;ls
+: 1610283002:0;cd
+: 1610283021:0;mv Downloads/create_new_column_\(text_dtype\).ipynb VOL_CON/
+: 1610329222:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1610329283:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|volt'
+: 1610329295:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|wat'
+: 1610329539:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|(W)'
+: 1610329567:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle'
+: 1610329744:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mah'
+: 1610329750:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1610335140:0;jobs
+: 1610345232:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1610355090:0;ls
+: 1610355095:0;cd Dodc
+: 1610355098:0;cd Documents
+: 1610355098:0;ls
+: 1610355099:0;l
+: 1610355104:0;cat .localized
+: 1610355108:0;cat .DS_Store
+: 1610355112:0;ls
+: 1610355139:0;mv sticky.txt javv.txt
+: 1610355139:0;ls
+: 1610355144:0;cd ../Downloads
+: 1610355145:0;ls
+: 1610355146:0;l
+: 1610355149:0;open .
+: 1610355221:0;..
+: 1610355222:0;cd
+: 1610355222:0;ls
+: 1610355231:0;cd RA
+: 1610355236:0;ls
+: 1610355253:0;cd GIG/gig_JOB
+: 1610355253:0;l
+: 1610355256:0;cd ..
+: 1610355257:0;ls
+: 1610355258:0;..
+: 1610355259:0;ls
+: 1610355263:0;ls DEV
+: 1610355274:0;ls DEV/gig_UU
+: 1610355277:0;ls DEV/gig_UBC
+: 1610355283:0;ls GIG/gig_UBC
+: 1610355332:0;ls DEV/gig_HKU
+: 1610355353:0;mv DEV/gig_HKU GIG/
+: 1610355369:0;mv DEV/gig_UBC GIG/gig_UBC/new_dev
+: 1610355370:0;ls
+: 1610355371:0;ls DEV
+: 1610355375:0;cd DEV
+: 1610355378:0;du -hd 1 
+: 1610355412:0;ddu
+: 1610355445:0;..
+: 1610355446:0;ls
+: 1610355447:0;ddu
+: 1610355460:0;treee dele_langdetect_ner
+: 1610355462:0;ls
+: 1610355464:0;ddu
+: 1610355472:0;ls shipment
+: 1610355476:0;rm shipment.zip
+: 1610355477:0;ls
+: 1610355478:0;l
+: 1610355479:0;ddu
+: 1610355487:0;cd GIG
+: 1610355488:0;ddu
+: 1610355497:0;cd HKU
+: 1610355497:0;ls
+: 1610355499:0;cd gig_HKU
+: 1610355500:0;ls
+: 1610355500:0;ddu
+: 1610355508:0;ls data
+: 1610355521:0;rm ä¸­åƒ»½åƒ¯¤ç±ƒ­æ€»çƒ»®.zip
+: 1610355522:0;ls
+: 1610355522:0;ddu
+: 1610355530:0;cd code_crop
+: 1610355531:0;ls
+: 1610355533:0;ddu
+: 1610355542:0;mv pdfæƒ¶ƒ§åƒ¯²æƒ¨ªåƒ¯ƒ¶.zip pdf.zip
+: 1610355546:0;unzip pdf.zip
+: 1610355553:0;mkdir dele
+: 1610355561:0;cp pdf.zip dele
+: 1610355562:0;ls
+: 1610355566:0;cd dele
+: 1610355567:0;ls
+: 1610355569:0;unzip pdf.zip
+: 1610355573:0;ls
+: 1610355578:0;ls pdfæƒ¶ƒ§åƒ¯²æƒ¨ªåƒ¯ƒ¶
+: 1610355581:0;ls ../code
+: 1610355599:0;ddu
+: 1610355601:0;ddu ../code
+: 1610355612:0;ls
+: 1610355616:0;cd pdfæƒ¶ƒ§åƒ¯²æƒ¨ªåƒ¯ƒ¶
+: 1610355618:0;ddu
+: 1610355621:0;cd ../../code
+: 1610355622:0;ddu
+: 1610355635:0;ls
+: 1610355636:0;..
+: 1610355637:0;ls
+: 1610355645:0;mr pdfæƒ¶ƒ§åƒ¯²æƒ¨ªåƒ¯ƒ¶
+: 1610355649:0;rm pdfæƒ¶ƒ§åƒ¯²æƒ¨ªåƒ¯ƒ¶
+: 1610355651:0;ls
+: 1610355671:0;mv pdf.zip shipment.zip
+: 1610355672:0;ls
+: 1610355683:0;ls dele
+: 1610355685:0;rm dele
+: 1610355686:0;ls
+: 1610355689:0;ls code
+: 1610355694:0;cd code
+: 1610355694:0;ls
+: 1610355721:0;vim README.md
+: 1610355814:0;code 
+: 1610355819:0;vscode
+: 1610355821:0;ls
+: 1610355841:0;vis
+: 1610355850:0;man vis
+: 1610355857:0;man visudo
+: 1610355865:0;open .
+: 1610417506:0;ls
+: 1610417638:0;..
+: 1610417639:0;ls
+: 1610417668:0;ls code
+: 1610417669:0;ls
+: 1610417672:0;dud
+: 1610417673:0;ddu
+: 1610417699:0;mv shipment.zip crop_code.zip
+: 1610417700:0;ls
+: 1610417701:0;..
+: 1610417702:0;ls
+: 1610417706:0;cd code_crop
+: 1610417706:0;ls
+: 1610417708:0;open .
+: 1610417765:0;cd code
+: 1610417766:0;ls
+: 1610417968:0;l
+: 1610417969:0;ls
+: 1610417996:0;ddu
+: 1610418000:0;ls tmp
+: 1610418002:0;ls
+: 1610418005:0;ddu
+: 1610418007:0;ls runs
+: 1610418011:0;treee runs
+: 1610418017:0;treee runs/trian
+: 1610418021:0;treee runs/train
+: 1610418663:0;open runs/train
+: 1610418989:0;ls
+: 1610418991:0;ddu
+: 1610418994:0;ls input
+: 1610419003:0;ls result
+: 1610419007:0;ls
+: 1610419008:0;open result
+: 1610419029:0;ls
+: 1610419040:0;ddu
+: 1610419088:0;cp tutorial.ipynb ~/VOL_CON
+: 1610419261:0;mkdir ~/VOL_CON/cv_crop
+: 1610419280:0;mv ~/VOL_CON/tutorial.ipynb ~/VOL_CON/cv_crop
+: 1610419294:0;cp *.ipynb ~/VOL_CON/cv_crop
+: 1610419295:0;ls
+: 1610419322:0;tmux at
+: 1610444172:0;cd
+: 1610444173:0;ls
+: 1610444202:0;find RA -type f -regex '*_live*'
+: 1610444221:0;find RA -type f -regex '.*?_live.*?'
+: 1610444230:0;find RA -type f -regex '.*?_live.py'
+: 1610444243:0;find RA -type f -regex 'live'
+: 1610444250:0;find RA -type f -name 'live'
+: 1610444256:0;find RA -type f -name 'live' -print0
+: 1610444259:0;find RA -type f -name '.py'
+: 1610444267:0;find RA -type f -regex '.py'
+: 1610444272:0;find RA -type f -regex '*.py'
+: 1610444284:0;find RA -name '.py'
+: 1610444303:0;find RA -type f
+: 1610444309:0;find RA -type f -name '*.py'
+: 1610444317:0;find RA -type f -name '*_live*'
+: 1610444329:0;cd RA/DEV/hive_testsuite
+: 1610444329:0;ls
+: 1610444342:0;cd nlp_textcat_sklearn_trainer_live
+: 1610444343:0;ls
+: 1610444405:0;pwd
+: 1610444406:0;ls
+: 1610444419:0;ls run_output
+: 1610444424:0;ls output
+: 1610444438:0;vim test_te
+: 1610444440:0;ls
+: 1610444443:0;ls test_
+: 1610444445:0;ls test_preprocess
+: 1610444450:0;cd test_preprocess
+: 1610444451:0;ls
+: 1610444478:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1610444490:0;vim docs_preprocess_v010.py
+: 1610444498:0;ls
+: 1610444504:0;..
+: 1610444504:0;ls
+: 1610444541:0;cp -r test_preprocess live_textcat_separate_v012.py ~/VOL_CON/hive_flatten/
+: 1610503795:0;cd
+: 1610515475:0;dockc
+: 1610515518:0;docker start main
+: 1610516582:0;cp RA/DEV/hive_testsuite/nlp_ner_spacy_trainer_live/live_ner_v010.py ~/VOL_CON/hive_flatten
+: 1610516862:0;ls
+: 1610516869:0;cd RA
+: 1610516869:0;ls
+: 1610516879:0;find ./ -name '*token'*
+: 1610516883:0;find ./ -name '*token*'
+: 1610516951:0;cd dele_langdetect_ner
+: 1610516952:0;ls
+: 1610516956:0;vim chunk.py
+: 1610516966:0;ls
+: 1610516968:0;cd tokenize
+: 1610516968:0;ls
+: 1610516977:0;vim run_tokenizer.py
+: 1610516993:0;cp run_tokenizer.py ~/VOL_CON/hive_flatten
+: 1610518489:0;ls
+: 1610518490:0;ls in
+: 1610518492:0;ls input
+: 1610518493:0;ls
+: 1610518498:0;ls context
+: 1610518502:0;..
+: 1610518502:0;ls
+: 1610518504:0;..
+: 1610518505:0;ls
+: 1610518539:0;ls DEV/hive_testsuite/nlp_ner_spacy_tokenizer/{en_stock,zh} ~/VOL_CON/hive_flatten/data
+: 1610518548:0;cp -r DEV/hive_testsuite/nlp_ner_spacy_tokenizer/{en_stock,zh} ~/VOL_CON/hive_flatten/data
+: 1610518871:0;find ./ -type d -name '*zh*'
+: 1610518892:0;cp -r DEV/ZH_TENCENT/input/zh_lg ~/VOL_CON/hive_flatten
+: 1610520998:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1610521770:0;pwd
+: 1610521771:0;ls
+: 1610609793:0;cp REPO/apiary/tests/{conftest.py,test_spa.py} ~/VOL_CON/hive_flatten/flatten_nlp/tests
+: 1610615065:0;python -m spacy validate
+: 1610698866:0;cp REPO/Makefile ~/VOL_CON/flatten_nlp
+: 1610702284:0;cd DEV
+: 1610702285:0;ls
+: 1610702294:0;vim new_script.bash
+: 1610705005:0;vimdiff ~/VOL_CON/flatten_nlp/backup_base.py ~/VOL_CON/flatten_nlp/dele.py
+: 1610773969:0;curl baidu.com
+: 1610780079:0;cd ~/VOL_CON
+: 1610780080:0;ls
+: 1610780082:0;cd flatten_nlp
+: 1610780083:0;ls
+: 1610780086:0;cd tests/data
+: 1610780086:0;ls
+: 1610780092:0;mkdir dele
+: 1610780092:0;ls
+: 1610780281:0;cp en_lg/* dele
+: 1610780288:0;cp -r en_lg/* dele
+: 1610780296:0;cd dele
+: 1610780297:0;ddu
+: 1610780306:0;rm dele/*
+: 1610780313:0;rm ./*
+: 1610780315:0;ls
+: 1610780316:0;ddu
+: 1610780317:0;..
+: 1610780318:0;ls
+: 1610780320:0;ddu
+: 1610860438:0;vim -O ./**/config.json
+: 1610861770:0;ls
+: 1610861775:0;source ~/envPY/bin/activate
+: 1610861776:0;ls
+: 1610861778:0;jq
+: 1610935906:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1610941195:0;tmux ls
+: 1610941196:0;tmux
+: 1610941205:0;ls
+: 1610941206:0;pwd
+: 1610941207:0;ls
+: 1610941208:0;hostname
+: 1610941211:0;hostname -a
+: 1610941303:0;pwd
+: 1610941304:0;ls
+: 1610941305:0;id
+: 1610941307:0;ls
+: 1610941309:0;dockc
+: 1610941325:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1610953383:0;scutil
+: 1610953393:0;scutil --get
+: 1610953429:0;scutil --nwi
+: 1610953442:0;scutil --nc
+: 1610953450:0;scutil --get HostName
+: 1610953484:0;\h
+: 1610953491:0;man scutil
+: 1610953548:0;gethostname
+: 1610953553:0;hostname --help
+: 1610953558:0;hostname -f
+: 1610953560:0;hostname -s
+: 1610953575:0;hostname
+: 1610953579:0;man hostname
+: 1610953592:0;gethostname
+: 1610953601:0;scutil --get ComputerName
+: 1610953608:0;scutil --get LocalHostName
+: 1610953613:0;scutil --get HostName
+: 1610953636:0;sudo scutil --set HostName 'ghostinshell'
+: 1610953650:0;tmux ls
+: 1610953653:0;tmux at
+: 1610953655:0;tmux
+: 1610953661:0;dockc
+: 1610953670:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1610955152:0;docker start main
+: 1610955231:0;defaults write -g NSAutomaticWindowAnimationsEnabled -bool false
+: 1610955255:0;defaults write com.apple.dock expose-animation-duration -float 0
+: 1610955268:0;defaults write com.apple.dock springboard-show-duration -float 0
+: 1610955273:0;defaults write com.apple.dock springboard-hide-duration -float 0
+: 1610955299:0;defaults write com.apple.dock autohide-time-modifier -float 0
+: 1610955304:0;defaults write com.apple.dock autohide-delay -float 0
+: 1610955362:0;defaults write com.apple.dock expose-animation-duration -float 0.1; killall Dock
+: 1610955396:0;defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool NO\
+
+: 1610955422:0;ls
+: 1610955460:0;defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false\
+
+: 1610955483:0;defaults write com.apple.dock expose-animation-duration -float 0.001; killall Dock
+: 1610964237:0;mv Downloads/input-20210118T100312Z-001.zip ~/VOL_CON/flatten_nlp/
+: 1610964336:0;docker start main
+: 1610971344:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1611027382:0;cd VOL_CON/flatten_nlp
+: 1611027382:0;ls
+: 1611027384:0;ipython
+: 1611027387:0;source ~/envPY/bin/activate
+: 1611027388:0;ipython
+: 1611028605:0;ls
+: 1611028610:0;rm -rf output
+: 1611028611:0;ls
+: 1611028614:0;rm data.zip
+: 1611028614:0;ls
+: 1611028617:0;ls dele
+: 1611028623:0;rm -rf dele/
+: 1611028626:0;ls
+: 1611028632:0;ls data
+: 1611028640:0;rm dele.json
+: 1611028641:0;ls
+: 1611028648:0;cd data
+: 1611028649:0;ls
+: 1611028656:0;ls textcat_en
+: 1611028863:0;ls
+: 1611028866:0;..
+: 1611028869:0;rm data -rf
+: 1611028871:0;ls
+: 1611029617:0;cp -r tests/data/en_lg .
+: 1611029620:0;ls en_lg
+: 1611029622:0;cd en_lg
+: 1611029622:0;ddu
+: 1611029626:0;rm vocab/vectors
+: 1611029628:0;ddu
+: 1611029639:0;..
+: 1611029643:0;mv en_lg spacy_model
+: 1611043650:0;ls
+: 1611043660:0;cd Downloads
+: 1611043661:0;ls
+: 1611043665:0;ls data
+: 1611043676:0;cd spacy_model
+: 1611043677:0;ls
+: 1611043680:0;..
+: 1611043681:0;ls
+: 1611043692:0;zip -r spacy_model.zip spacy_model
+: 1611053433:0;..
+: 1611053434:0;ls
+: 1611053439:0;ls hive_flatten
+: 1611053454:0;ls flatten_nlp
+: 1611053462:0;ls nlp_textcat_sklearn_trainer
+: 1611053482:0;pwd
+: 1611053482:0;ls
+: 1611067273:0;cd ../RA/REPO/hive_clean
+: 1611067274:0;ls
+: 1611067280:0;ls *predictor
+: 1611067427:0;cp nlp_textcat_ludwig_predictor/main.py ~/VOL_CON/flatten_nlp/code/colab_textcat_ludwig_predictor.py
+: 1611067453:0;cp nlp_textcat_spacy_predictor/main.py ~/VOL_CON/flatten_nlp/code/colab_textcat_spacy_predictor.py
+: 1611110679:0;crontab -e
+: 1611112237:0;cd
+: 1611112240:0;cd RA/DEV
+: 1611112241:0;ls
+: 1611112247:0;vim new_script.bash
+: 1611136364:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1611213467:0;l
+: 1611213475:0;..
+: 1611213476:0;ls
+: 1611213487:0;ls dele_langdetect_ner
+: 1611213499:0;treee dele_langdetect_ner
+: 1611213503:0;l
+: 1611213508:0;rm -rf dele_langdetect_ner
+: 1611213510:0;l
+: 1611213518:0;rm apiary.zip
+: 1611213519:0;l
+: 1611213531:0;rm page120_2.jpg
+: 1611213533:0;l
+: 1611213538:0;vim requirements_crop.txt
+: 1611213542:0;rm requirements_crop.txt
+: 1611213543:0;l
+: 1611213545:0;l shipment
+: 1611213554:0;rm -rf shipment
+: 1611213555:0;l
+: 1611213558:0;cd DEV
+: 1611213559:0;ls
+: 1611213564:0;cd hive_testsuite
+: 1611213565:0;l
+: 1611213572:0;cd nlp_textcat_sklearn_trainer_live/
+: 1611213573:0;l
+: 1611213589:0;vim test_textcat_sklearn.py
+: 1611213601:0;vim test_testcat_sklearn_live.py
+: 1611213607:0;l
+: 1611213610:0;l run_output
+: 1611213618:0;..
+: 1611213618:0;l
+: 1611213624:0;..
+: 1611213625:0;l
+: 1611229647:0;cd ..
+: 1611229651:0;cd ../VOL_CON
+: 1611229653:0;open .
+: 1611294781:0;..
+: 1611294781:0;ls
+: 1611294785:0;cd RA/DEV
+: 1611294786:0;ls
+: 1611294795:0;cd ../DOC
+: 1611294795:0;ls
+: 1611294796:0;l
+: 1611294806:0;vim ML_definition.md
+: 1611294814:0;open .
+: 1611294825:0;vim ML_definition.md
+: 1611302909:0;ls
+: 1611302910:0;pwd
+: 1611302911:0;l
+: 1611323493:0;cd 
+: 1611323495:0;cd VOL_CON
+: 1611323496:0;l
+: 1611323512:0;ls nlp_textcat_sklearn_trainer
+: 1611323532:0;treee nlp_textcat_sklearn_trainer
+: 1611323553:0;rm -rf nlp_textcat_sklearn_trainer
+: 1611323554:0;l
+: 1611323570:0;ddu
+: 1611323578:0;cd hive_flatten
+: 1611323581:0;treee .
+: 1611323598:0;l
+: 1611323617:0;..
+: 1611323619:0;rm -rf hive_flatten
+: 1611323620:0;l
+: 1611363740:0;docker run --device /dev/snd -it --rm --name mpsyt rothgar/mpsyt
+: 1611364058:0;sudo docker run --device /dev/snd -it --rm --name mpsyt rothgar/mpsyt
+: 1611364106:0;dockc
+: 1611364112:0;docker images
+: 1611364124:0;docker rmi rothgar/mpsyt
+: 1611364129:0;dockc
+: 1611364186:0;docker run -it --name mps ubuntu bash
+: 1611364255:0;dockc
+: 1611364260:0;docker images
+: 1611366544:0;dockc
+: 1611366551:0;docker container rm mps
+: 1611366554:0;docker image
+: 1611366557:0;docker images
+: 1611374772:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1611389008:0;cd flatten_nlp/container
+: 1611389009:0;l
+: 1611389016:0;mkdir demo
+: 1611389028:0;cp requirements_base.txt demo/requirements.txt
+: 1611389034:0;cp Dockerfile demo
+: 1611389035:0;cd demo
+: 1611389036:0;ls
+: 1611389073:0;cp ../../dist/colab_textcat_sklearn_trainer.py main.py
+: 1611389074:0;l
+: 1611389101:0;docker build -t demo_colab .
+: 1611389678:0;docker images
+: 1611389724:0;cd ..
+: 1611389727:0;..
+: 1611389884:0;docker run --rm \\
+--mount type=bind,source=tests/data/textcat_en/multiclass/input,target=/content/shared/input \\
+--mount type=bind,source=$(pwd)/output,target=/content/shared/output \\
+--mount type=bind,source=tests/data/en_lg,target=/content/shared/spacy_model/en_core_web_lg \\
+demo_colab
+: 1611389917:0;l
+: 1611389920:0;rm -rf output
+: 1611389922:0;l
+: 1611389925:0;l container
+: 1611389929:0;docker run --rm \\
+--mount type=bind,source=$(pwd)/tests/data/textcat_en/multiclass/input,target=/content/shared/input \\
+--mount type=bind,source=$(pwd)/output,target=/content/shared/output \\
+--mount type=bind,source=$(pwd)/tests/data/en_lg,target=/content/shared/spacy_model/en_core_web_lg \\
+demo_colab
+: 1611389945:0;l
+: 1611389948:0;mkdir output
+: 1611389951:0;docker run --rm \\
+--mount type=bind,source=$(pwd)/tests/data/textcat_en/multiclass/input,target=/content/shared/input \\
+--mount type=bind,source=$(pwd)/output,target=/content/shared/output \\
+--mount type=bind,source=$(pwd)/tests/data/en_lg,target=/content/shared/spacy_model/en_core_web_lg \\
+demo_colab
+: 1611390018:0;open output
+: 1611390068:0;cd container
+: 1611390069:0;ls
+: 1611390071:0;cd demo
+: 1611390072:0;l
+: 1611390077:0;cd ..
+: 1611390091:0;mv demo demo_clf_sklearn_trainer
+: 1611390093:0;cd demo_clf_sklearn_trainer
+: 1611390093:0;l
+: 1611390096:0;vim Dockerfile
+: 1611390188:0;l
+: 1611390193:0;..
+: 1611390194:0;ls
+: 1611390270:0;cd ..
+: 1611390270:0;l
+: 1611390280:0;ls dist
+: 1611390286:0;l container
+: 1611390292:0;cd container
+: 1611390293:0;ls
+: 1611390297:0;mkdir base
+: 1611390307:0;mv Dockerfile requirements_* base
+: 1611390307:0;l
+: 1611407216:0;..
+: 1611407217:0;ls
+: 1611407220:0;l output
+: 1611407234:0;docker images
+: 1611408900:0;docker rmi demo_colab
+: 1611408902:0;docker images
+: 1611408940:0;docker build -t dele_text_cleaner container/container_text_cleaner
+: 1611410927:0;dockc
+: 1611410928:0;docker images
+: 1611411260:0;docker build -t dele_text_cleaner container/container_text_cleaner
+: 1611411819:0;docker images
+: 1611411975:0;docker history dele_text_cleaner
+: 1611412019:0;vim ~/.zshrc
+: 1611412108:0;source ~/.zshrc
+: 1611412112:0;vim ~/.zshrc
+: 1611412132:0;source ~/.zshrc
+: 1611412137:0;vim ~/.zshrc
+: 1611412153:0;source ~/.zshrc
+: 1611412172:0;docker history dele_text_cleaner
+: 1611412178:0;docker rmi dele_text_cleaner
+: 1611412180:0;docker images
+: 1611412203:0;docker build -t dele_text_cleaner container/container_text_cleaner
+: 1611413010:0;docker images
+: 1611413016:0;history dele
+: 1611413020:0;docker history dele_text_cleaner
+: 1611413095:0;l
+: 1611413103:0;./run_container.sh text_cleaner
+: 1611413120:0;ls
+: 1611413121:0;pwd
+: 1611413163:0;echo $(pwd)
+: 1611413167:0;./run_container.sh text_cleaner
+: 1611413176:0;l
+: 1611413396:0;pwd
+: 1611413512:0;cp run_container.sh code
+: 1611413513:0;cd code
+: 1611413522:0;./run_container.sh text_cleaner
+: 1611413531:0;vim run_container.sh
+: 1611413549:0;./run_container.sh text_cleaner
+: 1611413557:0;rm run_container.sh
+: 1611413558:0;..
+: 1611413559:0;l
+: 1611413566:0;./run_container.sh text_cleaner
+: 1611413570:0;vim run_
+: 1611413573:0;vim run_container.sh
+: 1611413582:0;./run_container.sh text_cleaner
+: 1611413593:0;ls output
+: 1611413690:0;docker build -t dele_text_cleaner container/container_text_cleaner
+: 1611413707:0;./run_container.sh text_cleaner
+: 1611413714:0;docker images
+: 1611414288:0;docker build -t dele_text_cleaner container/container_text_cleaner
+: 1611414292:0;docker images
+: 1611414360:0;docker build -t dele_text_cleaner container/container_text_cleaner
+: 1611414362:0;docker images
+: 1611414376:0;docker image prune
+: 1611414380:0;docker images
+: 1611414411:0;set -o vi
+: 1611414427:0;docker build --rm -t dele_text_cleaner container/container_text_cleaner
+: 1611414430:0;docker images
+: 1611414477:0;docker images -f "dangling=true" -q
+: 1611414479:0;docker images -f "dangling=true" 
+: 1611414493:0;docker rmi $(docker images -f "dangling=true" -q)
+: 1611414495:0;docker images
+: 1611415412:0;./run_container.sh text_cleaner
+: 1611415479:0;docker images
+: 1611416958:0;./run_container.sh text_cleaner
+: 1611416962:0;dockc
+: 1611416966:0;docker images
+: 1611416985:0;./run_container.sh text_cleaner
+: 1611417021:0;docker images
+: 1611452645:0;./run_container.sh ner_spacy_trainer
+: 1611465289:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1611475069:0;./run_container.sh ner_spacy_trainer
+: 1611476899:0;l
+: 1611476901:0;l output
+: 1611476904:0;rm -rf output
+: 1611476905:0;l
+: 1611476909:0;rm haha.json
+: 1611476910:0;l
+: 1611476915:0;docker images
+: 1611478669:0;./run_container.sh ner_spacy_predictor
+: 1611479887:0;./run_container.sh text_cleaner
+: 1611481015:0;./run_container.sh ner_spacy_trainer
+: 1611538223:0;l
+: 1611538224:0;l output
+: 1611538229:0;rm -rf output
+: 1611542330:0;which [
+: 1611542333:0;whereis [
+: 1611542337:0;type [
+: 1611542342:0;type test
+: 1611542348:0;file /bin/[
+: 1611542582:0;delelong="a b c"
+: 1611542585:0;dele="a"
+: 1611542645:0;echo "${$delelong##}"
+: 1611542653:0;echo "${$delelong##a}"
+: 1611542662:0;echo "${delelong##a}"
+: 1611542666:0;echo "${delelong#a}"
+: 1611542669:0;echo "${delelong##a}"
+: 1611543263:0;echo "${delelong#a}"
+: 1611543300:0;echo "${delelong#$dele}"
+: 1611543348:0;echo "${delelong#*$dele*}"
+: 1611543378:0;[ "${delelong#*$dele*}" ] || echo 'found'
+: 1611543560:0;[ -z "${delelong#*$dele*}" ] && echo 'found'
+: 1611543622:0;[ "${delelong#$dele}" != "${delelong}" ] && echo 'found'
+: 1611543644:0;delelong="ab c"
+: 1611543646:0;[ "${delelong#$dele}" != "${delelong}" ] && echo 'found'
+: 1611543664:0;dele=" a "
+: 1611543665:0;[ "${delelong#$dele}" != "${delelong}" ] && echo 'found'
+: 1611547487:0;which youtube-dl
+: 1611547492:0;ipython
+: 1611547495:0;source ~/envPY/bin/activate
+: 1611547503:0;ipython 
+: 1611547620:0;python
+: 1611547626:0;deactivate
+: 1611547627:0;pythn
+: 1611547629:0;python
+: 1611547735:0;youtube-dl -x --audio-format mp3 https://youtu.be/C4MpzSMkinw
+: 1611547737:0;l
+: 1611547744:0;cd
+: 1611547745:0;l
+: 1611547755:0;cd Music
+: 1611547756:0;l
+: 1611547761:0;youtube-dl -x --audio-format mp3 https://youtu.be/C4MpzSMkinw
+: 1611547813:0;l
+: 1611547943:0;brew install ffmpeg
+: 1611556186:0;ls
+: 1611556188:0;l
+: 1611556225:0;ffmpeg -i ./Productivity\ Music\ â€ƒ´\ Maximum\ Efficiency\ for\ Creators,\ Programmers,\ Designers-C4MpzSMkinw.webm hackingmusic.mp3
+: 1611556326:0;l
+: 1611556330:0;open .
+: 1611556368:0;cd
+: 1611561474:0;cd -2
+: 1611561478:0;./run_container.sh text_cleaner
+: 1611561488:0;./run_container.sh ner_spacy_trainer
+: 1611561589:0;l output
+: 1611561598:0;cd output
+: 1611561599:0;ddu
+: 1611561600:0;..
+: 1611561608:0;rm -rf output
+: 1611561609:0;l
+: 1611561661:0;./run_container.sh ner_spacy_predictor
+: 1611561704:0;l output
+: 1611561708:0;rm -rf output
+: 1611561883:0;./run_container.sh textcat_sklearn_trainer
+: 1611561938:0;l output
+: 1611561977:0;rm -rf output
+: 1611561983:0;./run_container.sh textcat_sklearn_predictor
+: 1611562067:0;dockc
+: 1611562069:0;docker images
+: 1611562108:0;docker run --rm -it dele_textcat_sklearn_predictor bash
+: 1611562264:0;dockc
+: 1611562266:0;docker images
+: 1611562269:0;./run_container.sh textcat_sklearn_predictor
+: 1611562671:0;curl --unix-socket
+: 1611562683:0;curl --unix-socket /var/run/docker.sock
+: 1611562706:0;curl --unix-socket /var/run/docker.sock http://localhost/version
+: 1611562720:0;curl --unix-socket /var/run/docker.sock http://localhost/api
+: 1611562742:0;curl --help | grep socket
+: 1611562901:0;dockc
+: 1611562904:0;docker images
+: 1611562916:0;docker history main
+: 1611562925:0;docker history main -a
+: 1611562945:0;docker history -H --no-trunc main
+: 1611562952:0;docker history -H main
+: 1611562956:0;docker images
+: 1611562963:0;dockc
+: 1611563080:0;./run_container.sh textcat_ludwig_trainer
+: 1611563692:0;l o
+: 1611563693:0;l output
+: 1611563695:0;rm -rf output
+: 1611563738:0;./run_container.sh textcat_ludwig_predictor
+: 1611563845:0;l output
+: 1611563849:0;rm -rf output
+: 1611563968:0;cd tests/data/zh_lg
+: 1611563970:0;cd tokenizer
+: 1611563972:0;vim cfg
+: 1611564616:0;./run_container.sh text_cleaner
+: 1611564620:0;cd
+: 1611564624:0;cd -3
+: 1611564626:0;./run_container.sh text_cleaner
+: 1611564635:0;./run_container.sh ner_spacy_trainer
+: 1611564650:0;rm -rf output
+: 1611564655:0;./run_container.sh ner_spacy_predictor
+: 1611564680:0;./run_container.sh textcat_sklearn_trainer
+: 1611564691:0;./run_container.sh textcat_sklearn_predictor
+: 1611564703:0;./run_container.sh textcat_ludwig_trainer
+: 1611564711:0;rm -rf output
+: 1611564712:0;l
+: 1611590398:0;cd
+: 1611590412:0;cd RA/GIG/gig_HKU
+: 1611590413:0;l
+: 1611590419:0;cd code_crop/code
+: 1611590420:0;l
+: 1611590432:0;cp 1.deal_with_pdf.py DELE.py
+: 1611590438:0;vim 1.deal_with_pdf.py
+: 1611590940:0;sed '186p' 1.deal_with_pdf.py
+: 1611590950:0;sed '186,p' 1.deal_with_pdf.py
+: 1611590958:0;sed '186,' 1.deal_with_pdf.py
+: 1611590963:0;sed '186' 1.deal_with_pdf.py
+: 1611590973:0;vim +186 1.
+: 1611590976:0;vim +186 1.deal_with_pdf.py
+: 1611590999:0;sed '186s//deal_pdf/' 1.deal_with_pdf.py
+: 1611591026:0;sed '186s//deal_pdf/' 1.deal_with_pdf.py | less
+: 1611591064:0;sed '186s/*/deal_pdf/' 1.deal_with_pdf.py | less
+: 1611591137:0;sed '186s/.*/deal_pdf/' 1.deal_with_pdf.py | less
+: 1611591318:0;sed '186s/.*/deal_pdf/' 1.deal_with_pdf.py > DELE1.py
+: 1611591328:0;diff DELE.py DELE1.py
+: 1611591424:0;diff --help
+: 1611591429:0;diff --help | grep -u
+: 1611591437:0;diff --help | grep '-u'
+: 1611591441:0;diff --help | grep "-u"
+: 1611591445:0;diff --help | grep "\-u"
+: 1611591461:0;diff --help | grep "\-B"
+: 1611591533:0;dir
+: 1611591550:0;l
+: 1611591562:0;less test.py
+: 1611591572:0;wc -l detect.
+: 1611591574:0;wc -l detect.py
+: 1611591587:0;less detect.py
+: 1611591620:0;ls <( sort detect.py | tr [:lower:] [:upper:] )
+: 1611591942:0;ls
+: 1611591945:0;ls result
+: 1611592006:0;l
+: 1611592012:0;rm DELE*
+: 1611592017:0;vim 1.deal_with_pdf.py
+: 1611593052:0;open .
+: 1611593545:0;run-help sed
+: 1611593560:0;set -o vi
+: 1611593720:0;sed '186s/.*/need_deal = "/content/crop_input"/,188s/.*/save_path = "/content/crop_output"/' 1.deal_with_pdf.py > DELE1.py
+: 1611593758:0;sed '186s/.*/need_deal = \"/content/crop_input\"/,188s/.*/save_path = \"/content/crop_output\"/' 1.deal_with_pdf.py > DELE1.py
+: 1611593813:0;sed '186s/.*/need_deal = \"\/content\/crop_input\"/,188s/.*/save_path = \"\/content\/crop_output\"/' 1.deal_with_pdf.py > DELE1.py
+: 1611593889:0;sed -e '186s/.*/need_deal = \"\/content\/crop_input\"/' -e '188s/.*/save_path = \"\/content\/crop_output\"/' 1.deal_with_pdf.py > DELE1.py
+: 1611593900:0;diff 1.deal_with_pdf.py DELE1.py
+: 1611594981:0;pip list | grep 'pytorch'
+: 1611643894:0;dockc
+: 1611674169:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1611713196:0;ls
+: 1611713199:0;cd
+: 1611713201:0;cd Downloads
+: 1611713202:0;l
+: 1611713213:0;mkdir crop_output
+: 1611713237:0;mv png_output/* crop_output
+: 1611713256:0;mv png_output\ 2/* crop_output
+: 1611713262:0;l png_output
+: 1611713269:0;l png_output\ 2
+: 1611713289:0;rm -rf png_output png_output\ 2
+: 1611713291:0;l
+: 1611713372:0;unzip part0.zip & unzip part1.zip;
+: 1611713421:0;ls
+: 1611713430:0;l crop_output
+: 1611713437:0;l part0
+: 1611713448:0;mv part0/* crop_output
+: 1611713453:0;mv part1/* crop_output
+: 1611713458:0;l part0
+: 1611713461:0;rm -rf part0
+: 1611713464:0;ls part1
+: 1611713469:0;rm -rf part1
+: 1611713469:0;l
+: 1611713480:0;cd crop_output/
+: 1611713481:0;l
+: 1611713485:0;ddu
+: 1611713495:0;du -ah
+: 1611713505:0;du -hd 1
+: 1611713511:0;l
+: 1611713526:0;open .
+: 1611713538:0;unzip _content_upload_ä¸­åƒ»½åƒ¯¤ç±ƒ­æ€»çƒ»®_ä¸ƒ»ä¹¦éƒ£¨1.zip
+: 1611713540:0;l
+: 1611713576:0;l ä¸­åƒ»½åƒ¯¤ç±ƒ­æ€»çƒ»®\ ä¸ƒ»ä¹¦éƒ£¨1.pdf
+: 1611713579:0;l
+: 1611714360:0;find ./ -type f -name '_content*' -print0
+: 1611714369:0;find ./ -type f -name '_content*' -print0 | xarg -0 l
+: 1611714379:0;find ./ -type f -name '_content*' -print0 -exec l
+: 1611714382:0;find ./ -type f -name '_content*' -print0 -exec l;
+: 1611714386:0;find ./ -type f -name '_content*' -print0 -exec l ;
+: 1611714391:0;find ./ -type f -name '_content*' -print0 -exec ls ;
+: 1611714398:0;brew install xarg
+: 1611714680:0;xargs
+: 1611714690:0;find ./ -type f -name '_content*' -print0 | xargx -0 l
+: 1611714699:0;find ./ -type f -name '_content*' -print0 | xargs -0 l
+: 1611714700:0;find ./ -type f -name '_content*' -print0 | xargs -0 ls
+: 1611714704:0;find ./ -type f -name '_content*' -print0 | xargs -0 ls {}
+: 1611714720:0;find ./ -type f -name '_content*' -print0 | xargs -0 zip {}
+: 1611714725:0;l
+: 1611714787:0;find ./ -type f -name '_content*' -print0 | xargs -0 zip
+: 1611715012:0;for $file in ./*; do print $file
+: 1611715022:0;for file in ./* do print $file
+: 1611715030:0;for file in ./*; do print $file
+: 1611715035:0;for file in ./*; do print $file; end
+: 1611715040:0;for file in ./*; do print $file end
+: 1611715164:0;l
+: 1611715179:0;dele=ä¸­åƒ»½åƒ¯¤ç±ƒ­æ€»çƒ»®\ åƒ¯²éƒ£¨2.pdf
+: 1611715183:0;echo $dele
+: 1611715196:0;echo ${dele%pdf}
+: 1611715204:0;echo ${dele#pdf}
+: 1611715211:0;echo ${dele##pdf}
+: 1611715244:0;echo ${dele//pdf/zip}
+: 1611715252:0;echo ${dele//./*}
+: 1611715306:0;for file in ./*\
+do\
+echo ${file//pdf/}\
+done
+: 1611715331:0;for file in ./*\
+do\
+echo ${file//.*/}\
+done
+: 1611715345:0;for file in ./*\
+do\
+echo ${file//.pdf/}\
+done
+: 1611715384:0;for file in ./*\
+do\
+echo ${file//ä¸­åƒ»½?????/}\
+done
+: 1611715428:0;for file in ./*\
+do\
+mv $file ${file//ä¸­åƒ»½?????/}\
+done
+: 1611715441:0;l
+: 1611715503:0;for file in ./*\
+do\
+mv $file ${file//.pdf/}\
+done
+: 1611715504:0;l
+: 1611715574:0;ipython
+: 1611715824:0;ipython profile create
+: 1611715843:0;vim ~/.ipython/profile_default/ipython_config.py
+: 1611715883:0;ipython
+: 1611718040:0;cd
+: 1611718040:0;l
+: 1611718047:0;cd STUFF
+: 1611718047:0;l
+: 1611718052:0;cd m3u8-download
+: 1611718053:0;l
+: 1611718057:0;vim README.md
+: 1611718075:0;git status
+: 1611718079:0;git --config
+: 1611718086:0;git config
+: 1611718089:0;git config --local
+: 1611718102:0;git config --get-all
+: 1611718113:0;git config -l
+: 1611718125:0;cd
+: 1611727813:0;l
+: 1611727820:0;cd -20
+: 1611727820:0;l
+: 1611727828:0;cd crop_output
+: 1611727829:0;ddu
+: 1611727838:0;l
+: 1611727850:0;..
+: 1611727866:0;mv crop_output ~/RA/GIG/gig_HKU/
+: 1611727875:0;cd ~/RA/GIG/gig_HKU
+: 1611727875:0;l
+: 1611727881:0;ls data
+: 1611727890:0;cd crop_output
+: 1611727890:0;l
+: 1611727941:0;jobs
+: 1611727942:0;l
+: 1611727945:0;..
+: 1611727945:0;l
+: 1611727947:0;..
+: 1611727948:0;cd
+: 1611727949:0;l
+: 1611729577:0;ipython
+: 1611729579:0;source ~/envPY/bin/activate
+: 1611729580:0;ipython
+: 1611730541:0;cd RA/GIG/gig_HKU
+: 1611730542:0;ls
+: 1611730552:0;ls crop_output/all_png | wc -l
+: 1611730562:0;htop
+: 1611731015:0;ls crop_output/all_png | wc -l
+: 1611731032:0;cd RA/GIG/gig_HKU/crop_output
+: 1611731033:0;l
+: 1611731041:0;ls all_png | wc -l
+: 1611731045:0;cd
+: 1611731596:0;ls all_png | wc -l
+: 1611731615:0;ls all_png | head
+: 1611731638:0;mv all_png ../
+: 1611731639:0;l
+: 1611731666:0;for dir in ./*:\
+do\
+ls $dir | wc -l\
+done
+: 1611731669:0;run-help in
+: 1611731686:0;for dir in *:\
+do\
+ls $dir | wc -l\
+done
+: 1611731730:0;for dir in ./*\
+do\
+ls $dir | wc -l\
+done
+: 1611731768:0;source ~/envPY/bin/activate
+: 1611731776:0;ls
+: 1611731779:0;ipython
+: 1611739265:0;fg
+: 1611739295:0;ls ../all_png | wc -l
+: 1611739322:0;ls
+: 1611739323:0;..
+: 1611739324:0;ls
+: 1611739328:0;rm -rf all_png
+: 1611739352:0;ddu
+: 1611739361:0;cd crop_output
+: 1611739361:0;l
+: 1611739369:0;ipython
+: 1611739394:0;jobs
+: 1611739394:0;fg
+: 1611739595:0;ls all_png | wc -l
+: 1611739904:0;cd RA/GIG/gig_HKU/
+: 1611739905:0;l
+: 1611739916:0;vim ocr_
+: 1611739919:0;vim ocr_result.json
+: 1611739941:0;vim ocr_baidu_position.py
+: 1611739951:0;mkdir ocr_baidu
+: 1611739963:0;mv ocr_baidu_position.py ocr_result.json ocr_baidu
+: 1611739964:0;l
+: 1611739967:0;vim preprocessing.py
+: 1611739982:0;mv preprocessing.py preprocessing_docx.py
+: 1611739983:0;l
+: 1611739989:0;open test_result.pdf
+: 1611740009:0;mkdir docx_extraction
+: 1611740016:0;mv test_result.pdf preprocessing_docx.py docx_extraction
+: 1611740017:0;l
+: 1611740024:0;ls cleaned_docx
+: 1611740033:0;mv cleaned_docx docx_extraction
+: 1611740033:0;l
+: 1611740039:0;ls data
+: 1611740044:0;cd ocr_baidu
+: 1611740044:0;l
+: 1611740049:0;vim ocr_baidu_position.py
+: 1611740116:0;l
+: 1611740291:0;open all_png
+: 1611740356:0;vim ocr_baidu_position.py
+: 1611740503:0;pip list | grep 'srsly'
+: 1611740506:0;fg
+: 1611740705:0;mv ../cong_1_page186_2.jpg .
+: 1611740706:0;l
+: 1611740715:0;python ocr_baidu_position.py cong_1_page186_2.jpg
+: 1611740755:0;ls
+: 1611740758:0;ls all_png | wc -l
+: 1611740795:0;mv all_png ../
+: 1611740797:0;treee .
+: 1611740808:0;l
+: 1611740817:0;ls ä¸ƒ»ä¹¦éƒ£¨1
+: 1611740838:0;l
+: 1611740846:0;ls ../
+: 1611740952:0;pip install baidu-aip
+: 1611740961:0;pip install -U pip
+: 1611740975:0;pip install baidu-aip -U
+: 1611740983:0;python ocr_baidu_position.py cong_1_page186_2.jpg
+: 1611740992:0;ls
+: 1611741005:0;vim ocr_baidu_position.py
+: 1611741041:0;python ocr_baidu_position.py cong_1_page186_2.jpg
+: 1611741044:0;l
+: 1611741072:0;mv ocr_result.json ../
+: 1611741073:0;l
+: 1611741081:0;vim -O *.json
+: 1611741208:0;dockc
+: 1611741218:0;docker start main
+: 1611741277:0;ls
+: 1611741316:0;ls ~/VOL_CON
+: 1611741339:0;cp accurate.json general.json ~/VOL_CON/ocr_HKU
+: 1611747555:0;l
+: 1611747576:0;jobs
+: 1611747580:0;ipython
+: 1611748035:0;l
+: 1611748037:0;..
+: 1611748037:0;l
+: 1611748041:0;cd ocr_baidu
+: 1611748041:0;l
+: 1611748043:0;vim ocr_baidu_position.py
+: 1611750977:0;l
+: 1611750979:0;..
+: 1611750980:0;l
+: 1611750987:0;ls all_png | wc -l
+: 1611751025:0;mkdir sample_20210117
+: 1611751031:0;ipython
+: 1611751671:0;python ~/VOL_CON/sample_20210127.py all_png
+: 1611751683:0;fg
+: 1611752111:0;python ~/VOL_CON/sample_20210127.py all_png sample_20210117 4000
+: 1611752270:0;ls
+: 1611752276:0;ls sample_20210117 | wc -l
+: 1611752288:0;ls sample_20210117 | head 10
+: 1611752292:0;ls sample_20210117 | head -n 10
+: 1611752297:0;ls sample_20210117 | tail -n 20
+: 1611752318:0;ls all_png | wc -l
+: 1611752398:0;mv sample_20210117/* all_png
+: 1611752402:0;ls all_png | wc -l
+: 1611752461:0;python ~/VOL_CON/sample_20210127.py all_png sample_20210117 4000
+: 1611752531:0;mv sample_20210117/* all_png
+: 1611752534:0;ls all_png | wc -l
+: 1611752716:0;python ~/VOL_CON/sample_20210127.py all_png sample_20210117 4000
+: 1611752836:0;ipytho
+: 1611752837:0;ipython
+: 1611753028:0;python ~/VOL_CON/sample_20210127.py all_png sample_20210117 4000
+: 1611753059:0;ls sample_20210117 | wc -l
+: 1611753075:0;open .
+: 1611753185:0;ipython
+: 1611753422:0;ls
+: 1611753426:0;mv sample_20210117/* all_png
+: 1611753430:0;ls all_png | wc -l
+: 1611753433:0;python ~/VOL_CON/sample_20210127.py all_png sample_20210117 4000
+: 1611753439:0;ls
+: 1611753460:0;mv ~/VOL_CON/sample_20210127.py .
+: 1611753461:0;l
+: 1611753473:0;ls sample_20210117 | wc -l
+: 1611756355:0;ls
+: 1611756406:0;mkdir ocr_20210127
+: 1611756414:0;mv sample_20210117 sample_20210127
+: 1611756415:0;l
+: 1611756422:0;ls ocr_baidu
+: 1611756437:0;mv ocr_baidu/ocr_baidu_position.py .
+: 1611756442:0;rm -rf ocr_baidu
+: 1611756443:0;l
+: 1611756460:0;mv ocr_baidu_position.py ocr_main.py
+: 1611756495:0;cp ocr_main.py ~/VOL_CON/
+: 1611757253:0;mv ~/VOL_CON/ocr_main.py .
+: 1611757254:0;ls
+: 1611757255:0;l
+: 1611757266:0;vim ocr_main.py
+: 1611757273:0;ls
+: 1611757285:0;mkdir demo_input demo_output
+: 1611757337:0;cp sample_20210127/{jing_1_page101_5.jpg,zi_1_page102_1.jpg,shi_1_page103_8.jpg} demo_input
+: 1611757339:0;ls demo_input
+: 1611757351:0;python ocr_main.py demo_input demo_output
+: 1611757361:0;vim -O demo_output/*
+: 1611757544:0;ls demo_output
+: 1611757554:0;vim ocr_main.py
+: 1611757831:0;ls
+: 1611757832:0;l
+: 1611757843:0;ls sample_20210127 | wc -l
+: 1611757882:0;mv sample_20210127 sample_jpg_20210127
+: 1611757883:0;l
+: 1611757906:0;mv sample_20210127.py sample_sampler_20210127.py
+: 1611757907:0;l
+: 1611757925:0;mkdir sample_ocr_20210127
+: 1611757926:0;l
+: 1611757942:0;ls ocr_20210127
+: 1611757956:0;rm -rf ocr_20210127
+: 1611757957:0;l
+: 1611757968:0;rm -rf demo_*
+: 1611757969:0;l
+: 1611757982:0;mv data raw_data
+: 1611757983:0;l
+: 1611757988:0;rm no_id_text.pkl
+: 1611757989:0;l
+: 1611758006:0;mv ocr_result.json ocr_result_demo.json
+: 1611758006:0;l
+: 1611758040:0;mv sample_jpg_20210127 20210127_sample_jpg
+: 1611758068:0;mv sample_sampler_20210127.py 20210127_sample_draw.py
+: 1611758081:0;mv sample_ocr_20210127 20210127_sample_ocr
+: 1611758082:0;l
+: 1611758100:0;python ocr_main.py 20210127_sample_jpg 20210127_sample_ocr
+: 1611758382:0;ls 20210127_sample_ocr | wc -l
+: 1611758444:0;ls
+: 1611758457:0;mkdir tmp_ocr_done
+: 1611758465:0;ipython
+: 1611758622:0;ls
+: 1611758629:0;python ocr_main.py 20210127_sample_jpg 20210127_sample_ocr
+: 1611758649:0;cd RA/GIG/gig_HKU/
+: 1611758656:0;ls 20210127_sample_jpg | wc -l
+: 1611761048:0;ls 20210127_sample_ocr | wc -l
+: 1611761701:0;ls
+: 1611761701:0;l
+: 1611761706:0;cd _ocr
+: 1611761710:0;cd 20210127_sample_ocr
+: 1611761712:0;cd ..
+: 1611761713:0;ls
+: 1611761723:0;ls 20210127_sample_ocr | wc -l
+: 1611761736:0;ls tmp_ocr_done
+: 1611761770:0;rm -rf tmp_ocr_done
+: 1611761771:0;l
+: 1611761955:0;cd 20210127_sample_ocr
+: 1611761957:0;ipython
+: 1611765086:0;jobs
+: 1611765088:0;fg
+: 1611765121:0;jobs
+: 1611765122:0;l
+: 1611765126:0;ls | wc -l
+: 1611766863:0;ls
+: 1611766866:0;..
+: 1611766867:0;ls
+: 1611766879:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611766890:0;python wrangle_ocr_json.py 20210127_sample_ocr
+: 1611766913:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611766915:0;python wrangle_ocr_json.py 20210127_sample_ocr
+: 1611766951:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611766953:0;python wrangle_ocr_json.py 20210127_sample_ocr
+: 1611767009:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611767011:0;python wrangle_ocr_json.py 20210127_sample_ocr
+: 1611767030:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611767031:0;python wrangle_ocr_json.py 20210127_sample_ocr
+: 1611767074:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611767075:0;python wrangle_ocr_json.py 20210127_sample_ocr
+: 1611767142:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611767143:0;python wrangle_ocr_json.py 20210127_sample_ocr
+: 1611767161:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611767162:0;python wrangle_ocr_json.py 20210127_sample_ocr
+: 1611767172:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611767173:0;python wrangle_ocr_json.py 20210127_sample_ocr
+: 1611767799:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611767799:0;ls
+: 1611767812:0;mkdir 20210127_sample_wrangled
+: 1611767831:0;python wrangle_ocr_json.py 20210127_sample_ocr 20210127_sample_wrangled
+: 1611767899:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611767901:0;python wrangle_ocr_json.py 20210127_sample_ocr 20210127_sample_wrangled
+: 1611767968:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611767970:0;python wrangle_ocr_json.py 20210127_sample_ocr 20210127_sample_wrangled
+: 1611768007:0;ls 20210127_sample_wrangled
+: 1611768010:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611768011:0;python wrangle_ocr_json.py 20210127_sample_ocr 20210127_sample_wrangled
+: 1611768027:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611768029:0;python wrangle_ocr_json.py 20210127_sample_ocr 20210127_sample_wrangled
+: 1611768264:0;cp ~/VOL_CON/ocr_HKU/wrangle_ocr_json.py .
+: 1611768266:0;python wrangle_ocr_json.py 20210127_sample_ocr 20210127_sample_wrangled
+: 1611768610:0;cp ~/VOL_CON/ocr_HKU/make_df_from_wrangled.py .
+: 1611768620:0;python make_df_from_wrangled.py 20210127_sample_wrangled/wrangled_result.pkl
+: 1611768652:0;cp ~/VOL_CON/ocr_HKU/make_df_from_wrangled.py .
+: 1611768654:0;python make_df_from_wrangled.py 20210127_sample_wrangled/wrangled_result.pkl
+: 1611768770:0;ipython
+: 1611768891:0;cp ~/VOL_CON/ocr_HKU/make_df_from_wrangled.py .
+: 1611768892:0;ls
+: 1611768894:0;l
+: 1611768897:0;python make_df_from_wrangled.py 20210127_sample_wrangled/wrangled_result.pkl
+: 1611768902:0;ls
+: 1611768921:0;mv ocr_result_dataframe.csv 20210127_result_dataframe.csv
+: 1611768922:0;l
+: 1611768941:0;vim 20210127_result_dataframe.csv
+: 1611815910:0;ls
+: 1611815911:0;pwd
+: 1611815915:0;ls
+: 1611815916:0;cd
+: 1611815920:0;ls
+: 1611815923:0;cd -1
+: 1611815924:0;ddu
+: 1611815938:0;cd code_crop
+: 1611815939:0;l
+: 1611815940:0;ddu
+: 1611815942:0;cd code
+: 1611815942:0;ddu
+: 1611815948:0;ls tmp | wc -l
+: 1611815955:0;ls tmp | head
+: 1611815966:0;ls input | head
+: 1611815978:0;rm input/*
+: 1611815983:0;ddu
+: 1611815988:0;ls result
+: 1611815993:0;rm result/*
+: 1611815998:0;rm -rf result
+: 1611816000:0;l
+: 1611816001:0;ls
+: 1611816003:0;ddu
+: 1611816007:0;cd runs
+: 1611816008:0;ddu
+: 1611816012:0;cd detect
+: 1611816014:0;ddu
+: 1611816017:0;cd exp
+: 1611816018:0;ddu
+: 1611816021:0;ls
+: 1611816029:0;open 0.png
+: 1611816035:0;..
+: 1611816035:0;l
+: 1611816037:0;..
+: 1611816038:0;l
+: 1611816040:0;cd train
+: 1611816040:0;l
+: 1611816043:0;ddu
+: 1611816047:0;ls exp4
+: 1611816051:0;..
+: 1611816052:0;ls
+: 1611816054:0;..
+: 1611816054:0;ddu
+: 1611816063:0;rm PyMuPDF-1.18.5-cp38-cp38-manylinux2010_x86_64.whl
+: 1611816065:0;ddu
+: 1611816070:0;rm tmp/*
+: 1611816083:0;open tmp/0.png
+: 1611816117:0;mv tmp/0.png ../../demo_for_ocr.png
+: 1611816120:0;rm tmp/*
+: 1611816123:0;ddu
+: 1611816125:0;..
+: 1611816125:0;l
+: 1611816129:0;..
+: 1611816130:0;ddu
+: 1611816146:0;cd ~/Downloads
+: 1611816147:0;l
+: 1611816148:0;ddu
+: 1611816165:0;unzip --help | grep 'test'
+: 1611816197:0;unzip -t part1.zip | head
+: 1611816212:0;unzip -t part1.zip | tail
+: 1611816224:0;ls
+: 1611816226:0;ddu
+: 1611816230:0;cd goose_clean
+: 1611816231:0;ddu
+: 1611816235:0;cd 20201230_goose_clean_part1
+: 1611816236:0;ddu
+: 1611816241:0;..
+: 1611816243:0;ddu
+: 1611816250:0;rm ubuntu-20.04.1-desktop-amd64.iso
+: 1611816251:0;ddu
+: 1611816266:0;rm balenaEtcher-1.5.115.dmg
+: 1611816278:0;ls
+: 1611816283:0;vim data_importer_v0_1_2.py
+: 1611817287:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1611825810:0;ls
+: 1611825811:0;..
+: 1611825814:0;cd RA
+: 1611825815:0;l
+: 1611825817:0;cd DEV
+: 1611825827:0;l
+: 1611825860:0;mkdir autoclean
+: 1611825861:0;l
+: 1611825869:0;cd autoclean
+: 1611825869:0;l
+: 1611825881:0;mkdir 1.importer
+: 1611825882:0;ls
+: 1611825883:0;l
+: 1611825886:0;cd 1.importer
+: 1611825890:0;mkdir input output
+: 1611825972:0;mv ~/Downloads/drive-download-20210128T092* input
+: 1611825973:0;cd input
+: 1611825977:0;unzip drive-download-20210128T092*
+: 1611825982:0;unzip drive-download-20210128T092241Z-001.zip
+: 1611825983:0;l
+: 1611825994:0;unzip drive-download-20210128T092534Z-001.zip
+: 1611825995:0;l
+: 1611825999:0;rm drive-download-20210128T092*
+: 1611825999:0;l
+: 1611826003:0;unzip csv_titanic.csv.zip
+: 1611826004:0;ls
+: 1611826012:0;unzip dta_wages.dta.zip
+: 1611826012:0;l
+: 1611826019:0;unzip sav_US3001245E_Client_Data.sav.zip
+: 1611826021:0;ls
+: 1611826028:0;ls *.zip
+: 1611826032:0;rm *.zip
+: 1611826033:0;l
+: 1611826038:0;rm -rf __MACOSX
+: 1611826039:0;l
+: 1611838700:0;ls
+: 1611838701:0;l
+: 1611838710:0;ls
+: 1611838711:0;..
+: 1611838712:0;ls
+: 1611839997:0;brew cask install alacritty
+: 1611840079:0;brew install --cask alacritty
+: 1611840178:0;pwd
+: 1611840179:0;ls
+: 1611840200:0;alacritty
+: 1611840232:0;brew uninstall alacritty
+: 1611840276:0;alacritty
+: 1611840278:0;brew list
+: 1611840283:0;brew list | ala
+: 1611840293:0;brew list | grep ala
+: 1611840304:0;brew list --formula | grep ala
+: 1611840319:0;brew list --formula
+: 1611841590:0;ls
+: 1611841590:0;s
+: 1611841591:0;ls
+: 1611841593:0;tmux ls
+: 1611841778:0;mux
+: 1611841779:0;tmux
+: 1611841785:0;sadfkskfdsafj
+: 1611841786:0;ls
+: 1611841794:0;vim
+: 1611841816:0;l
+: 1611841817:0;ls
+: 1611842108:0;vim .tmux.conf
+: 1611842499:0;tmux
+: 1611842506:0;ls
+: 1611842508:0;pwd
+: 1611842523:0;ls
+: 1611842524:0;l
+: 1611842526:0;pwd
+: 1611842550:0;3
+: 1611886153:0;cd RA/DEV/autoclean
+: 1611886154:0;l
+: 1611886162:0;ls
+: 1611886165:0;cd 1.importer
+: 1611886166:0;l
+: 1611886172:0;vim
+: 1611886294:0;ls
+: 1611886306:0;mv ./* ~/VOL_CON/autoclean
+: 1611886307:0;ls
+: 1611886308:0;..
+: 1611886319:0;rm -rf autoclean
+: 1611886489:0;docker images
+: 1611886499:0;docker system df
+: 1611886521:0;docker images
+: 1611886540:0;dokc
+: 1611886541:0;dockc
+: 1611887221:0;cat /proc/cpuinfo
+: 1611899094:0;cd
+: 1611899097:0;cd Downloads
+: 1611899097:0;l
+: 1611899110:0;rm Fira_Code_v5.2*
+: 1611899110:0;l
+: 1611899127:0;mv data_importer_v0_1_2.py ~/VOL_CON/autoclean
+: 1611900450:0;youtube-dl -x --audio-format mp3 https://youtu.be/Z-VfaG9ZN_U
+: 1611900612:0;l
+: 1611900629:0;mv Programming\ _\ Coding\ _\ Hacking\ music\ vol.18\ \(ANONYMOUS\ HEADQUARTERS\)-Z-VfaG9ZN_U.mp3 ~/Music
+: 1611900632:0;cd ~/Music
+: 1611900632:0;l
+: 1611900642:0;youtube-dl -x --audio-format mp3 https://youtu.be/hGIW2fDb0jg
+: 1611901165:0;youtube-dl -x --audio-format mp3 https://youtu.be/AFLfgyisLR8
+: 1611901309:0;youtube-dl -x --audio-format mp3 https://youtu.be/DpP0BELFAEA
+: 1611915373:0;ls
+: 1611915377:0;cd
+: 1611915380:0;cd VOL_CON
+: 1611915381:0;l
+: 1611915383:0;cd dele_clf_train_hku
+: 1611915385:0;vim haha.json
+: 1611915395:0;ä½ƒ€åƒ³ƒ¨
+: 1611915422:0;vim haha.json
+: 1611915500:0;cat haha.json
+: 1611915516:0;vim haha.json
+: 1611915536:0;cat haha.json
+: 1611926134:0;which print
+: 1611926140:0;which printf
+: 1611926146:0;type printf
+: 1611926163:0;ldd
+: 1611932123:0;cd ../flatten_nlp/tests/data
+: 1611932124:0;ls
+: 1611932138:0;vim -O ner_en/input/config.json textcat_en/multiclass/input/config.json
+: 1611997459:0;cd ../...
+: 1611997460:0;l
+: 1611997461:0;cd ..
+: 1611997464:0;cd .
+: 1611997466:0;cd ..
+: 1611997466:0;l
+: 1611997497:0;pwd
+: 1611997497:0;ls
+: 1611997504:0;vim
+: 1611997512:0;ls
+: 1611997513:0;pwd
+: 1611997514:0;ls
+: 1611997527:0;./run_container.sh text_cleaner
+: 1611997673:0;pwd
+: 1611997674:0;ls
+: 1611997691:0;pwd
+: 1611997691:0;ls
+: 1611998655:0;cd VOL_CON/autoclean
+: 1611998656:0;l
+: 1611998658:0;cd 1.importer
+: 1611998658:0;l
+: 1611998713:0;mkdir context
+: 1611998715:0;cd context
+: 1611998721:0;vim requirements.txt
+: 1611998754:0;l
+: 1611998759:0;vim Dockerfile
+: 1612000050:0;l
+: 1612000759:0;vim ~/RA/DEV/demo_bash_script
+: 1612011828:0;l
+: 1612011838:0;cd tests/data
+: 1612011839:0;l
+: 1612011847:0;cd full_ner_en
+: 1612011847:0;l
+: 1612011849:0;cd model
+: 1612011850:0;l
+: 1612011853:0;..
+: 1612012062:0;cd ~/Downloads
+: 1612012062:0;l
+: 1612012113:0;ls
+: 1612012117:0;cd ~/Documents
+: 1612012117:0;l
+: 1612012121:0;unzip ludwig_model.zip
+: 1612012126:0;cd trained_ludwig
+: 1612012126:0;l
+: 1612012142:0;zip ludwig_model.zip ./*
+: 1612012149:0;mv ludwig_model.zip ..
+: 1612012151:0;..
+: 1612012152:0;l
+: 1612012162:0;unzip ludwig_model.zip
+: 1612012163:0;ls
+: 1612012184:0;rm checkpoint model_*
+: 1612012185:0;l
+: 1612012189:0;rm training_set_metadata.json
+: 1612012191:0;l
+: 1612012204:0;unzip ludwig_model.zip -d model
+: 1612012206:0;l
+: 1612012207:0;ld model
+: 1612012212:0;ls model
+: 1612012214:0;man ld
+: 1612012223:0;ls model
+: 1612012224:0;ls
+: 1612012229:0;l
+: 1612012235:0;rm -rf model
+: 1612012236:0;ls
+: 1612012250:0;ls trained_ludwig
+: 1612012256:0;rm -rf trained_ludwig
+: 1612012257:0;l
+: 1612012266:0;unzip ludwig_model.zip -d model
+: 1612012270:0;rm -rf model
+: 1612012275:0;unzip sklearn_model.zip -d model
+: 1612012283:0;cd model/trained_sklearn
+: 1612012283:0;l
+: 1612012293:0;zip sklearn_model.zip ./*
+: 1612012294:0;l
+: 1612012297:0;mv sklearn_model.zip ..
+: 1612012299:0;ls
+: 1612012300:0;..
+: 1612012300:0;ls
+: 1612012303:0;mv sklearn_model.zip ..
+: 1612012303:0;ls
+: 1612012305:0;cd ..
+: 1612012305:0;l
+: 1612012311:0;rm model -rf
+: 1612012314:0;rm -rf model
+: 1612012315:0;l
+: 1612012321:0;unzip sklearn_model.zip -d model
+: 1612012323:0;ls model
+: 1612012326:0;rm -rf model
+: 1612012326:0;l
+: 1612012741:0;cd zh
+: 1612012742:0;l
+: 1612012751:0;unzip ludwig_model.zip
+: 1612012751:0;l
+: 1612012757:0;ls trained_ludwig
+: 1612012764:0;cd trained_ludwig
+: 1612012770:0;zip ludwig_model.zip ./*
+: 1612012775:0;mv ludwig_model.zip ..
+: 1612012775:0;l
+: 1612012777:0;cd ..
+: 1612012777:0;l
+: 1612012782:0;rm -rf trained_ludwig
+: 1612012788:0;unzip sklearn_model.zip -d dele
+: 1612012794:0;cd dele/trained_sklearn
+: 1612012795:0;l
+: 1612012799:0;zip sklearn_model.zip ./*
+: 1612012800:0;..
+: 1612012801:0;l
+: 1612012807:0;mv dele/trained_sklearn/sklearn_model.zip .
+: 1612012808:0;l
+: 1612012810:0;rm -rf dele
+: 1612012818:0;unzip sklearn_model.zip -d dele
+: 1612012820:0;ls dele
+: 1612012823:0;rm -rf dele
+: 1612012824:0;l
+: 1612012829:0;cd ../class
+: 1612012829:0;l
+: 1612012835:0;unzip ludwig_model.zip -d dele
+: 1612012838:0;cd dele/trained_ludwig
+: 1612012840:0;zip ludwig_model.zip ./*
+: 1612012842:0;..
+: 1612012846:0;mv dele/trained_ludwig/ludwig_model.zip .
+: 1612012847:0;l
+: 1612012851:0;rm -rf dele
+: 1612012855:0;unzip sklearn_model.zip -d dele
+: 1612012857:0;cd dele/trained_sklearn
+: 1612012860:0;zip sklearn_model.zip ./*
+: 1612012861:0;../..
+: 1612012862:0;l
+: 1612012868:0;mv dele/trained_sklearn/sklearn_model.zip .
+: 1612012870:0;rm -rf dele
+: 1612012874:0;../label
+: 1612012874:0;l
+: 1612012879:0;unzip sklearn_model.zip -d dele
+: 1612012882:0;cd dele/trained_sklearn
+: 1612012882:0;l
+: 1612012885:0;zip sklearn_model.zip ./*
+: 1612012887:0;..
+: 1612012895:0;mv dele/trained_sklearn/sklearn_model.zip .
+: 1612012898:0;rm -rf dele
+: 1612012902:0;unzip ludwig_model.zip -d dele
+: 1612012904:0;cd dele/trained_ludwig
+: 1612012904:0;l
+: 1612012909:0;zip ludwig_model.zip ./*
+: 1612012911:0;..
+: 1612012915:0;mv dele/trained_ludwig/ludwig_model.zip .
+: 1612012916:0;l
+: 1612012917:0;rm -rf dele
+: 1612012918:0;l
+: 1612014147:0;..
+: 1612014150:0;cd ..
+: 1612014150:0;l
+: 1612014153:0;ls
+: 1612014153:0;l
+: 1612014154:0;ls
+: 1612014158:0;cd
+: 1612014164:0;cd Documents
+: 1612014164:0;l
+: 1612014171:0;unzip spacy_model.zip -d dele
+: 1612014178:0;cd dele/spacy_model
+: 1612014179:0;l
+: 1612014191:0;zip -r spacy_model.zip ./*
+: 1612014196:0;ls
+: 1612014203:0;mv spacy_model.zip ..
+: 1612014204:0;cd ..
+: 1612014204:0;ls
+: 1612014208:0;ls spacy_model
+: 1612014216:0;unzip spacy_model.zip -d dele
+: 1612014223:0;ls dele
+: 1612014228:0;rm -rf dele
+: 1612014229:0;ls
+: 1612014237:0;rm -rf spacy_model
+: 1612014238:0;l
+: 1612014240:0;..
+: 1612014240:0;ls
+: 1612014244:0;ls dele
+: 1612014248:0;rm spacy_model.zip
+: 1612014253:0;mv dele/spacy_model.zip .
+: 1612014259:0;unzip spacy_model\ 2.zip -d dele
+: 1612014261:0;cd dele/spacy_model
+: 1612014264:0;zip -r spacy_model.zip ./*
+: 1612014270:0;mv spacy_model.zip ..
+: 1612014271:0;cd ..
+: 1612014271:0;l
+: 1612014273:0;..
+: 1612014274:0;l
+: 1612014279:0;rm spacy_model\ 2.zip
+: 1612016387:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1612016388:0;l
+: 1612016390:0;cd
+: 1612017512:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1612017517:0;ls
+: 1612057808:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1612058762:0;cd RA
+: 1612058763:0;du -hsx /* | sort -rh
+: 1612058786:0;..
+: 1612058800:0;du -hsx . | sort -rh
+: 1612058810:0;du -hsx ./STUFF | sort -rh
+: 1612058882:0;ls
+: 1612058893:0;git clone https://github.com/PezCoder/dotfiles.git somedott
+: 1612058901:0;ls
+: 1612058903:0;cd somedott
+: 1612058904:0;l
+: 1612058909:0;vim README.md
+: 1612059761:0;docker start main
+: 1612082203:0;mv ~/Downloads/data_importer_v0_1_2.py ~/VOL_CON/autoclean/1.importer
+: 1612083186:0;ls in
+: 1612083198:0;cd
+: 1612083215:0;mv ~/Downloads/*sav.zip ~/VOL_CON/autoclean/1.importer/input
+: 1612083231:0;mv ~/Downloads/*dta.zip ~/VOL_CON/autoclean/1.importer/input
+: 1612099612:0;ls
+: 1612099620:0;pwd
+: 1612099621:0;l
+: 1612099625:0;ls /Volumes
+: 1612099629:0;ls /Volumes/GoogleDrive
+: 1612105596:0;cd Music
+: 1612105602:0;youtube-dl -x --audio-format mp3 https://www.youtube.com/watch\?v\=f02mOEt11OQ\&t\=696s
+: 1612106846:0;brew install dive
+: 1612106950:0;docker images
+: 1612106953:0;dive --help
+: 1612106966:0;dive main
+: 1612107065:0;ls
+: 1612107066:0;ddu
+: 1612107069:0;df
+: 1612107072:0;df -h
+: 1612107076:0;df -H
+: 1612107078:0;df -h
+: 1612107129:0;ls /System
+: 1612107138:0;ls /System/Volumes/Data
+: 1612107150:0;l /private
+: 1612107156:0;l /private/var
+: 1612107164:0;l /private/var/vm
+: 1612107168:0;df
+: 1612107183:0;cd /System/Volumes
+: 1612107183:0;l
+: 1612107185:0;cd Data
+: 1612107186:0;l
+: 1612107188:0;ddu
+: 1612107579:0;docker history -H main
+: 1612107586:0;docker images
+: 1612107592:0;docker history
+: 1612107596:0;dockc
+: 1612107633:0;docker pull debian:wheezy
+: 1612107783:0;docker images
+: 1612107800:0;docker image rmi debian:wheezy
+: 1612107804:0;docker images prune
+: 1612107811:0;docker images
+: 1612149847:0;cd
+: 1612149874:0;cp ~/Downloads/colab2container_template.py VOL_CON/autoclean
+: 1612149877:0;cd VOL_CON/autoclean
+: 1612149878:0;ls
+: 1612154899:0;l
+: 1612154923:0;mv colab2container_template.py colab2container.py
+: 1612154962:0;vim colab2container.py
+: 1612166976:0;ls
+: 1612167058:0;pwd
+: 1612167059:0;ls
+: 1612167071:0;pwd
+: 1612167071:0;ls
+: 1612167116:0;vim ~/.zshrc
+: 1612167156:0;source ~/.zshrc
+: 1612167191:0;vim ~/.zshrc
+: 1612167246:0;ftext haha
+: 1612167277:0;source ~/.zshrc
+: 1612167282:0;compinit
+: 1612167292:0;compinit --help
+: 1612167299:0;type compinit
+: 1612167328:0;compinit
+: 1612167337:0;source ~/.zshrc
+: 1612167340:0;compinit
+: 1612167375:0;sed -n '/###INSTALL###/,/###INSTALL###/p' colab2container.py
+: 1612167394:0;sed -n '/###INSTALL###/, /###INSTALL###/p' colab2container.py
+: 1612167440:0;vim colab2container.py
+: 1612167474:0;sed -n '/###INSTALL###/, /###INSTALL###/p' colab2container.py
+: 1612167482:0;sed '/###INSTALL###/, /###INSTALL###/p' colab2container.py
+: 1612167487:0;sed -n '/###INSTALL###/, /###INSTALL###/p' colab2container.py
+: 1612167507:0;sed -n '/###INSTALL###/,/###INSTALL###/p' colab2container.py
+: 1612169826:0;vim colab2container.py
+: 1612169868:0;sed -n '/###INSTALL###/,/###INSTALL###/p' colab2container.py
+: 1612169888:0;sed -n '/###CODE###/,/###CODE###/p' colab2container.py
+: 1612170004:0;sed -n '/###INSTALL###/,/###INSTALL###/p' colab2container.py | sed 's/^!//'
+: 1612170012:0;sed -n '/###INSTALL###/,/###INSTALL###/p' colab2container.py | sed -n 's/^!//'
+: 1612170015:0;sed -n '/###INSTALL###/,/###INSTALL###/p' colab2container.py | sed -n 's/^!//p'
+: 1612170034:0;sed -n '/###INSTALL###/,/###INSTALL###/p' colab2container.py | sed -n 's/^!//; p'
+: 1612170132:0;sed -n '/###INSTALL###/,/###INSTALL###/p' colab2container.py | sed -n 's/^!/RUN /; p'
+: 1612170185:0;vim colab2container.py
+: 1612170222:0;sed -n '/###INSTALL###/,/###INSTALL###/p' colab2container.py | sed -n 's/^!/RUN /; p'
+: 1612176596:0;sed -n '/###INSTALL###/,/###INSTALL###/p' colab2container.py | sed -n 's/^!/ /; p'
+: 1612176601:0;sed -n '/###INSTALL###/,/###INSTALL###/p' colab2container.py | sed -n 's/^!//; p'
+: 1612176606:0;vim colab2container.py
+: 1612176629:0;sed -n '/###INSTALL###/,/###INSTALL###/p' colab2container.py | sed -n 's/^!//; p'
+: 1612176648:0;docker images
+: 1612176671:0;docker run --rm -it -d ubuntu bash
+: 1612176674:0;ls
+: 1612176694:0;sed -n '/###INSTALL###/,/###INSTALL###/p' colab2container.py | sed -n 's/^!//; p' > install.sh
+: 1612176694:0;l
+: 1612176699:0;dockc
+: 1612176722:0;docker cp --help
+: 1612176789:0;l
+: 1612176793:0;ls install.sh
+: 1612176800:0;dockc
+: 1612176842:0;docker cp ./install.sh f6a7a:/root/install.sh
+: 1612176849:0;docker attach f6a7ae5a0003
+: 1612176961:0;dockc
+: 1612176963:0;ls
+: 1612176965:0;docker images
+: 1612176965:0;l
+: 1612176968:0;rm install.sh
+: 1612176968:0;l
+: 1612176996:0;sed -n '/###CODE###/,/###CODE###/p' colab2container.py 
+: 1612177051:0;l
+: 1612177059:0;vim compose.sh
+: 1612177074:0;./compose.sh all
+: 1612177088:0;vim compose.sh
+: 1612177122:0;l
+: 1612177129:0;vim tmp.py 
+: 1612177149:0;fg
+: 1612177231:0;sed --version
+: 1612177234:0;sed --help
+: 1612177235:0;man sed
+: 1612177279:0;vim compose.sh
+: 1612177307:0;head base.py
+: 1612177328:0;vim compose.sh
+: 1612177337:0;./compose.sh all
+: 1612177347:0;man sed
+: 1612177370:0;sed -n '/###CODE###/ r tmp.py'
+: 1612177376:0;sed -n '/###CODE###/ r tmp.py' base.py
+: 1612177414:0;sed -n '/###CODE###/r tmp.py' base.py
+: 1612177418:0;vim compose.sh
+: 1612177446:0;sed -n '/###CODE###/ r tmp.py' base.py
+: 1612177463:0;sed -n '/###CODE###/ {r tmp.py' base.py
+: 1612177480:0;sed -n '/###CODE###/ {\
+r tmp.py\
+d}' base.py
+: 1612177490:0;sed -n '/###CODE###/ {\
+r tmp.py\
+d }' base.py
+: 1612177517:0;sed -n '/###CODE###/p' base.py
+: 1612177533:0;sed -n '/###CODE###/ p' base.py
+: 1612177535:0;vim base.py
+: 1612177558:0;sed -n '/###CODE###/ r tmp.py' base.py
+: 1612177577:0;sed -n '/###CODE###/ r tmp.py' base.py | less
+: 1612177721:0;man sed
+: 1612177872:0;sed -n 'r tmp.py'
+: 1612177887:0;sed -n 'r tmp.py' | less
+: 1612177900:0;sed -n 'r tmp.py' base.py | less
+: 1612177935:0;sed -n '// r tmp.py' base.py | less
+: 1612177944:0;sed -n '/#/ r tmp.py' base.py | less
+: 1612177958:0;sed -n '/#/ r tmp.py; d' base.py | less
+: 1612177996:0;sed -n '/###CODE###/ {\
+r tmp.py\
+d\
+}' base.py | less
+: 1612178009:0;ls
+: 1612178016:0;vim tmp.py
+: 1612178031:0;sed -n '/###CODE###/ {\
+r tmp.py\
+d\
+}' base.py | less
+: 1612178052:0;sed -n '/###CODE###/ r tmp.py' base.py | less
+: 1612178055:0;vim tmp.py
+: 1612179197:0;sed '/###CODE###/ {\
+r tmp.py\
+d\
+}' base.py | less
+: 1612179212:0;man sed
+: 1612179255:0;sed 
+: 1612179277:0;sed 's/###CODE###//' base.py | less
+: 1612179289:0;sed -n 's/###CODE###//' base.py | less
+: 1612179297:0;sed -n 's/###CODE###// p' base.py | less
+: 1612179304:0;sed -n 's/###CODE###//p' base.py | less
+: 1612179313:0;sed -n 's/###CODE###//; p' base.py | less
+: 1612179345:0;sed -n '/###CODE###/ {\
+r tmp.py\
+d\
+p\
+}' base.py  | less
+: 1612179366:0;sed -n '/###CODE###/ {\
+r tmp.py\
+p\
+}' base.py  | less
+: 1612179379:0;sed -n '/###CODE###/ {\
+r tmp.py\
+}' base.py  | less
+: 1612179390:0;sed -n '/###CODE###/ {\
+r tmp.py; p\
+}' base.py  | less
+: 1612179395:0;sed -n '/###CODE###/ {\
+r tmp.py\
+}' base.py  | less
+: 1612179401:0;sed -n '/###CODE###/ {\
+r tmp.py\
+d\
+}' base.py  | less
+: 1612179427:0;sed '/###CODE###/ {\
+r tmp.py\
+d\
+}' base.py  | less
+: 1612186475:0;sed '/###CODE###/e cat tmp.py' base.py | less
+: 1612186484:0;which sed
+: 1612186486:0;man sed
+: 1612187069:0;which sed
+: 1612187230:0;ls /usr/local/bin
+: 1612187266:0;which wget
+: 1612187272:0;man wget
+: 1612187279:0;man ex
+: 1612187288:0;ex
+: 1612187309:0;emacs
+: 1612187358:0;tmu ls
+: 1612187359:0;tmux ls
+: 1612187364:0;tmux attach
+: 1612187368:0;cd
+: 1612187369:0;l
+: 1612187370:0;ls
+: 1612187380:0;pwd
+: 1612187381:0;ls
+: 1612187396:0;set -o vi
+: 1612187412:0;gsed
+: 1612188431:0;ls
+: 1612188440:0;vim gnu.txt
+: 1612188755:0;l
+: 1612188756:0;ls
+: 1612188760:0;vim cleanmac.sh
+: 1612231846:0;cp /Volumes/GoogleDrive/My\ Drive/hackathon_winter_2020/tasks/auto\ series\ documentation/scripts_frozen/01_data_importer/data_importer_v0.1.3.ipynb .
+: 1612231851:0;ls
+: 1612231859:0;source ~/envPY/bin/activate
+: 1612231864:0;jupyter
+: 1612231870:0;jupyter nbconvert
+: 1612231884:0;jupyter nbconvert --python data_importer_v0.1.3.ipynb
+: 1612231886:0;ls
+: 1612231900:0;jupyter nbconvert --to python data_importer_v0.1.3.ipynb
+: 1612231907:0;vim data_importer_v0.1.3.py
+: 1612231946:0;rm data_importer_v0.1.3.py
+: 1612231948:0;ls
+: 1612231955:0;jupyter nbconvert --to script data_importer_v0.1.3.ipynb
+: 1612231959:0;vim data_importer_v0.1.3.txt
+: 1612232160:0;ls
+: 1612232170:0;rm data_importer_v0.1.3.*
+: 1612232171:0;l
+: 1612232172:0;ls
+: 1612232183:0;cd VOL_CON
+: 1612232184:0;l
+: 1612232197:0;ls
+: 1612232228:0;touch move_colab.sh
+: 1612232248:0;vim -O move_colab.sh autoclean/compose.sh
+: 1612232365:0;ls /Volumes/GoogleDrive/My\ Drive/hackathon_winter_2020/tasks/auto\ series\ documentation/scripts_frozen/
+: 1612232396:0;echo /Volumes/GoogleDrive/My\ Drive/hackathon_winter_2020/tasks/auto\ series\ documentation/scripts_frozen/
+: 1612232415:0;echo /Volumes/GoogleDrive/My\ Drive/hackathon_winter_2020/tasks/auto\ series\ documentation/scripts_frozen/ >> VOL_CON/move_colab.sh
+: 1612232509:0;vim -O move_colab.sh autoclean/compose.sh
+: 1612232520:0;echo /Volumes/GoogleDrive/My\ Drive/hackathon_winter_2020/tasks/auto\ series\ documentation/scripts_frozen/ >> VOL_CON/move_colab.sh
+: 1612233347:0;cd VOL_CON
+: 1612233347:0;ls
+: 1612233352:0;bash move_colab.sh
+: 1612234664:0;mv ~/DT.m3u8 ~/Desktop
+: 1612249807:0;ls
+: 1612249815:0;pwd
+: 1612249816:0;ls
+: 1612249820:0;cd /Volumes/GoogleDrive
+: 1612249821:0;l
+: 1612249826:0;cd My\ Drive/hackathon_winter_2020
+: 1612249827:0;l
+: 1612249829:0;cd tasks
+: 1612249830:0;l
+: 1612249832:0;cd auto\ series\ documentation/
+: 1612249833:0;l
+: 1612249836:0;cd scripts_frozen
+: 1612249836:0;ls
+: 1612249863:0;find 01_data_importer/ -type f -name '*.ipynb' -print0;
+: 1612249868:0;find 01_data_importer/ -type f -name '*.ipynb' -print0; | xargs -0
+: 1612249871:0;find 01_data_importer/ -type f -name '*.ipynb' -print0; | xargs -0 la
+: 1612249874:0;find 01_data_importer/ -type f -name '*.ipynb' -print0; | xargs -0 ls
+: 1612249887:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0
+: 1612249889:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 ls
+: 1612249906:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 echo
+: 1612249911:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 file
+: 1612249921:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 file {}
+: 1612249931:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 type {}
+: 1612249939:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 ls {}
+: 1612249946:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 ls -al {}]
+: 1612249948:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 ls -al {}
+: 1612249957:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 ls -al -I{}
+: 1612249973:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 -I{} ls -al {}
+: 1612249979:0;man xargs
+: 1612250008:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 -I{} file {}
+: 1612250022:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 -I{} ls {}
+: 1612250032:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 -I{} head -n 5 {}
+: 1612250042:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 -I{} ls {} | sort -rh
+: 1612250045:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 -I{} ls {} | sort -r
+: 1612250056:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 -I{} ls {} | sort
+: 1612250058:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 -I{} ls {} | sort -r
+: 1612250086:0;find 01_data_importer/ -type f -name '*.ipynb' -print0 | xargs -0 -I{} ls {} | sort -r | head -n 1
+: 1612250133:0;ls
+: 1612250183:0;ls 01_data_importer
+: 1612250199:0;treee .
+: 1612250212:0;ls
+: 1612250226:0;find ./ -type d 
+: 1612250423:0;ls
+: 1612250433:0;l
+: 1612250434:0;ls
+: 1612250440:0;cd VOL_CON
+: 1612250441:0;ls
+: 1612250446:0;rm move_colab.sh
+: 1612250447:0;ls
+: 1612250466:0;vim VOL_CON/move_colab.py
+: 1612250526:0;echo /Volumes/GoogleDrive/My\ Drive/hackathon_winter_2020/tasks/auto\ series\ documentation/scripts_frozen/ >> ~/VOL_CON/move_colab.py
+: 1612250608:0;python VOL_CON/move_colab.py
+: 1612250613:0;source ~/envPY/bin/activate
+: 1612250627:0;python VOL_CON/move_colab.py
+: 1612250634:0;cd VOL_CON
+: 1612250636:0;vim move_colab.py
+: 1612250660:0;python VOL_CON/move_colab.py
+: 1612250666:0;python move_colab.py
+: 1612250790:0;source ~/envPY/bin/activate
+: 1612250792:0;cd VOL_CON
+: 1612250794:0;vim move_colab.py
+: 1612250914:0;rm move_colab.py
+: 1612250918:0;touch move_colab.sh
+: 1612250933:0;vim -O move_colab.sh autoclean/compose.sh
+: 1612250976:0;echo /Volumes/GoogleDrive/My\ Drive/hackathon_winter_2020/tasks/auto\ series\ documentation/scripts_frozen/ >> ~/VOL_CON/move_colab.sh
+: 1612250991:0;jobs
+: 1612250993:0;vim move_colab.sh
+: 1612251004:0;vim -O move_colab.sh autoclean/compose.sh
+: 1612251933:0;jobs
+: 1612251940:0;bash move_colab.sh importer
+: 1612251950:0;fg
+: 1612252002:0;bash move_colab.sh importer
+: 1612252017:0;fg
+: 1612252032:0;bash move_colab.sh importer
+: 1612252037:0;fg
+: 1612252096:0;bash move_colab.sh importer
+: 1612252108:0;fg
+: 1612252126:0;bash move_colab.sh importer
+: 1612252132:0;fg
+: 1612252163:0;bash move_colab.sh importer
+: 1612252164:0;l
+: 1612252179:0;jupyter nbconvert --to script colab.ipynb
+: 1612252180:0;ls
+: 1612252183:0;vim colab.txt
+: 1612252214:0;rm colab.
+: 1612252216:0;rm colab.txt
+: 1612252217:0;l
+: 1612252297:0;ls
+: 1612252309:0;ls autoclean
+: 1612252314:0;fg
+: 1612252428:0;ls
+: 1612252439:0;ls VOL_CON/autoclean
+: 1612252441:0;pwd
+: 1612252442:0;ls
+: 1612252443:0;pwd
+: 1612252445:0;cd VOL_CON/autoclean
+: 1612252446:0;pwd
+: 1612252537:0;cd 
+: 1612252539:0;cd VOL_CON
+: 1612252539:0;l
+: 1612252573:0;bash move_colab.sh all
+: 1612252811:0;find *auto* -print0 | xargs -0 -I{} ls {}
+: 1612252847:0;bash move_colab.sh all
+: 1612252877:0;jobs
+: 1612252881:0;bash move_colab.sh
+: 1612252884:0;bash move_colab.sh all
+: 1612252894:0;vim move_colab.sh
+: 1612252928:0;bash move_colab.sh all
+: 1612253051:0;echo *auto*
+: 1612253067:0;bash move_colab.sh all
+: 1612253251:0;ls autoclean/task_importer/
+: 1612253253:0;ls autoclean/task_importer/colab
+: 1612253940:0;bash move_colab.sh all
+: 1612254691:0;cd VOL_CON/autoclean
+: 1612254692:0;ls
+: 1612254846:0;mv task_newcol task_new_column
+: 1612254876:0;mv task_impute task_imputation
+: 1612254877:0;ls
+: 1612254952:0;dele='/Volumes/GoogleDrive/My\ Drive/hackathon_winter_2020/tasks/auto\ series\ documentation/scripts_frozen/01_data_importer/data_importer_v0.1.0.ipynb'
+: 1612254979:0;${dele/\/*}
+: 1612254997:0;echo ${dele/\/}
+: 1612255078:0;echo ${dele%\/}
+: 1612255090:0;echo ${dele%\\*}
+: 1612255099:0;echo ${dele%\/*}
+: 1612255180:0;#echo ${dele}
+: 1612255199:0;echo ${dele#frozen}
+: 1612255209:0;echo ${dele#*frozen}
+: 1612255262:0;bash move_colab.sh all
+: 1612255532:0;cd VOL_CON/autoclean
+: 1612255532:0;l
+: 1612255538:0;..
+: 1612255539:0;ls
+: 1612255548:0;bash move_colab.sh all
+: 1612260715:0;l
+: 1612260720:0;ls
+: 1612260724:0;bash move_colab.sh all
+: 1612261534:0;chmod +x move_colab.sh
+: 1612261538:0;./move_colab.sh all
+: 1612316136:0;cd ../Downloads
+: 1612316136:0;ls
+: 1612316138:0;l
+: 1612316141:0;ddu
+: 1612316160:0;cd ~/RA/GIG/gig_k
+: 1612316163:0;cd ~/RA/GIG/gig_HKU
+: 1612316164:0;ddu
+: 1612316180:0;ls all_png | wc -l
+: 1612316204:0;ls all_png | head -n 5
+: 1612316273:0;ls raw_data | head -n 5
+: 1612316288:0;ls raw_data | less
+: 1612316298:0;ls
+: 1612316299:0;l
+: 1612316316:0;..
+: 1612316317:0;ddu
+: 1612316322:0;..
+: 1612316322:0;ddu
+: 1612316328:0;..
+: 1612316328:0;ddu
+: 1612316332:0;ls
+: 1612316337:0;cd Downloads
+: 1612316338:0;ddu
+: 1612316352:0;rm part0.zip part1.zip
+: 1612316353:0;ddu
+: 1612316365:0;rm png_output-20210127T013805Z-00*
+: 1612316367:0;ddu
+: 1612316372:0;rm demo_crop.zip
+: 1612316374:0;ddu
+: 1612316378:0;ls goose_clean
+: 1612316384:0;rm -rf goose_clean
+: 1612316386:0;ddu
+: 1612316393:0;cd ../Documents
+: 1612316394:0;ddu
+: 1612316398:0;cd ../Desktop
+: 1612316399:0;ddu
+: 1612316406:0;ls
+: 1612316408:0;cd 
+: 1612316409:0;ls
+: 1612316417:0;cd STUFF
+: 1612316418:0;ddu
+: 1612316433:0;cd ../OREPO
+: 1612316434:0;ddu
+: 1612316443:0;cd ../VOL_CON
+: 1612316444:0;ddu
+: 1612316696:0;./move_colab.sh all
+: 1612318735:0;vim flatten_nlp/code/colab_text_cleaner.py
+: 1612319151:0;./move_colab.sh all
+: 1612319698:0;dockc
+: 1612319703:0;docker images
+: 1612319854:0;docker run --name test_autoclean -it --mount type=bind,source=/Users/dele/VOL_CON/autoclean,target=/home/dele/autoclean dele_text_cleaner bash
+: 1612319879:0;dockc
+: 1612320049:0;docker start test_autoclean
+: 1612320051:0;dockc
+: 1612320058:0;docker attach test_autoclean
+: 1612322919:0;cd autoclean
+: 1612322920:0;ls
+: 1612322920:0;l
+: 1612322923:0;..
+: 1612322924:0;ls
+: 1612322925:0;l
+: 1612322930:0;./move_colab.sh all
+: 1612323882:0;cd ../RA/GIG/gig_HKU
+: 1612323882:0;ls
+: 1612323890:0;cd all_png
+: 1612323891:0;ls
+: 1612323996:0;for file in ./*\
+do\
+echo "haha"\
+done
+: 1612324021:0;source ~/envPY/bin/activate
+: 1612324022:0;ipython
+: 1612324179:0;ls ./ | head -n 2
+: 1612324191:0;dele='conf_1_page100_0.jpg'
+: 1612324241:0;[ "$dele" == "*conf*" ] && echo 'yes'
+: 1612324246:0;[ "$dele" = "*conf*" ] && echo 'yes'
+: 1612324262:0;[ "*$dele*" = "conf" ] && echo 'yes'
+: 1612324291:0;[ "$dele" = "*conf*" ] && echo 'yes'
+: 1612324297:0;echo $dele
+: 1612324365:0;[[ "$dele" == *"conf"* ]] && echo 'yes'
+: 1612324374:0;[[ "$dele" == *"ji"* ]] && echo 'yes'
+: 1612324397:0;..
+: 1612324412:0;mkdir lark
+: 1612324416:0;cd lark
+: 1612324422:0;mkdir cong ji jing shi zi
+: 1612324432:0;ls
+: 1612324433:0;..
+: 1612324434:0;ls
+: 1612324525:0;for file in ./all_png\
+do\
+[[ "$file" == *"cong"* ]] && mv ./all_png/$file ./lark/cong\
+done
+: 1612324531:0;ls lark/cong | wc -l
+: 1612324551:0;for file in ./all_png\
+do\
+[[ "$file" == *"cong"* ]] && echo 'yes'\
+done
+: 1612324579:0;for file in ./all_png\
+do\
+echo "$file"\
+[[ "$file" == *"cong"* ]] && echo 'yes'\
+done
+: 1612324595:0;for file in ./all_png/*\
+do\
+[[ "$file" == *"cong"* ]] && mv ./all_png/$file ./lark/cong\
+done
+: 1612324621:0;for file in ./all_png/*\
+do\
+[[ "$file" == *"cong"* ]] && mv $file ./lark/cong\
+done
+: 1612324634:0;ls lark/cong | wc -l
+: 1612324654:0;for file in ./all_png/*\
+do\
+[[ "$file" == *"ji"* ]] && mv $file ./lark/ji\
+done
+: 1612324824:0;ls lark/ji | wc -l
+: 1612324828:0;ls
+: 1612324842:0;ls crop_output | wc -l
+: 1612324851:0;ls crop_output/ä¸ƒ»ä¹¦éƒ£¨1 | wc -l
+: 1612324861:0;treee crop_output
+: 1612324866:0;ls
+: 1612324867:0;l
+: 1612324892:0;for file in ./all_png/*\
+do\
+[[ "$file" == *"shi"* ]] && mv $file ./lark/shi\
+done
+: 1612325004:0;htop
+: 1612325058:0;ls lark/shi | wc -l
+: 1612325073:0;for file in ./all_png/*\
+do\
+[[ "$file" == *"zi"* ]] && mv $file ./lark/zi\
+done
+: 1612325083:0;cd RA/GIG/gig_HKU
+: 1612325088:0;ls all_png | wc -l
+: 1612325171:0;cd lark
+: 1612325195:0;tar -czvf shi.tar.gz cong
+: 1612325212:0;ls all_png | wc -l
+: 1612325235:0;ls
+: 1612325241:0;ddu
+: 1612325299:0;for file in ./ji/*\
+do\
+[[ "$file" == *"jing_"* ]] && mv $file jing/\
+done
+: 1612325337:0;ddu
+: 1612325348:0;ls jing | head -n 5
+: 1612325356:0;ls ji | head -n 5
+: 1612325360:0;ddu
+: 1612325374:0;ls
+: 1612325375:0;ddu
+: 1612325380:0;rm shi.tar.gz
+: 1612325382:0;ddu
+: 1612325391:0;tar -czvf shi.tar.gz shi
+: 1612325394:0;ls
+: 1612325397:0;rm shi.tar.gz
+: 1612325399:0;ls
+: 1612325400:0;ddu
+: 1612325420:0;tar -czvfq shi.tar.gz shi
+: 1612325576:0;ls
+: 1612325580:0;ddu
+: 1612325583:0;rm q
+: 1612325585:0;ls
+: 1612325592:0;tar --help
+: 1612325622:0;tar -czvqf shi.tar.gz shi
+: 1612325632:0;tar -q -czvf shi.tar.gz shi
+: 1612325652:0;tar -czvf shi.tar.gz shi 1>/dev/null
+: 1612325693:0;echo 'haha' 1>/dev/null
+: 1612325719:0;ddu
+: 1612325729:0;man tar
+: 1612325815:0;tar -czf ji.tar.gz ji
+: 1612325819:0;ls
+: 1612325821:0;rm ji.tar.gz
+: 1612325885:0;tar -czf ji.tar.gz ji & tar -czf zi.tar.gz zi & tar -czf cong.tar.gz cong & tar -czf jing.tar.gz jing
+: 1612325897:0;htop
+: 1612325917:0;jobs
+: 1612325920:0;ls
+: 1612325921:0;l
+: 1612325923:0;ddu
+: 1612325939:0;jobs
+: 1612325947:0;htop
+: 1612325959:0;jobs
+: 1612325961:0;ddu
+: 1612325967:0;jobs
+: 1612325969:0;htop
+: 1612325994:0;ls
+: 1612325997:0;htop
+: 1612326028:0;jobs
+: 1612326029:0;josb
+: 1612326031:0;jobs
+: 1612326031:0;top
+: 1612326039:0;htop
+: 1612326058:0;jobs
+: 1612326060:0;htop
+: 1612326075:0;jobs
+: 1612326076:0;htop
+: 1612326111:0;jobs
+: 1612326113:0;ddu
+: 1612326118:0;jobs
+: 1612326119:0;top
+: 1612326127:0;open .
+: 1612334444:0;cd
+: 1612334488:0;cd VOL_CON
+: 1612334489:0;l
+: 1612334495:0;./move_colab.sh all
+: 1612343080:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1612343164:0;htop
+: 1612343237:0;top
+: 1612343246:0;htop
+: 1612343323:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1612343486:0;htop
+: 1612362882:0;cd ~/RA/GIG/gig_HKU
+: 1612362883:0;ls
+: 1612362887:0;cd lark
+: 1612362888:0;ls
+: 1612362905:0;ipython
+: 1612363069:0;ddu
+: 1612363078:0;fg
+: 1612363681:0;ls
+: 1612363686:0;ls ji | wc -l
+: 1612363695:0;rm -rf ji_2
+: 1612363703:0;mv ji ji_2
+: 1612363703:0;l
+: 1612363711:0;ddu
+: 1612363767:0;tar -czf ji_0.tar.gz ji_0 & tar -czf ji_1.tar.gz ji_1 & tar -czf ji_2.tar.gz ji_2
+: 1612363970:0;jobs
+: 1612401364:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1612412224:0;htop
+: 1612419779:0;htopmv ./all_png/$file ./lark/cong
+: 1612419781:0;htop
+: 1612422408:0;top
+: 1612430342:0;dockc
+: 1612445332:0;htop
+: 1612492721:0;system_profiler SPPowerDataType | egrep -i 'capacity|charge|cycle|mAh'
+: 1612492723:0;htop
+: 1612495227:0;ls
+: 1612495228:0;ddu
+: 1612495233:0;..
+: 1612495233:0;ls
+: 1612495234:0;ddu
+: 1612495274:0;unzip crop_code.zip -d haha
+: 1612495279:0;ddu
+: 1612495284:0;rm -rf haha
+: 1612495285:0;ls
+: 1612495287:0;ddu
+: 1612495301:0;cd code_crop
+: 1612495303:0;ddu
+: 1612495303:0;ls
+: 1612495312:0;cd code
+: 1612495313:0;ddu
+: 1612495367:0;cd
+: 1612495375:0;ls runs | wc -l
+: 1612495378:0;cd runs
+: 1612495378:0;ls
+: 1612495381:0;ddu
+: 1612495386:0;ls detect
+: 1612495398:0;ls detect/exp/ | head -n 5
+: 1612495407:0;..
+: 1612495414:0;ddu
+: 1612495424:0;..
+: 1612495426:0;ls
+: 1612495429:0;unzip crop_code.zip -d haha
+: 1612495432:0;cd haha
+: 1612495433:0;ddu
+: 1612495438:0;cd pdfæƒ¶ƒ§åƒ¯²æƒ¨ªåƒ¯ƒ¶
+: 1612495440:0;ddu
+: 1612495444:0;treee runs
+: 1612495455:0;..
+: 1612495463:0;ddu
+: 1612495468:0;rm -rf haha
+: 1612495470:0;ddu
+: 1612495478:0;rm -rf code_crop
+: 1612495479:0;ddu
+: 1612495497:0;..
+: 1612495498:0;ddu
+: 1612495505:0;cd gig_UBC
+: 1612495506:0;ddu
+: 1612495512:0;..
+: 1612495532:0;cd GIG
+: 1612495534:0;ddu
+: 1612495538:0;cd gig_HKUST
+: 1612495539:0;ddu
+: 1612495551:0;ls
+: 1612495553:0;ls code
+: 1612495562:0;..
+: 1612495565:0;rm -rf gig_HKUST
+: 1612495566:0;ddu
+: 1612495568:0;..
+: 1612495569:0;ls
+: 1612495571:0;ddu
+: 1612495579:0;ls REPO
+: 1612495584:0;cd DEV
+: 1612495585:0;ddu
+: 1612506896:0;cd ~/VOL_CON
+: 1612506897:0;ls
+: 1612506901:0;./move_colab.sh all
+: 1612507001:0;dockc
+: 1612507013:0;docker attach test_autoclean
+: 1612508501:0;dockc
+: 1612508509:0;docker start test_autoclean
+: 1612508517:0;docker attach test_autoclean
+: 1612508534:0;./move_colab.sh all
+: 1612510957:0;ctop
+: 1612517899:0;dockc
+: 1612517902:0;docker images
+: 1612517928:0;docker commit test_autoclean test_autoclean:v1 
+: 1612517941:0;tmux
+: 1612517948:0;htop
+: 1612517952:0;ctop
+: 1612517959:0;docker images
+: 1612517963:0;dockc
+: 1612518028:0;docker run --name test_autoclean_v1 -it --shm-size 8g --mount type=bind,source=/Users/dele/VOL_CON/autoclean,target=/home/dele/autoclean test_autoclean:v1 bash
+: 1612518089:0;dockc
+: 1612518097:0;docker container rm test_autoclean_v1
+: 1612518100:0;dockc
+: 1612518103:0;docker images
+: 1612518152:0;echo $(docker images -f "dangling=true" -q)
+: 1612518169:0;echo $(docker images -q)
+: 1612518173:0;echo $(docker images)
+: 1612518182:0;echo $(docker images)\n
+: 1612518188:0;echo $(docker images)
+: 1612518192:0;docker images
+: 1612518210:0;docker images | awk 'print {$1}'
+: 1612518220:0;docker images | awk '{print $1}'
+: 1612518231:0;docker images | awk '{print $1}' | grep 'dele_*'
+: 1612518242:0;docker images | awk '{print $1}' | grep 'dele_*' | xargs echo
+: 1612518252:0;docker images | awk '{print $1}' | grep 'dele_*' | xargs docker history
+: 1612518264:0;docker images | awk '{print $1}' | grep 'dele_*' | xargs -I{} docker history {}
+: 1612518281:0;docker images | awk '{print $1}' | grep 'dele_*'
+: 1612518288:0;docker images | awk '{print $1}' | grep 'dele_*' | xargs -I{} docker rmi {}
+: 1612518293:0;docker images
+: 1612518302:0;docker rmi dele_text_cleaner
+: 1612518309:0;dockc
+: 1612518326:0;docker container rm test_autoclean
+: 1612518330:0;dockc
+: 1612518336:0;docker rmi dele_text_cleaner
+: 1612518339:0;docker images
+: 1612518343:0;docker image prune
+: 1612519451:0;docker images
+: 1612519462:0;dockc
+: 1612519483:0;docker run --name test_autoclean -it --mount type=bind,source=/Users/dele/VOL_CON/autoclean,target=/home/dele/autoclean test_autoclean:v1 bash
+: 1612522503:0;./move_colab.sh all
+: 1612522751:0;htop
+: 1612523237:0;./move_colab.sh all
+: 1612523260:0;vim ~/.zshrc
+: 1612523306:0;vimdiff ~/.zshrc zshrc_new
+: 1612523374:0;rm zshrc_new
+: 1612523382:0;mkdir haha
+: 1612523384:0;rm haha
+: 1612523392:0;source ~/.zshrc
+: 1612523398:0;mkdir haha
+: 1612523400:0;rm haha
+: 1612523403:0;which rm
+: 1612523411:0;file rm
+: 1612523414:0;type rm
+: 1612523439:0;cd ~/dott
+: 1612523440:0;ls
+: 1612523445:0;git status
+: 1612523456:0;vim tmux.conf
+: 1612523462:0;vim zshrc
+: 1612523465:0;vim vimrc
+: 1612523474:0;vim Makefile
+: 1612523483:0;make push

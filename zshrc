@@ -69,11 +69,12 @@ ZSH_THEME="ys"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-completions zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-completions zsh-autosuggestions zsh-syntax-highlighting docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+set -o vi
 
 # export MANPATH="/usr/local/man:$MANPATH"
 export EDITOR='vim'
@@ -102,9 +103,10 @@ export EDITOR='vim'
 alias dockc="docker container ls -a -s"
 alias dockb="DOCKER_BUILDKIT=1 docker build"
 alias treee="tree -L 2 -ugDh --sort=size"
-alias saferm="rm -rfIv"
+alias rm="rm -rvIv"
 alias sd="sudo "
 alias ddu="du -sh * | sort -hr | head -10"
+alias pytest="pytest -l --tb=short"
 
 # Functions
 ftext () {

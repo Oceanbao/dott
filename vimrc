@@ -26,6 +26,8 @@ Plugin 'sheerun/vim-polyglot'
 Plugin 'dracula/vim', { 'name': 'dracula' }
 Plugin 'Yggdroot/indentLine'
 Plugin 'gcmt/wildfire.vim'
+Plugin 'psf/black'
+Plugin 'scrooloose/syntastic'
 
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
