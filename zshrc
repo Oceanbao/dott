@@ -76,6 +76,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 set -o vi
 
+export EDITOR='vim'
 # export MANPATH="/usr/local/man:$MANPATH"
 export EDITOR='vim'
 
